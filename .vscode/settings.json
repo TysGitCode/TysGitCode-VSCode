@@ -12,7 +12,7 @@
             "database": "mysql",
             "username": "root"
         }
-    ],
+    ], 
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#d3cbff",
         "activityBar.background": "#d3cbff",
