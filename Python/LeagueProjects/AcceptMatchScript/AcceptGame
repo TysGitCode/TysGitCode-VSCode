@@ -35,7 +35,9 @@ while __name__ == '__main__':
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
 
     # This says to click the button if it is the right color
-    if pyautogui.pixel(897, 753)[0] == 30:
+    # TODO find a pixel that works in the second slot remember screen changes color when accept match pops up
+    if pyautogui.pixel(897, 753)[0] == 30 and pyautogui.pixel(897, 753)[0] == (89, 73,  24):
+
 
         # This calls the click method
         click(955, 764)
