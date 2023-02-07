@@ -41,7 +41,7 @@ VALUES
 ("1222", "Jason", "Marks", "jmk@uccs.edu", "555-1111"),
 ("1333", "Joe", "Smith", "joe@uccs.edu", "555-5555"),
 ("1444", "John", "Smith", "john@uccs.edu", "555-6666"),
-("1555", "James", "Remington", "jrem@uccs.edu", "")
+("1555", "James", "Remington", "jrem@uccs.edu", " ")
 ;
 
 
