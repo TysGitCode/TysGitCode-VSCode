@@ -3,6 +3,7 @@ import time
 import keyboard
 import random
 import win32api, win32con
+
 #Sets Variable x = 1
 x = 1
 
