@@ -1,11 +1,10 @@
 import pyautogui
 import time
-import keyboard
-import random
 import win32api, win32con
 
 #Sets Variable x = 1
 x = 1
+pyautogui.FAILSAFE = False
 
 #Defines the function we will use to click
 def click(x, y):
