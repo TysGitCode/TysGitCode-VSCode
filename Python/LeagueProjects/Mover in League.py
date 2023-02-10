@@ -1,5 +1,4 @@
 import time
-import pyautogui
 import win32api
 import win32con
 import pyautogui as pag
@@ -8,6 +7,7 @@ pag.FAILSAFE = True
 
 
 while 1 == 1:
+    
     # This is the method to click the button
     def click(x, y):
         win32api.SetCursorPos((x, y))
