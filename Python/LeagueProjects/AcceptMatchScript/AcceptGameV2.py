@@ -19,6 +19,7 @@ while (x < 1) != True:
         #If the results of locating accept match are not null that means it can see it
         if pyautogui.locateOnScreen('AcceptMatch.png', confidence=.7) != None:
 
+                #Prints to the console that the message can be seen and sleeps for 2 seconds so it doesnt spam
                 print("I can see it")
                 time.sleep(2)
 
@@ -30,5 +31,6 @@ while (x < 1) != True:
                 pyautogui.click(AcceptBtnLocation)
 
         else: 
+                #Prints that the image cannot be seen and sleeps for 2 seconds so that it does not spam
                 print("I am unable to see it")
                 time.sleep(2)
