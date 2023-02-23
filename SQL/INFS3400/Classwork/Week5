@@ -55,3 +55,14 @@ GROUP BY c.Country
 HAVING Country_Count > 2
 ORDER BY Country_Count DESC
 ;
+
+
+USE w3schoolsdb;
+
+SELECT c.Country, COUNT(*)
+FROM customers AS C
+INNER JOIN orders AS o
+ON c.CustomerID = o.CustomerID
+GROUP BY c.Country
+
+;
