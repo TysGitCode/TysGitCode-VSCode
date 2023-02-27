@@ -1,0 +1,68 @@
+USE w3schoolsdb ;
+
+SELECT *
+FROM customers AS c
+INNER JOIN orders AS o
+ON c.CustomerID = o.CustomerID
+;
+
+
+--This makes it so that you can see no duplicates and includes the table before which means in this customers is the left join
+USE w3schoolsdb ;
+
+SELECT DISTINCT o.CustomerID
+FROM customers AS c
+LEFT JOIN orders AS o
+ON c.CustomerID = o.CustomerID
+;
+
+-- 5 functions
+-- count, min, max, avg, sum
+
+-- Selects the minimum value from price with the header MIN_Price
+SELECT MIN (p.price) AS "MIN_Price`"
+FROM products as p
+;
+
+-- Selects the minimum value from price with the header MIN_Price
+SELECT MAX (p.price) AS "MAX_Price`"
+FROM products as p
+;
+
+
+-- ALL of these functions can be used in basically the same way in the query
+
+
+
+--
+USE w3schoolsdb ;
+
+SELECT COUNT(p.Price) AS MIN_Price, p.CategoryID
+FROM products AS p
+GROUP BY p.CategoryID
+;
+
+-- When you have a group by you can only have two types of columns in the select section of your query
+-- The words "For Each" generally means that you should use group by
+
+
+--Having is like another conditional statement
+USE w3schoolsdb ;
+
+SELECT c.Country, COUNT(*) as Country_Count
+FROM customers AS c
+GROUP BY c.Country
+HAVING Country_Count > 2
+ORDER BY Country_Count DESC
+;
+
+
+USE w3schoolsdb;
+
+SELECT c.Country, COUNT(*)
+FROM customers AS C
+INNER JOIN orders AS o
+ON c.CustomerID = o.CustomerID
+GROUP BY c.Country
+
+;
