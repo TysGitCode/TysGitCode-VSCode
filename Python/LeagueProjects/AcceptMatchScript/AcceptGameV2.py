@@ -20,7 +20,6 @@ while (x < 1) != True:
         if pyautogui.locateOnScreen('AcceptMatch.png', confidence=.7) != None:
 
                 print("I can see it")
-                time.sleep(2)
 
                 #Stores the location on the screen of the accept match button
                 AcceptBtnLocation = pyautogui.locateOnScreen('D:/TysGitCode-VSCode/Python/LeagueProjects/AcceptMatchScript/AcceptButton.png', confidence=.7)
@@ -28,6 +27,7 @@ while (x < 1) != True:
                 #clicks the stored location of the accept match button
                 pyautogui.move(AcceptBtnLocation)
                 pyautogui.click(AcceptBtnLocation)
+                time.sleep(8)
 
         else: 
                 print("I am unable to see it")
