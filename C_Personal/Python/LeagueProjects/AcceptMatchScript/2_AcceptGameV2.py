@@ -5,6 +5,7 @@ import cv2
 
 #TODO add a python gui
 #TODO make it so you can ban / pick champions and fully automate
+#Might be able to do this by making champion search bar variable and asking what it should type in for the pick and ban
 
 #Sets Variable x = 1
 x = 1
@@ -21,13 +22,13 @@ def click(x, y):
 while (x < 1) != True:
 
         #If the results of locating accept match are not null that means it can see it
-        if pyautogui.locateOnScreen('D:/TysGitCode-VSCode/(c) Personal/Python/LeagueProjects/AcceptMatchScript/AcceptMatch.png', confidence=.7) != None:
+        if pyautogui.locateOnScreen('D:/TysGitCode-VSCode/C_Personal/Python/LeagueProjects/AcceptMatchScript/AcceptMatch.png', confidence=.7) != None:
 
                 #Prints to the console that the message can be seen and sleeps for 2 seconds so it doesnt spam
                 print("I can see the Accept Match Screen")
 
                 #Stores the location on the screen of the accept match button
-                AcceptBtnLocation = pyautogui.locateOnScreen('D:/TysGitCode-VSCode/(c) Personal/Python/LeagueProjects/AcceptMatchScript/AcceptButton.png', confidence=.7)
+                AcceptBtnLocation = pyautogui.locateOnScreen('D:/TysGitCode-VSCode/C_Personal/Python/LeagueProjects/AcceptMatchScript/AcceptButton.png', confidence=.7)
 
                 #clicks the stored location of the accept match button
                 pyautogui.move(AcceptBtnLocation)
@@ -40,13 +41,13 @@ while (x < 1) != True:
                 time.sleep(2)
 
                 #If the results of locating the lock in button are not null the program can see the button
-                if pyautogui.locateOnScreen('D:/TysGitCode-VSCode/(c) Personal/Python/LeagueProjects/AcceptMatchScript/LockInButton.PNG', confidence=.7) != None:
+                if pyautogui.locateOnScreen('D:/TysGitCode-VSCode/C_Personal/Python/LeagueProjects/AcceptMatchScript/LockInButton.PNG', confidence=.7) != None:
 
                         #Prints to the console that the message can be seen and sleeps for 2 seconds so there is no spam
                         print('I can see the Lock In Screen')
 
                         #Stores the location on the screen of the LockIn button
-                        AcceptLockInLocation = pyautogui.locateOnScreen('D:/TysGitCode-VSCode/(c) Personal/Python/LeagueProjects/AcceptMatchScript/LockInButton.PNG', confidence=.9)
+                        AcceptLockInLocation = pyautogui.locateOnScreen('D:/TysGitCode-VSCode/C_Personal/Python/LeagueProjects/AcceptMatchScript/LockInButton.PNG', confidence=.9)
 
                         #Clicks the stored location of the Lockin button
                         pyautogui.move(AcceptLockInLocation)
