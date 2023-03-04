@@ -1,0 +1,101 @@
+
+
+;***************************************************************************************
+; INF file for Xerox WorkCentre 7970 PCL6 print driver
+; Copyright (c) 2015 Xerox Corporation
+; All rights reserved.
+;***************************************************************************************
+
+
+[Version]
+Signature="$Windows NT$"
+Provider=%XR%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=XeroxWorkCentre7970.cat
+ClassVer=4.0
+DriverVer=09/01/2015,6.159.10.0
+
+[Manufacturer]
+"Xerox"=Model,NTamd64
+[Model.NTamd64]
+"Xerox WorkCentre 7970 V4 PCL6" = INSTALL_SECTION_7970,usbprint\XeroxWorkCentre_797093E6
+"Xerox WorkCentre 7970 V4 PCL6" = INSTALL_SECTION_7970,wsdprint\XeroxWorkCentre_797093E6
+"Xerox WorkCentre 7970 V4 PCL6" = INSTALL_SECTION_7970,{40648ab5-48fb-4bbe-a68c-823842720446}
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+;--Class Driver only--;[GENERIC.AddProp]
+;--Class Driver only--;GenericDriverInstalled,,,,1 
+[INSTALL_SECTION_7970]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_7970_FILES
+
+
+[MODEL_7970_FILES]
+7970.GPD
+7970-manifest.ini
+7970.dpb
+7970-conf.GPD
+7970-conf.GDL
+
+[GENERAL_FILES]
+ProductData.xml
+XeroxWorkCentre7970-pipelineconfig.xml
+XeroxWorkCentre7970-constraints.js
+XeroxWorkCentre7970-qpb.xml
+XeroxWorkCentre7970-devmode-map.xml
+XeroxWorkCentre7970-SNMP-conf.xml
+XeroxWorkCentre7970-WSD-conf.xml
+
+[LOCALE_FILES]
+XeroxWorkCentre7970-textres.gpd
+xr-TextResources.dll
+
+[XR_FILTER_FILES]
+xr-Utilities.v6.159.10.0.dll
+xr-FilterUtilities.v6.159.10.0.dll
+xr-VFilter.dll
+xr-TransformFilter.dll
+xr-AnnotationFilter.dll
+xr-PDLStreamFilter.dll
+msvcr120.dll
+msvcp120.dll
+
+[SourceDisksNames.amd64]
+1 = %Location%,,
+2 = %Location%,,,x64
+
+[SourceDisksFiles]
+7970.GPD                                           = 1
+7970-manifest.ini                                  = 1
+7970-conf.GPD                                      = 1
+7970-conf.GDL                                      = 1
+7970.dpb                                           = 1
+XeroxWorkCentre7970-pipelineconfig.xml             = 1
+XeroxWorkCentre7970-SNMP-conf.xml                  = 1
+XeroxWorkCentre7970-WSD-conf.xml                   = 1
+XeroxWorkCentre7970-constraints.js                 = 1
+XeroxWorkCentre7970-qpb.xml                        = 1
+XeroxWorkCentre7970-devmode-map.xml                = 1
+XeroxWorkCentre7970-textres.gpd                    = 1
+ProductData.xml = 1
+xr-TextResources.dll                               = 2
+xr-Utilities.v6.159.10.0.dll                       = 2
+xr-FilterUtilities.v6.159.10.0.dll                 = 2
+xr-VFilter.dll                                     = 2
+xr-TransformFilter.dll                             = 2
+xr-AnnotationFilter.dll                            = 2
+xr-PDLStreamFilter.dll                             = 2
+msvcr120.dll                                       = 2
+msvcp120.dll                                       = 2
+
+
+[OEM URLS]
+"Xerox"="http://go.microsoft.com/fwlink/?LinkID=49&prd=10798&sbp=Printers"
+
+
+[Strings]
+Location="Xerox WorkCentre 7970"
+XR="Xerox"
+
