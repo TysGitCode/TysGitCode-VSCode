@@ -18,7 +18,7 @@ PowerShell.exe -WindowStyle hidden {
  cd D:
 
  #Goes to script location in vs code
- cd TysGitCode-VSCode\Python\LeagueProjects\AcceptMatchScript
+ cd D:\TysGitCode-VSCode\C_Personal\Python\LeagueProjects\AcceptMatchScript
 
  #Imports pywin32
  pip install pywin32
@@ -41,7 +41,7 @@ PowerShell.exe -WindowStyle hidden {
  cd D:
 
  #Goes to script location in vs code
- cd TysGitCode-VSCode\Python\LeagueProjects\AcceptMatchScript
+ cd D:\TysGitCode-VSCode\C_Personal\Python\LeagueProjects\AcceptMatchScript
 
  #Imports pywin32
  pip install pywin32
