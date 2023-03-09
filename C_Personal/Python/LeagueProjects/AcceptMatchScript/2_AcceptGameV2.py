@@ -11,13 +11,6 @@ import cv2
 x = 1
 pyautogui.FAILSAFE = False
 
-#Defines the function we will use to click
-def click(x, y):
-        win32api.SetCursorPos((x, y))
-        win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0)
-        time.sleep(0.01)
-        win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
-
 #as long as x is not less than 1 this program will run (Always)
 while (x < 1) != True:
 
