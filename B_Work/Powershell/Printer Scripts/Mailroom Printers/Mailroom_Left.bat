@@ -1,3 +1,4 @@
 @ECHO OFF
-PowerShell.exe -Command "E:\Mailroom_Left.ps1"
+Start-Process PowerShell -ArgumentList "Set-ExecutionPolicy Restricted -Force" -Verb RunAs
+PowerShell.exe -Command "D:\Mailroom_Left.ps1"
 PAUSE
