@@ -1,7 +1,6 @@
 import pyautogui
 import time
 import win32api, win32con
-import cv2
 
 #TODO add a python gui
 #TODO make it so you can ban / pick champions and fully automate

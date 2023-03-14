@@ -30,7 +30,7 @@ PowerShell.exe -WindowStyle hidden {
  pip install opencv-python
 
  #Runs Python file
- python AcceptGameV2.py
+ python 2_AcceptGameV2.py
 
  }
 }
@@ -53,7 +53,7 @@ PowerShell.exe -WindowStyle hidden {
  pip install opencv-python
 
  #Runs Python file
- python AcceptGameV2.py
+ python 2_AcceptGameV2.py
  }
 
  else {
