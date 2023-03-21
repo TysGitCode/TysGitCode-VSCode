@@ -22,9 +22,9 @@ symbol_count = {
 def get_slot_machine_spin(rows, cols, symbols):
     all_symbols = []
     # This makes it so we get the values for all the items in the symbol_count dictionary. 
-    for symbol, symbol_count in symbols.items():
+    for symbols, symbol_count in symbols.items():
         #for everything in the range of symbol_count
-        for i in range(symbol_count):
+        for _ in range(symbol_count):
             # Append everything into symbols part of the function
             all_symbols.append(symbols)
 
@@ -105,8 +105,7 @@ def print_slot_machine(columns):
     for row in range(len(columns[0])):
         # this counts the columns
         for i, column in enumerate(columns):
-
-        # if I is not equal to the maximum index do not print the | as we only want this in between to seperate
+            # if I is not equal to the maximum index do not print the | as we only want this in between to seperate
             if i != len(columns -1):
                 print(column[row], "|")
             else:
@@ -126,10 +125,12 @@ def main():
         else:
             break
         
+
     print(f"you are betting ${bet} on {lines} lines. Total bet is equal to: ${total_bet}")
 
     slots = get_slot_machine_spin(ROWS, COLS, symbol_count)
-    print_slot_machine(slots)
+    print_slot_machine(slots)   
+
 
 # Calls the main function
 main()
