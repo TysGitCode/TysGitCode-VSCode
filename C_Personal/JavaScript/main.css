@@ -1,9 +1,21 @@
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 50px;
+        }
+
         html {
-            font-size: 22px;
+            height: 100%;
         }
 
         body {
-            background-color: #333;
-            color: whitesmoke;
+
+            text-align: center;
+            width: 100%;
+            min-height: 100vh;
+            background-image: url(32442923_7895078.jpg);
+            background-size: 100%;
+            background-position: center;
         }
