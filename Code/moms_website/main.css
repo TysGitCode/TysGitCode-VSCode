@@ -11,28 +11,35 @@
         }
         
 
-        .classroomText {
-            display: grid;
-            place-items: center;
-
-            
+        #classroomText {
+                font-family: Arial;
+                position: absolute;
+                top: 375px;
+                right: 680px;
+                display: flex;
+                justify-content: center;
+                align-items: left;
+                border: dashed red;
         }
 
 
-        .backgroundBox {
-            height: 1080px;
-            display: grid;
-            place-items: center;
-            border: dashed red;
+        #backgroundBox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                border: dashed red;
         }
+
+
         body{
 
             width: 100%;
             min-height: 100vh;
+
             background-image: url(Images/32442923_7895078.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: center;
-            
             
         }
