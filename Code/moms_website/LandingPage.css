@@ -1,22 +1,20 @@
 :root {
-  --clr-primary-100: #E5B002;
+  --clr-primary-100: #e5b002;
   --clr-primary-2000: black;
 
-  --clr-accent-200: #CBE38F;
-  --clr-accent-300: #FD95CE;
-  --clr-accent-400: #266CB4;
-  --clr-accent-500: #48BDC6;
-  --clr-accent-600: #F96A49;
+  --clr-accent-200: #cbe38f;
+  --clr-accent-300: #fd95ce;
+  --clr-accent-400: #266cb4;
+  --clr-accent-500: #48bdc6;
+  --clr-accent-600: #f96a49;
 
-  --clr-accent-700: #98C2B4;
-  --clr-accent-800: #F4CF74;
-  --clr-accent-900: #F96A49;
-  --clr-accent-1000: #EE83A1;
-  --clr-accent-1100: #7490BF;
-  --clr-accent-1200: #F6D6D8;
-
+  --clr-accent-700: #98c2b4;
+  --clr-accent-800: #f4cf74;
+  --clr-accent-900: #f96a49;
+  --clr-accent-1000: #ee83a1;
+  --clr-accent-1100: #7490bf;
+  --clr-accent-1200: #f6d6d8;
 }
-
 
 /* Box sizing rules */
 *,
@@ -39,12 +37,9 @@ dd {
   margin: 0;
 }
 
-
-
-
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -84,9 +79,9 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -112,7 +107,7 @@ select {
   display: grid;
   grid-template-columns: 50%;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .profileSummary {
@@ -125,12 +120,15 @@ select {
   grid-column: 2/3;
 }
 
-.landingPage {
-    background-image: url('Images/landingBackground.jpg');
 
-    min-height: 67.5rem;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+/**/
+.landingPage {
+  background-image: url("Images/landingBackground.jpg");
+
+  min-height: 67.5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .landingPageGrid {
@@ -140,19 +138,15 @@ select {
 
   margin-inline: auto;
   padding-block: 4rem;
-
 }
 
 .LandingPageGridIMG {
-
   grid-row: 1/2;
   grid-column: 1/2;
   max-width: 100%;
-
 }
 
 .LandingPageTitle {
-
   font-size: 2.125rem;
   grid-row: 1/2;
   grid-column: 1/2;
@@ -160,31 +154,70 @@ select {
   text-align: left;
   padding: 20%;
   line-height: 3.5rem;
-  }
+}
+/**/
 
 
 
-.aboutMePage {
-  background-image: url('Images/cloudBackground.png');
+/**/
+.aboutMePageGrid {
+  background-image: url("Images/cloudBackground.png");
   border: 5px solid black;
   min-height: 67.5rem;
   background-size: fill;
   background-repeat: no-repeat;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  padding-block: 4rem;
+  grid-template-columns: 50% 50%;
 }
+/**/
 
 
-.aboutMePage2 {
-  background-image: url('Images/aboutMeBackground1.png');
+
+/**/
+.aboutMePageGridFamily, 
+.aboutmePageGridHobbies,
+.aboutmePageGridEducation,
+.aboutmePageGridExperience,
+.aboutmePageGridOther
+{
+  background-image: url("Images/aboutMeBackground1.png");
   border: 5px solid black;
   min-height: 67.5rem;
   background-size: fill;
   background-repeat: no-repeat;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  padding-block: 4rem;
+  grid-template-columns: 50% 50%;
+}
+/**/
+
+.aboutMePageGridIMG2,
+.aboutMePageGridText2
+{
+  margin: 5vh;
+  padding: 5vh;
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
+
+/**/
 .docPageBackground {
-  background-image: url('Images/docPageBackground.png');
+  background-image: url("Images/docPageBackground.png");
   border: 5px solid black;
   min-height: 67.5rem;
   background-size: fill;
   background-repeat: no-repeat;
 }
+/**/
