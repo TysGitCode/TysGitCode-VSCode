@@ -92,10 +92,18 @@ select {
   }
 }
 
+
+/*-----------------------------------------------------------------------------*/
+
+
 /*A predefined class to center text*/
 .text-center {
   text-align: center;
 }
+
+
+/*-----------------------------------------------------------------------------*/
+
 
 /*Aligns the navigation bar to the right side of the header*/
 .navBar {
@@ -127,12 +135,15 @@ select {
   grid-column: 2/3;
 }
 
+
+/*-----------------------------------------------------------------------------*/
+
+
 /*sets the background for the landing page*/
 .landingPage {
   background-image: url("Images/landingBackground.jpg");
 
   min-height: 100vh;
-  background-size: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -146,11 +157,25 @@ select {
   padding-block: 4rem;
 }
 
-/**/
-.landingPageTitle,
-.shadowBox {
+/*The title on the landing page in the middle of the shadow box*/
+.landingPageTitle {
   justify-content: center;
 }
+
+/*The shadow box holding the text on the landing page*/
+.shadowBoxLanding {
+  width: 200px;         
+  height: 200px;        
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
 
 /*Sets up the background and grid for the first about me page*/
 .aboutMePageGrid {
@@ -158,7 +183,6 @@ select {
   border: 5px solid black;
   
   min-height: 100vh;
-  background-size: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -170,7 +194,22 @@ select {
   grid-template-columns: 50% 50%;
 }
 
-/*sets all of the following about me pages to be grids and formats them all the same*/
+/*The shadow box holding the images on the about me page*/
+.shadowBoxAboutMe {
+  width: 200px;         
+  height: 200px;        
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;  
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*sets all of the following "about me" pages to be grids and formats them all the same*/
 .aboutMePageGridFamily, 
 .aboutmePageGridHobbies,
 .aboutmePageGridEducation,
@@ -181,7 +220,6 @@ select {
   border: 5px solid black;
 
   min-height: 100vh;
-  background-size: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -193,32 +231,34 @@ select {
   grid-template-columns: 50% 50%;
 }
 
-/**/
-.aboutMePageGridIMG2,
 .aboutMePageGridText2
 {
   margin: 5vh;
   padding: 5vh;
   max-width: 100%;
-  display: block;
   justify-content: center;
   align-items: center;
 }
-/**/
 
-/**/
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*sets the background for the documents pages*/
 .docPageBackground {
   background-image: url("Images/docPageBackground.png");
   border: 5px solid black;
 
   min-height: 100vh;
-  background-size: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
-/**/
 
-/**/
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*establishes the grid for the schedule page*/
 .docPageBackgroundScheduleGrid {
   display: grid;
   grid-template-rows: auto auto;
@@ -227,35 +267,27 @@ select {
   text-align: center;
 
 }
-/**/
 
-/**/
+/*sets the grid title to the top middle column*/
 .scheduleGridTitle {
   grid-row: 2/3;
   grid-column: 2/23;
 }
 
+/*Places in the correct grid location for the schedule pages*/
 .scheduleNoteLeft {
   grid-row: 2/3;
   grid-column: 1/2;
 }
 
+/*Places in the correct grid location for the schedule pages*/
 .scheduleNoteMiddle {
   grid-row: 2/3;
   grid-column: 2/3;
 }
 
+/*Places in the correct grid location for the schedule pages*/
 .scheduleNoteRight {
   grid-row: 2/3;
   grid-column: 3/4;
-}
-
-.shadowBox {
-  width: 200px;         
-  height: 200px;        
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 20px;      
 }
