@@ -157,15 +157,15 @@ select {
   padding-block: 4rem;
 }
 
-/*The title on the landing page in the middle of the shadow box*/
-.landingPageTitle {
-  justify-content: center;
-}
-
 /*The shadow box holding the text on the landing page*/
 .shadowBoxLanding {
-  width: 200px;         
-  height: 200px;        
+
+  display: grid;
+  justify-self: center;
+  align-self: center;
+
+  width: 20rem;         
+  height: 20rem;        
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -187,8 +187,9 @@ select {
   background-repeat: no-repeat;
 
   display: grid;
-  align-items: center;
+  align-content: center;
   justify-content: center;
+
   margin-inline: auto;
   padding-block: 4rem;
   grid-template-columns: 50% 50%;
@@ -196,13 +197,19 @@ select {
 
 /*The shadow box holding the images on the about me page*/
 .shadowBoxAboutMe {
-  width: 200px;         
-  height: 200px;        
+  align-self: center;
+  justify-self: center;
+  width: 30rem;         
+  height: 30rem;        
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 20px;  
+}
+
+.landingPageTitle {
+  align-content: left;
 }
 
 
@@ -236,8 +243,8 @@ select {
   margin: 5vh;
   padding: 5vh;
   max-width: 100%;
-  justify-content: center;
-  align-items: center;
+  justify-self: center;
+  align-self: center;
 }
 
 
