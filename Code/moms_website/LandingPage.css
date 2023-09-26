@@ -101,6 +101,10 @@ select {
   text-align: center;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 
 /*-----------------------------------------------------------------------------*/
 
@@ -202,14 +206,18 @@ select {
   width: 30rem;         
   height: 30rem;        
   background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 20px;  
+  outline: .40rem solid black;
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
 }
 
+
+
 .landingPageTitle {
-  align-content: left;
+  align-self: center;
+  justify-self: center;
 }
 
 
@@ -224,7 +232,7 @@ select {
 .aboutmePageGridOther
 {
   background-image: url("Images/aboutMeBackground1.png");
-  border: 5px solid black;
+
 
   min-height: 100vh;
   background-size: cover;
@@ -236,6 +244,91 @@ select {
   margin-inline: auto;
   padding-block: 4rem;
   grid-template-columns: 50% 50%;
+}
+
+.shadowBoxAboutMeFamily
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-200);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+
+.shadowBoxAboutMeHobbies
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;       
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-300);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+.shadowBoxAboutMeEducation
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;         
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-400);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+.shadowBoxAboutMeExperience
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;         
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-500);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+.shadowBoxAboutMeOther
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-900);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+
+.shadowBoxAboutMeIMG
+{
+  align-self: center;
+  justify-self: center;
+  width: 30rem;         
+  height: 30rem;        
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
 }
 
 .aboutMePageGridText2
