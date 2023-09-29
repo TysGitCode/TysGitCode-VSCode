@@ -143,17 +143,8 @@ select {
 /*-----------------------------------------------------------------------------*/
 
 
-/*establishes the grid for the landing page*/
-.landingPageGrid {
-
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  align-items: center;
-  justify-content: center;
-  margin-inline: auto;
-  padding-block: 4rem;
-
+/*sets the background for the landing page*/
+.landingPage {
   background-image: url("Images/landingBackground.jpg");
 
   min-height: 100vh;
@@ -161,8 +152,19 @@ select {
   background-repeat: no-repeat;
 }
 
+/*establishes the grid for the landing page*/
+.landingPageGrid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  padding-block: 4rem;
+}
+
 /*The shadow box holding the text on the landing page*/
 .shadowBoxLanding {
+
+  display: grid;
   justify-self: center;
   align-self: center;
 
@@ -182,7 +184,6 @@ select {
 /*Sets up the background and grid for the first about me page*/
 .aboutMePageGrid {
   background-image: url("Images/cloudBackground.png");
-  border: 5px solid black;
   
   min-height: 100vh;
   background-size: cover;
@@ -246,17 +247,12 @@ select {
 
 .shadowBoxAboutMeFamily
 {
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
   width: 30rem;         
   height: auto;        
   background-color: white;
   outline: .40rem solid var(--clr-accent-200);
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem;  
 }
 
 .shadowBoxAboutMeHobbies
@@ -301,7 +297,6 @@ select {
   padding: 2rem;
   margin: 2rem;  
 }
-
 .shadowBoxAboutMeOther
 {
   align-self: center;
@@ -317,7 +312,7 @@ select {
   margin: 2rem;  
 }
 
-.shadowBoxAboutMeIMG
+.shadowBoxAboutMeIMGLeft
 {
   align-self: center;
   justify-self: center;
@@ -327,25 +322,46 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem;  
+  margin-left: 12rem;  
 }
 
-.aboutMePageGridText2
+.shadowBoxAboutMeIMGRight
 {
-  margin: 5vh;
+  align-self: center;
+  justify-self: center;
+  width: 30rem;         
+  height: 30rem;        
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-right: 12rem;  
+}
+
+.aboutMePageGridText2Left
+{
+  margin-left: 15rem;
   padding: 5vh;
   max-width: 100%;
   justify-self: center;
   align-self: center;
 }
 
-
+.aboutMePageGridText2Right
+{
+  margin-right: 15rem;
+  padding: 5vh;
+  max-width: 100%;
+  justify-self: center;
+  align-self: center;
+}
 /*-----------------------------------------------------------------------------*/
 
 
 /*sets the background for the documents pages*/
 .docPageBackground {
   background-image: url("Images/docPageBackground.png");
+  border: 5px solid black;
 
   min-height: 100vh;
   background-size: cover;
@@ -358,11 +374,8 @@ select {
 
 /*establishes the grid for the schedule page*/
 .docPageBackgroundScheduleGrid {
-
   display: grid;
-  background: #FBF4EE;
-  min-height: 100vh;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto;
   grid-template-columns: auto auto auto;
   align-items: center;
   text-align: center;
@@ -371,348 +384,24 @@ select {
 
 /*sets the grid title to the top middle column*/
 .scheduleGridTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-  grid-row: 1/2;
-  grid-column: 2/3;
+  grid-row: 2/3;
+  grid-column: 2/23;
 }
 
 /*Places in the correct grid location for the schedule pages*/
 .scheduleNoteLeft {
-  padding: 1rem;
   grid-row: 2/3;
   grid-column: 1/2;
 }
 
 /*Places in the correct grid location for the schedule pages*/
 .scheduleNoteMiddle {
-  padding: 1rem;
   grid-row: 2/3;
   grid-column: 2/3;
 }
 
 /*Places in the correct grid location for the schedule pages*/
 .scheduleNoteRight {
-  padding: 1rem;
   grid-row: 2/3;
   grid-column: 3/4;
-}
-
-/*-----------------------------------------------------------------------------*/
-.docPageHomeworkGrid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 10rem 10rem auto;
-}
-
-.homeworkTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-  grid-row: 2/3;
-  grid-column: 2/3;
-}
-.shadowBoxDocHomeworkLeft 
-{
-  grid-row: 3/4;
-  grid-column: 1/2;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-600);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin-left: 12rem; 
-  margin-bottom: 12rem; 
-}
-.shadowBoxDocHomeworkRight
-{
-  grid-row: 3/4;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-700);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin-right:  12rem;
-  margin-bottom: 12rem; 
-}
-
-
-/*-----------------------------------------------------------------------------*/
-
-.docPageCurriculumGrid
-{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-}
-
-.curriculumTitle {
-  grid-row: 2/3;
-  grid-column: 2/3;
-  justify-self: center;
-  align-self: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-  padding: 1rem;
-}
-.shadowBoxDocCurriculumLeft1
-{
-  grid-row: 1/2;
-  grid-column: 1/2;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-500);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin-left: 12rem;
-}
-
-.shadowBoxDocCurriculumLeft2
-{
-  grid-row: 2/3;
-  grid-column: 1/2;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-800);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin-left: 12rem;
-}
-.shadowBoxDocCurriculumRight1
-{
-  grid-row: 1/2;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-400);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin-right:  12rem;
-}
-.shadowBoxDocCurriculumRight2
-{
-  grid-row: 2/3;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-600);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin-right:  12rem;
-}
-.shadowBoxDocCurriculumRight3
-{
-  grid-row: 3/4;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-300);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin-right:  12rem;
-}
-
-
-/*-----------------------------------------------------------------------------*/
-.docPageClassroomManagementGrid{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-}
-
-.classroomTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-  padding: 1rem;
-}
-
-.shadowBoxDocClassroomManagement1
-{
-  grid-row: 1/2;
-  grid-column: 2/3;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-500);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem; 
-}
-
-.shadowBoxDocClassroomManagement2
-{
-  grid-row: 2/3;
-  grid-column: 2/3;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-400);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem; 
-}
-
-.shadowBoxDocClassroomManagement3
-{
-  grid-row: 2/3;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-800);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem; 
-}
-
-
-/*-----------------------------------------------------------------------------*/
-
-
-.docPageClassroomManagementContinued {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
-}
-
-.managementContinuedTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.shadowBoxDocClassroomManagementContinued1
-{
-  grid-row: 1/2;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-700);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem; 
-}
-
-.shadowBoxDocClassroomManagementContinued2
-{
-  grid-row: 2/3;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-800);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem; 
-}
-
-.shadowBoxDocClassroomManagementContinued3
-{
-  grid-row: 3/4;
-  grid-column: 3/4;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-400);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem; 
-}
-
-/*-----------------------------------------------------------------------------*/
-
-.docPageCommunicationGrid{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-}
-
-.communicationTitle {
-  grid-row: 1/3;
-  grid-column: 2/3;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: underline;
-  justify-content: bottom;
-}
-
-.shadowBoxDocCommunication 
-{
-  grid-row: 2/3;
-  grid-column: 2/3;
-  align-self: center;
-  justify-self: center;
-  max-width: 30rem;
-  width: 30rem;         
-  height: auto;        
-  background-color: white;
-  outline: .40rem solid var(--clr-accent-200);
-  border-radius: 2rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 2rem; 
 }
