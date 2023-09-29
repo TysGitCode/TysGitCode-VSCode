@@ -346,7 +346,6 @@ select {
 /*sets the background for the documents pages*/
 .docPageBackground {
   background-image: url("Images/docPageBackground.png");
-  border: 5px solid black;
 
   min-height: 100vh;
   background-size: cover;
@@ -361,7 +360,7 @@ select {
 .docPageBackgroundScheduleGrid {
 
   display: grid;
-  background: #F3F3F1;
+  background: #FBF4EE;
   min-height: 100vh;
   grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto;
@@ -419,7 +418,7 @@ select {
   grid-row: 3/4;
   grid-column: 1/2;
   align-self: center;
-  justify-self: right;
+  justify-self: center;
   max-width: 30rem;
   width: 30rem;         
   height: auto;        
@@ -428,7 +427,8 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem; 
+  margin-left: 12rem; 
+  margin-bottom: 12rem; 
 }
 .shadowBoxDocHomeworkRight
 {
@@ -444,7 +444,8 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem; 
+  margin-right:  12rem;
+  margin-bottom: 12rem; 
 }
 
 
@@ -465,6 +466,7 @@ select {
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: underline;
+  padding: 1rem;
 }
 .shadowBoxDocCurriculumLeft1
 {
@@ -480,7 +482,7 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem; 
+  margin-left: 12rem;
 }
 
 .shadowBoxDocCurriculumLeft2
@@ -497,7 +499,7 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem; 
+  margin-left: 12rem;
 }
 .shadowBoxDocCurriculumRight1
 {
@@ -513,7 +515,7 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem; 
+  margin-right:  12rem;
 }
 .shadowBoxDocCurriculumRight2
 {
@@ -529,7 +531,7 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem; 
+  margin-right:  12rem;
 }
 .shadowBoxDocCurriculumRight3
 {
@@ -545,7 +547,7 @@ select {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin: 2rem; 
+  margin-right:  12rem;
 }
 
 
@@ -560,6 +562,7 @@ select {
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: underline;
+  padding: 1rem;
 }
 
 .shadowBoxDocClassroomManagement1
