@@ -110,24 +110,6 @@ select {
 /*-----------------------------------------------------------------------------*/
 
 
-.menuBox
-{
-  grid-row: 1/2;
-  grid-column: 1/2;
-  position: absolute;
-  display: grid;
-  justify-self: left;
-  align-self: start;
-  width: 10rem;         
-  height: 1rem;        
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
 /*establishes the grid for the landing page*/
 .landingPageGrid {
   background-image: url("Images/landingBackground.jpg");
@@ -153,8 +135,8 @@ select {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 20px;
+  padding: 1.25rem;
+  margin: 1.25rem;
 }
 
 /*Displays the landing Page welcome to Mrs. Mitchells Class text*/
@@ -177,6 +159,24 @@ select {
 
 
 /*-----------------------------------------------------------------------------*/
+
+.menuBox
+{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  position: absolute;
+  display: grid;
+  justify-self: left;
+  align-self: start;
+  width: 10rem;         
+  height: 1rem;        
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
 
 /*Represents the unordered list of items in the nav*/
 nav ul
@@ -205,27 +205,36 @@ nav a
   text-decoration: none;
   font-size: 1rem;
   text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
 }
 
 /*Tells program what to do after hovering over the hyperlinks with the mouse (turns it to yellow)*/
 nav a:hover
 {
-  color: var(--clr-accent-800)
+  color: white;
 }
 
 /*Says when the nav-toggle "box" is checked (when the 3 menu dots are pressed) to set the display to block which overrides the previous display of none. */
 .nav-toggle:checked ~ nav {
-  display: block;
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms
 }
 
 /*The entire nav and background*/
 nav {
+  padding: .25rem;
   margin-top: 5rem;
-  display: none;
-  text-align: center;
-  justify-self: center;
-  width: 15rem;         
-  height: 20rem;        
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+  text-align: left;
+  width: 17rem;         
+  height: 17rem;        
   background-color: rgba(255, 255, 255, 1);
   border-radius: .5rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.5);
@@ -272,17 +281,42 @@ nav {
   right: 2rem;
 }
 
+.homeLink:hover{
+  background-color: var(--clr-accent-800)
+}
 
+.aboutLink:hover{
+  background-color: var(--clr-accent-800)
+}
 
+.scheduleLink:hover{
+  background-color: var(--clr-accent-800)
+}
+
+.homeworkLink:hover{
+  background-color: var(--clr-accent-800)
+}
+
+.curriculumLink:hover{
+  background-color: var(--clr-accent-800)
+}
+
+.classroomManagementLink:hover{
+  background-color: var(--clr-accent-800)
+}
+
+.communicationLink:hover{
+  background-color: var(--clr-accent-800)
+}
 
 /*-----------------------------------------------------------------------------*/
+
 
 /*Sets a grid up for the header and styles it*/
 .header {
   display: grid;
   grid-template-columns: 50%;
   align-items: center;
-  background-color: #ffffff;
 }
 
 
@@ -306,10 +340,13 @@ nav {
 
 /*-----------------------------------------------------------------------------*/
 
-
+.aboutMeBackground 
+{
+  background-image: url("Images/cloudBackground.png");
+}
 /*Sets up the background and grid for the first about me page*/
 .aboutMePageGrid {
-  background-image: url("Images/cloudBackground.png");
+
   
   min-height: 100vh;
   background-size: cover;
@@ -883,3 +920,24 @@ nav {
   padding: 2rem;
   margin: 2rem; 
 }
+
+/*Questions*/
+/*
+
+1) Why does my nav only display on the top page instead of all of the pages? (Line 161)
+2) How to make the colors in the Nav fill the entirety of the box instead of the weird block it does now?
+3) How to make the nav box go over the original menu box?
+4) How to change all of the boxes that have text input so that my mom can input text too?
+ Maybe also make it so she could change the pictures?
+
+
+
+
+
+
+
+
+
+
+
+*/
