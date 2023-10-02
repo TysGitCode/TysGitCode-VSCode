@@ -101,6 +101,7 @@ select {
   text-align: center;
 }
 
+/*A predefined class to make text bold*/
 .text-bold {
   font-weight: bold;
 }
@@ -109,40 +110,7 @@ select {
 /*-----------------------------------------------------------------------------*/
 
 
-/*Aligns the navigation bar to the right side of the header*/
-.navBar {
-  text-align: right;
-}
-
-/*Aligns the profile picture summary to the left side of the header*/
-.profileSummary {
-  text-align: left;
-}
-
-/*Sets a grid up for the header and styles it*/
-.header {
-  display: grid;
-  grid-template-columns: 50%;
-  align-items: center;
-  background-color: #ffffff;
-}
-
-/*Aligns the profile summary icon in the top left grid slot in the header*/
-.profileSummary {
-  grid-row: 1/2;
-  grid-column: 1/2;
-}
-
-/*Aligns the navbar box to the right side of the grid slot in the header*/
-.navBarBackground {
-  grid-row: 1/3;
-  grid-column: 2/3;
-}
-
-
-
-/*-----------------------------------------------------------------------------*/
-.shadowBoxMenu
+.menuBox
 {
   grid-row: 1/2;
   grid-column: 1/2;
@@ -160,12 +128,6 @@ select {
   margin-left: 1rem;
 }
 
-.menuDots
-{
-  align-self: center;
-  justify-self: left;
-}
-
 /*establishes the grid for the landing page*/
 .landingPageGrid {
   background-image: url("Images/landingBackground.jpg");
@@ -180,17 +142,8 @@ select {
   padding-block: 4rem;
 }
 
-/*establishes the grid for the landing page*/
-.landingPageGrid {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  margin-inline: auto;
-  padding-block: 4rem;
-}
-
 /*The shadow box holding the text on the landing page*/
-.shadowBoxLanding {
+.landingTitleBox {
   display: grid;
   justify-self: center;
   align-self: center;
@@ -204,7 +157,8 @@ select {
   margin: 20px;
 }
 
-.LandingPageTitle
+/*Displays the landing Page welcome to Mrs. Mitchells Class text*/
+.landingTitle
 {
   grid-row: 1/2;
   grid-column: 1/2;
@@ -213,12 +167,140 @@ select {
   margin: 5rem;
 }
 
-.paperPlane
+.paperPlaneIMG
 {
   grid-row: 1/2;
   grid-column: 1/2;
   margin-top: 16rem;
   margin-left: 2.5rem;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+/*Represents the unordered list of items in the nav*/
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*Represents a list item and sets the spacing between them*/
+nav li
+{
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+/*The element nav-toggle for the popout menu after pressing the 3 dots*/
+#nav-toggle {
+  display: none;
+}
+
+/*Represents the hyperlinks in the nav*/
+nav a
+{
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/*Tells program what to do after hovering over the hyperlinks with the mouse (turns it to yellow)*/
+nav a:hover
+{
+  color: var(--clr-accent-800)
+}
+
+/*Says when the nav-toggle "box" is checked (when the 3 menu dots are pressed) to set the display to block which overrides the previous display of none. */
+.nav-toggle:checked ~ nav {
+  display: block;
+}
+
+/*The entire nav and background*/
+nav {
+  margin-top: 5rem;
+  display: none;
+  text-align: center;
+  justify-self: center;
+  width: 15rem;         
+  height: 20rem;        
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: .5rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+/*the picture in place of the checkbox that is used to toggle the menu on and off*/
+.nav-toggle-label
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+/*creates the 3 dots as the toggle element for the popout menu*/
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after
+{
+ width: 2rem;
+ display: block;
+ background: black;
+ height: .75rem;
+ width: .75rem;
+ border-radius: 20rem;
+ position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after
+{
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before
+{
+  right: 1rem;
+}
+
+.nav-toggle-label span::after
+{
+  right: 2rem;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+
+/*Sets a grid up for the header and styles it*/
+.header {
+  display: grid;
+  grid-template-columns: 50%;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+
+/*Aligns the profile picture summary to the left side of the header*/
+.profileSummary {
+  text-align: left;
+}
+
+/*Aligns the profile summary icon in the top left grid slot in the header*/
+.profileSummary {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+/*Aligns the navbar box to the right side of the grid slot in the header*/
+.navBarBackground {
+  grid-row: 1/3;
+  grid-column: 2/3;
 }
 
 
