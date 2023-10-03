@@ -1,0 +1,955 @@
+:root {
+  --clr-primary-100: #e5b002;
+  --clr-primary-2000: black;
+
+  --clr-accent-200: #cbe38f;
+  --clr-accent-300: #fd95ce;
+  --clr-accent-400: #266cb4;
+  --clr-accent-500: #48bdc6;
+  --clr-accent-600: #f96a49;
+
+  --clr-accent-700: #98c2b4;
+  --clr-accent-800: #f4cf74;
+  --clr-accent-900: #f96a49;
+  --clr-accent-1000: #ee83a1;
+  --clr-accent-1100: #7490bf;
+  --clr-accent-1200: #f6d6d8;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: Arial;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*A predefined class to center text*/
+.text-center {
+  text-align: center;
+}
+
+/*A predefined class to make text bold*/
+.text-bold {
+  font-weight: bold;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*establishes the grid for the landing page*/
+.landingPageGrid {
+  background-image: url("Images/landingBackground.jpg");
+
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  padding-block: 4rem;
+}
+
+/*The shadow box holding the text on the landing page*/
+.landingTitleBox {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+
+  width: 30rem;         
+  height: 25rem;        
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  margin: 1.25rem;
+}
+
+/*Displays the landing Page welcome to Mrs. Mitchells Class text*/
+.landingTitle
+{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 5rem;
+}
+
+.paperPlaneIMG
+{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin-top: 16rem;
+  margin-left: 2.5rem;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+.menuBox
+{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  position: absolute;
+  display: grid;
+  justify-self: left;
+  align-self: start;
+  width: 10rem;         
+  height: 1rem;        
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/*Represents the unordered list of items in the nav*/
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*Represents a list item and sets the spacing between them*/
+nav li
+{
+  margin-bottom: 1em;
+}
+
+/*The element nav-toggle for the popout menu after pressing the 3 dots*/
+#nav-toggle {
+  display: none;
+}
+
+/*Represents the hyperlinks in the nav*/
+nav a
+{
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+/*Tells program what to do after hovering over the hyperlinks with the mouse (turns it to yellow)*/
+nav a:hover
+{
+}
+
+/*Says when the nav-toggle "box" is checked (when the 3 menu dots are pressed) to set the display to block which overrides the previous display of none. */
+.nav-toggle:checked ~ nav {
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms
+}
+
+/*The entire nav and background*/
+nav
+{
+  margin-top: 5rem;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+  text-align: center;
+  width: 17rem;         
+  height: 17rem;        
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: .5rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+/*the picture in place of the checkbox that is used to toggle the menu on and off*/
+.nav-toggle-label
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+/*creates the 3 dots as the toggle element for the popout menu*/
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after
+{
+ width: 2rem;
+ display: block;
+ background: black;
+ height: .75rem;
+ width: .75rem;
+ border-radius: 20rem;
+ position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after
+{
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before
+{
+  right: 1rem;
+}
+
+.nav-toggle-label span::after
+{
+  right: 2rem;
+}
+
+.homeLink:hover{
+  background-color: var(--clr-accent-800);
+  border-radius: .25rem; 
+  text-decoration: underline;
+}
+
+.aboutLink:hover{
+  background-color: var(--clr-accent-800);
+  border-radius: .25rem;
+  text-decoration: underline;
+}
+
+.scheduleLink:hover{
+  background-color: var(--clr-accent-800);
+  border-radius: .25rem;
+  text-decoration: underline;
+}
+
+.homeworkLink:hover{
+  background-color: var(--clr-accent-800);
+  border-radius: .25rem;
+  text-decoration: underline;
+}
+
+.curriculumLink:hover{
+  background-color: var(--clr-accent-800);
+  border-radius: .25rem;
+  text-decoration: underline;
+}
+
+.classroomManagementLink:hover{
+  background-color: var(--clr-accent-800);
+  border-radius: .25rem;
+  text-decoration: underline;
+}
+
+.communicationLink:hover{
+  background-color: var(--clr-accent-800);
+  border-radius: .25rem;
+  
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*Sets a grid up for the header and styles it*/
+.header {
+  display: grid;
+  grid-template-columns: 50%;
+  align-items: center;
+}
+
+
+/*Aligns the profile picture summary to the left side of the header*/
+.profileSummary {
+  text-align: left;
+}
+
+/*Aligns the profile summary icon in the top left grid slot in the header*/
+.profileSummary {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+/*Aligns the navbar box to the right side of the grid slot in the header*/
+.navBarBackground {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+.aboutMeBackground 
+{
+  background-image: url("Images/cloudBackground.png");
+}
+/*Sets up the background and grid for the first about me page*/
+.aboutMePageGrid {
+
+  
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: grid;
+  align-content: center;
+  justify-content: center;
+
+  margin-inline: auto;
+  padding-block: 4rem;
+  grid-template-columns: 50% 50%;
+}
+
+.aboutMeTitle 
+{
+  text-align: left;
+  font-size: 2rem;
+}
+
+.aboutMeMainTxt
+{
+  text-align: left;
+}
+
+/*The shadow box holding the images on the about me page*/
+.shadowBoxAboutMeIMG {
+  align-self: center;
+  justify-self: center;
+  width: 15rem;         
+  height: 15rem;        
+  background-color: white;
+  border-radius: 20rem;
+  box-shadow: 0rem .75rem 1rem rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin-top: 10rem; 
+  margin-left: 10rem; 
+}
+
+.shadowBoxAboutMe {
+  align-self: center;
+  justify-self: center;
+  width: 30rem;         
+  height: 40rem;        
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: .5rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin: 2rem;  
+}
+
+
+
+.landingPageTitle {
+  align-self: center;
+  justify-self: center;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*sets all of the following "about me" pages to be grids and formats them all the same*/
+.aboutMePageGridFamily, 
+.aboutmePageGridHobbies,
+.aboutmePageGridEducation,
+.aboutmePageGridExperience,
+.aboutmePageGridOther
+{
+  background-image: url("Images/aboutMeBackground1.png");
+
+
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  padding-block: 4rem;
+  grid-template-columns: 50% 50%;
+}
+
+.shadowBoxAboutMeFamily
+{
+  width: 30rem;         
+  height: auto;        
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-200);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.shadowBoxAboutMeHobbies
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;       
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-300);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+.shadowBoxAboutMeEducation
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;         
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-400);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+.shadowBoxAboutMeExperience
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;         
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-500);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+.shadowBoxAboutMeOther
+{
+  align-self: center;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: white;
+  outline: .40rem solid var(--clr-accent-900);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem;  
+}
+
+.shadowBoxAboutMeIMGLeft
+{
+  align-self: center;
+  justify-self: center;
+  width: 30rem;         
+  height: 30rem;        
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-left: 12rem;  
+}
+
+.shadowBoxAboutMeIMGRight
+{
+  align-self: center;
+  justify-self: center;
+  width: 30rem;         
+  height: 30rem;        
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-right: 12rem;  
+}
+
+.aboutMePageGridText2Left
+{
+  margin-left: 15rem;
+  padding: 5vh;
+  max-width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+.aboutMePageGridText2Right
+{
+  margin-right: 15rem;
+  padding: 5vh;
+  max-width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+/*-----------------------------------------------------------------------------*/
+
+
+/*sets the background for the documents pages*/
+.docPageBackground {
+  background-image: url("Images/docPageBackground.png");
+
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*establishes the grid for the schedule page*/
+.docPageBackgroundScheduleGrid {
+
+  display: grid;
+  background: #FBF4EE;
+  min-height: 100vh;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  text-align: center;
+
+}
+
+/*sets the grid title to the top middle column*/
+.scheduleGridTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+/*Places in the correct grid location for the schedule pages*/
+.scheduleNoteLeft {
+  padding: 1rem;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  justify-self: right;
+}
+
+/*Places in the correct grid location for the schedule pages*/
+.scheduleNoteMiddle {
+  padding: 1rem;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+/*Places in the correct grid location for the schedule pages*/
+.scheduleNoteRight {
+  padding: 1rem;
+  grid-row: 2/3;
+  grid-column: 3/4;
+  justify-self: left;
+}
+
+/*-----------------------------------------------------------------------------*/
+.docPageHomeworkGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 10rem 10rem auto;
+}
+
+.homeworkTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.shadowBoxDocHomeworkLeft 
+{
+  grid-row: 3/4;
+  grid-column: 1/2;
+  align-self: center;
+  justify-self: right;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-600);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-left: 12rem; 
+  margin-bottom: 12rem;
+}
+.shadowBoxDocHomeworkRight
+{
+  grid-row: 3/4;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: left;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-700);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-right: 12rem; 
+  margin-bottom: 12rem;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+.docPageCurriculumGrid
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.curriculumTitle {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.shadowBoxDocCurriculumLeft1
+{
+  grid-row: span 2;
+  grid-column: 1/2;
+  align-self: center;
+  justify-self: right;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-700);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-left: 12rem; 
+}
+
+.shadowBoxDocCurriculumLeft2
+{
+  grid-row: 3/4;
+  grid-column: 1/2;
+  align-self: center;
+  justify-self: right;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-800);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-left: 12rem; 
+}
+.shadowBoxDocCurriculumRight1
+{
+  grid-row: 1/2;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: left;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-400);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-right: 12rem; 
+}
+.shadowBoxDocCurriculumRight2
+{
+  grid-row: 2/3;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: left;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-600);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-right: 12rem; 
+}
+.shadowBoxDocCurriculumRight3
+{
+  grid-row: 3/4;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: left;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-300);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-right: 12rem; 
+}
+
+
+/*-----------------------------------------------------------------------------*/
+.docPageClassroomManagementGrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.classroomTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.shadowBoxDocClassroomManagement1
+{
+  grid-row: 1/2;
+  grid-column: span 2;
+  align-self: center;
+  justify-self: center;
+  max-width: 65rem;
+  width: 65rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-500);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 10rem; 
+}
+
+.shadowBoxDocClassroomManagement2
+{
+  grid-row: 2/3;
+  grid-column: 1/2;
+  align-self: center;
+  justify-self: right;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-400);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 15rem; 
+  margin-right: 2rem;
+}
+
+.shadowBoxDocClassroomManagement3
+{
+  grid-row: 2/3;
+  grid-column:2/3;
+  align-self: center;
+  justify-self: left;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-800);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 15rem; 
+  margin-left: 2rem;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+.docPageClassroomManagementContinued {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.managementContinuedTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.shadowBoxDocClassroomManagementContinued1
+{
+  grid-row: 1/2;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+  max-width:65rem;
+  width: 65rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-700);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem; 
+}
+
+.shadowBoxDocClassroomManagementContinued2
+{
+  grid-row: 2/3;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+  max-width:65rem;
+  width: 65rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-800);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem; 
+}
+
+.shadowBoxDocClassroomManagementContinued3
+{
+  grid-row: 3/4;
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: center;
+  max-width:65rem;
+  width: 65rem;          
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-400);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem; 
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.docPageCommunicationGrid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.communicationTitle {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  align-self: end;
+}
+
+.shadowBoxDocCommunication 
+{
+  grid-row: 3/4;
+  grid-column: 2/3;
+  align-self: start;
+  justify-self: center;
+  max-width: 30rem;
+  width: 30rem;         
+  height: auto;        
+  background-color: #FBF4EE;
+  outline: .40rem solid var(--clr-accent-200);
+  border-radius: 2rem;
+  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem; 
+}
+
+/*Questions*/
+/*
+
+1) Why does my nav only display on the top page instead of all of the pages? (Line 161)
+2) How to make the colors in the Nav fill the entirety of the box instead of the weird block it does now?
+3) How to make the nav box go over the original menu box?
+4) How to change all of the boxes that have text input so that my mom can input text too?
+ Maybe also make it so she could change the pictures?
+
+
+
+
+
+
+
+
+
+
+
+*/
