@@ -1,0 +1,923 @@
+TransDate,EffDate,TransactionDescription,Amount,Balance
+04/04,,Deposit Home Banking Transfer REF# 58451743....................,100.00,"1,735.26"
+04/05,,Withdrawal Home Banking Transfer To Share 10....................,-200.00,"1,535.26"
+04/06,,Deposit Home Banking Transfer From Share 10......................,75.00,"1,610.26"
+04/14,,Deposit ACH UNIVERSITY OF CO............................................,156.89,"1,767.15"
+04/28,,Deposit ACH UNIVERSITY OF CO............................................,147.65,"1,914.80"
+04/30,,Deposit Dividend 0.050%........................................................,0.07,"1,914.87"
+04/01,,Withdrawal Debit Card Visa Check...........................................,-9.97,"1,104.42"
+04/01,,Withdrawal Debit Card Visa Check...........................................,-33.79,"1,070.63"
+04/01,,Withdrawal Debit Card Visa Check...........................................,-30.05,"1,040.58"
+04/02,04/01,Withdrawal Home Banking Transfer REF# 58361174..............,-15.00,"1,025.58"
+04/02,,Withdrawal Debit Card Visa Check...........................................,-32.00,993.58
+04/02,,Withdrawal Debit Card Visa Check...........................................,-11.67,981.91
+04/02,,Withdrawal POS #309212425631...........................................,-101.38,880.53
+04/02,,Withdrawal POS #309216843545...........................................,-19.34,861.19
+04/02,,Withdrawal POS #309217088010...........................................,-6.23,854.96
+04/03,,Withdrawal POS #309312399643...........................................,-6.48,848.48
+04/03,,Withdrawal Home Banking Transfer........................................,-141.00,707.48
+04/03,,Recurring Withdrawal Debit Card Visa Check..........................,-42.64,664.84
+04/04,,Withdrawal Debit Card Visa Check...........................................,-3.55,661.29
+04/04,,Withdrawal Debit Card Visa Check...........................................,-31.05,630.24
+04/04,,Withdrawal POS #309417696362...........................................,-16.61,613.63
+04/04,,Deposit Home Banking Transfer From Share 13......................,56.00,669.63
+04/04,,Withdrawal Home Banking Transfer To Share 13....................,-150.00,519.63
+04/05,,Withdrawal Debit Card Visa Check...........................................,-56.56,463.07
+04/05,,Deposit Home Banking Transfer From Share 00......................,200.00,663.07
+04/05,,Withdrawal POS #309515406336...........................................,-11.71,651.36
+04/06,,Withdrawal Debit Card Visa Check...........................................,-90.09,561.27
+04/06,,Deposit Home Banking Transfer REF# 58489879....................,789.45,"1,350.72"
+04/06,,Withdrawal Home Banking Transfer REF# 58489890..............,-300.00,"1,050.72"
+04/06,,Withdrawal Home Banking Transfer To Share 12....................,-150.00,900.72
+04/06,,Withdrawal Home Banking Transfer To Share 13....................,-60.00,840.72
+04/06,,Withdrawal Home Banking Transfer To Share 00....................,-75.00,765.72
+04/06,,Withdrawal Debit Card Visa Check...........................................,-29.19,736.53
+04/06,,Withdrawal Debit Card Visa Check...........................................,-368.14,368.39
+04/06,,Withdrawal POS #309621292435...........................................,-6.48,361.91
+04/06,,Withdrawal Debit Card Visa Check...........................................,-7.88,354.03
+04/06,,Withdrawal Debit Card Visa Check...........................................,-15.67,338.36
+04/07,,Withdrawal Debit Card Visa Check...........................................,-30.06,308.30
+04/07,,Withdrawal POS #309717008966...........................................,-124.89,183.41
+04/07,,Withdrawal Debit Card Visa Check...........................................,-17.10,166.31
+04/07,,Recurring Withdrawal #309726108602...................................,-24.99,141.32
+04/08,,Deposit Home Banking Transfer From Share 12......................,140.00,281.32
+04/08,,Withdrawal POS #309814504519...........................................,-6.23,275.09
+04/08,,Withdrawal Debit Card Visa Check...........................................,-24.99,250.10
+04/10,,Withdrawal Debit Card Visa Check...........................................,-6.39,243.71
+04/10,,Recurring Withdrawal #310020719231...................................,-20.60,223.11
+04/10,,Withdrawal POS #310022539453...........................................,-10.26,212.85
+04/10,,Withdrawal Debit Card Visa Check...........................................,-17.84,195.01
+04/11,,Withdrawal #310122732298...................................................,-3.99,191.02
+04/11,,Recurring Withdrawal #310122734797...................................,-0.99,190.03
+04/12,,Withdrawal Debit Card Visa Check...........................................,-21.41,168.62
+04/12,,Withdrawal Debit Card Visa Check...........................................,-12.75,155.87
+04/13,,Withdrawal Debit Card Visa Check...........................................,-6.61,149.26
+04/13,,Withdrawal Debit Card Visa Check...........................................,-6.46,142.80
+04/14,,Withdrawal Debit Card Visa Check...........................................,-32.20,110.60
+04/14,,Deposit ACH UNIVERSITY OF CO............................................,627.55,738.15
+04/14,,Withdrawal POS #310418461478...........................................,-90.65,647.50
+04/14,,Recurring Withdrawal Debit Card Visa Check..........................,-15.99,631.51
+04/14,,Withdrawal POS #310421350891...........................................,-4.79,626.72
+04/15,,Withdrawal Debit Card Visa Check...........................................,-16.31,610.41
+04/15,,Withdrawal Debit Card Visa Check...........................................,-3.55,606.86
+04/16,,Withdrawal Debit Card Visa Check...........................................,-6.52,600.34
+04/16,,Withdrawal Debit Card Visa Check...........................................,-22.70,577.64
+04/17,,Withdrawal POS #310712221538...........................................,-14.45,563.19
+04/17,,Withdrawal Debit Card Visa Check...........................................,-2.99,560.20
+04/17,,Withdrawal Debit Card Visa Check...........................................,-23.94,536.26
+04/17,,Withdrawal POS #310720485178...........................................,-7.39,528.87
+04/17,,Withdrawal POS #310721177133...........................................,-6.99,521.88
+04/18,,Withdrawal Debit Card Visa Check...........................................,-42.74,479.14
+04/18,,Withdrawal Debit Card Visa Check...........................................,-9.29,469.85
+04/18,,Withdrawal Debit Card Visa Check...........................................,-19.15,450.70
+04/18,,Withdrawal Debit Card Visa Check...........................................,-7.55,443.15
+04/18,,Withdrawal Debit Card Visa Check...........................................,-9.94,433.21
+04/18,,Withdrawal Debit Card Visa Check...........................................,-6.16,427.05
+04/19,,Withdrawal Debit Card Visa Check...........................................,-54.48,372.57
+04/19,,Deposit ACH SUCCESS FOODS MA.........................................,294.43,667.00
+04/19,,Withdrawal POS #310908142535...........................................,-2.30,664.70
+04/19,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,364.70
+04/19,,Recurring Withdrawal Debit Card Visa Check..........................,-0.99,363.71
+04/19,,Withdrawal Debit Card Visa Check...........................................,-14.29,349.42
+04/19,,Withdrawal POS #310918339070...........................................,-22.80,326.62
+04/20,,Withdrawal Debit Card Visa Check...........................................,-16.92,309.70
+04/20,,Withdrawal Debit Card Visa Check...........................................,-22.70,287.00
+04/20,,Withdrawal POS #311018519384...........................................,-3.05,283.95
+04/20,,Withdrawal POS #311020267037...........................................,-7.99,275.96
+04/21,,Withdrawal Debit Card Visa Check...........................................,-6.04,269.92
+04/21,,Withdrawal Debit Card Visa Check...........................................,-6.61,263.31
+04/21,,Deposit Home Banking Transfer REF# 58958361....................,130.00,393.31
+04/21,,Withdrawal Debit Card Visa Check...........................................,-15.13,378.18
+04/22,,Withdrawal Debit Card Visa Check...........................................,-2.25,375.93
+04/22,,Withdrawal POS #311212637740...........................................,-4.48,371.45
+04/22,,Withdrawal Debit Card Visa Check...........................................,-186.60,184.85
+04/23,,Withdrawal POS #311310101087...........................................,-27.92,156.93
+04/23,,Withdrawal POS #311311077917...........................................,-7.88,149.05
+04/23,,Withdrawal POS #311313679135...........................................,-7.39,141.66
+04/23,,Withdrawal Debit Card Visa Check...........................................,-5.62,136.04
+04/23,,Withdrawal Debit Card Visa Check...........................................,-11.66,124.38
+04/24,,Withdrawal Debit Card Visa Check...........................................,-7.40,116.98
+04/24,,Withdrawal Debit Card Visa Check...........................................,-6.55,110.43
+04/25,,Withdrawal Debit Card Visa Check...........................................,-12.98,97.45
+04/25,,Withdrawal Debit Card Visa Check...........................................,-3.56,93.89
+04/25,,Withdrawal Debit Card Visa Check...........................................,-10.81,83.08
+04/26,,Withdrawal Debit Card Visa Check...........................................,-5.96,77.12
+04/26,,Withdrawal POS #311617341562...........................................,-3.79,73.33
+04/26,,Withdrawal Debit Card Visa Check...........................................,-18.10,55.23
+04/26,,Withdrawal Debit Card Visa Check...........................................,-25.55,29.68
+04/26,,Withdrawal Debit Card Visa Check...........................................,-17.84,11.84
+04/27,,Withdrawal POS #311709310084...........................................,-7.63,4.21
+04/27,,Deposit Home Banking Transfer From Share 12......................,160.00,164.21
+04/27,,Withdrawal POS #311718079487...........................................,-23.86,140.35
+04/28,,Withdrawal Debit Card Visa Check...........................................,-57.00,83.35
+04/28,,Deposit ACH UNIVERSITY OF CO............................................,590.62,673.97
+04/28,,Withdrawal Debit Card Visa Check...........................................,-56.34,617.63
+04/28,,Withdrawal POS #311814001015...........................................,-20.04,597.59
+04/28,,Withdrawal Debit Card Visa Check...........................................,-10.61,586.98
+04/28,,Withdrawal Debit Card Visa Check...........................................,-6.79,580.19
+04/28,,Withdrawal POS #311800016990...........................................,-54.92,525.27
+04/28,,Withdrawal Debit Card Visa Check...........................................,-15.13,510.14
+04/29,,Withdrawal POS #311900605798...........................................,-9.30,500.84
+04/29,,Withdrawal POS #311912403090...........................................,-180.40,320.44
+04/30,,Withdrawal Debit Card Visa Check...........................................,-6.61,313.83
+04/30,,Withdrawal POS #312020541666...........................................,-61.69,252.14
+04/30,,Deposit Dividend Tiered Rate..................................................,0.01,252.15
+04/04,,Deposit Home Banking Transfer REF# 58451730....................,600.00,600.01
+04/06,,Deposit Home Banking Transfer REF# 58499861....................,300.00,900.01
+04/19,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,200.01"
+04/30,,Deposit Dividend Tiered Rate..................................................,0.04,"1,200.05"
+04/06,,Deposit Home Banking Transfer From Share 10......................,150.00,300.00
+04/08,,Withdrawal Home Banking Transfer To Share 10....................,-140.00,160.00
+04/27,,Withdrawal Home Banking Transfer To Share 10....................,-160.00,0.00
+04/30,,Deposit Dividend Tiered Rate..................................................,0.01,0.01
+04/04,,Withdrawal Home Banking Transfer To Share 10....................,-56.00,64.00
+04/04,,Deposit Home Banking Transfer From Share 10......................,150.00,214.00
+04/06,,Deposit Home Banking Transfer From Share 10......................,60.00,274.00
+04/12,,Withdrawal Home Banking Transfer REF# 58656095..............,-40.00,234.00
+04/24,,Withdrawal Home Banking Transfer........................................,-140.00,94.00
+04/30,,Deposit Dividend Tiered Rate..................................................,0.01,94.01
+08/04,,Deposit ACH UNIVERSITY OF CO............................................,216.86,223.10
+08/06,,Withdrawal Home Banking Transfer To Share 10....................,-120.00,103.10
+08/07,,Withdrawal Transfer To Share 10............................................,-66.38,36.72
+08/07,,Withdrawal Transfer To Share 10............................................,-12.97,23.75
+08/08,,Withdrawal Transfer To Share 10............................................,-15.41,8.34
+08/10,,Withdrawal Transfer To Share 10............................................,-3.34,5.00
+08/10,,Deposit Home Banking Transfer REF# 62237311....................,100.00,105.00
+08/10,,Withdrawal Home Banking Transfer To Share 10....................,-90.00,15.00
+08/18,,Deposit ACH UNIVERSITY OF CO............................................,233.24,248.24
+08/20,,Deposit at ATM #000000007422.............................................,"1,225.00","1,473.24"
+08/20,,Deposit at ATM #000000007423.............................................,"1,630.00","3,103.24"
+08/21,,Withdrawal Home Banking Transfer To Share 10....................,-160.00,"2,943.24"
+08/21,,Withdrawal Home Banking Transfer To Share 10....................,-25.00,"2,918.24"
+08/23,,Withdrawal Home Banking Transfer REF# 62611037..............,-500.00,"2,418.24"
+08/23,,Withdrawal Home Banking Transfer To Share 10....................,-350.00,"2,068.24"
+08/24,,Withdrawal Home Banking Transfer To Share 10....................,-130.00,"1,938.24"
+08/24,,Withdrawal Home Banking Transfer To Share 10....................,-215.00,"1,723.24"
+08/25,,Deposit ACH Colorado Springs................................................,113.47,"1,836.71"
+08/26,,Withdrawal Home Banking Transfer To Share 10....................,-600.00,"1,236.71"
+08/27,,Withdrawal Home Banking Transfer To Share 10....................,-200.00,"1,036.71"
+08/31,,Deposit Dividend 0.050%........................................................,0.03,"1,036.74"
+08/01,,Deposit Home Banking Transfer REF# 61951582....................,57.00,207.42
+08/01,,Deposit Home Banking Transfer REF# 61951681....................,59.30,266.72
+08/01,,Withdrawal Adjustment Debit Card Credit Voucher.................,309.66,576.38
+08/02,,Withdrawal Debit Card Visa Check...........................................,-203.65,372.73
+08/02,,Withdrawal Debit Card Visa Check...........................................,-8.65,364.08
+08/02,,Withdrawal Home Banking Transfer To Share 11....................,-200.00,164.08
+08/02,,Recurring Withdrawal #321421106093...................................,-16.18,147.90
+08/03,,Withdrawal Debit Card Visa Check...........................................,-3.33,144.57
+08/03,,Withdrawal Debit Card Visa Check...........................................,-3.10,141.47
+08/03,,Recurring Withdrawal Debit Card Visa Check..........................,-0.99,140.48
+08/03,,Withdrawal Debit Card Visa Check...........................................,-7.46,133.02
+08/03,,Deposit Home Banking Transfer REF# 62036259....................,275.00,408.02
+08/04,,Deposit ACH UNIVERSITY OF CO............................................,867.46,"1,275.48"
+08/04,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,975.48
+08/04,,Withdrawal Home Banking Transfer REF# 62069143..............,-100.00,875.48
+08/04,,Withdrawal Home Banking Transfer REF# 62069166..............,-35.00,840.48
+08/04,,Withdrawal Home Banking Transfer REF# 62069186..............,-100.00,740.48
+08/04,,Withdrawal Home Banking Transfer To Share 13....................,-140.00,600.48
+08/05,,Withdrawal Debit Card Visa Check...........................................,-15.00,585.48
+08/05,,Withdrawal Debit Card Visa Check...........................................,-18.48,567.00
+08/06,,Withdrawal Debit Card Visa Check...........................................,-65.40,501.60
+08/06,,Withdrawal Debit Card Visa Check...........................................,-57.00,444.60
+08/06,,Withdrawal POS #321815699849...........................................,-104.43,340.17
+08/06,,Withdrawal POS #321819427209...........................................,-121.26,218.91
+08/06,,Withdrawal Debit Card Visa Check...........................................,-141.42,77.49
+08/06,,Deposit Home Banking Transfer From Share 00......................,120.00,197.49
+08/06,,Withdrawal Debit Card Visa Check...........................................,-21.06,176.43
+08/07,08/06,Withdrawal Debit Card Visa Check...........................................,-22.59,153.84
+08/07,,Withdrawal Debit Card Visa Check...........................................,-94.36,59.48
+08/07,,Recurring Withdrawal Debit Card Visa Check..........................,-1.49,57.99
+08/07,,Recurring Withdrawal Card Fee...............................................,-0.01,57.98
+08/07,,Withdrawal NSF Fee.................................................................,-30.00,27.98
+08/07,,Deposit Transfer From Share 00..............................................,66.38,94.36
+08/07,,Withdrawal Debit Card Visa Check...........................................,-94.36,0.00
+08/07,,Deposit Transfer From Share 00..............................................,12.97,12.97
+08/07,,Withdrawal POS #321921031047...........................................,-12.97,0.00
+08/08,,Deposit Transfer From Share 00..............................................,15.41,15.41
+08/08,,Withdrawal Debit Card Visa Check...........................................,-15.41,0.00
+08/08,,Deposit Home Banking Transfer REF# 62179031....................,50.00,50.00
+08/08,,Deposit Home Banking Transfer From Share 13......................,75.00,125.00
+08/09,,Withdrawal Debit Card Visa Check...........................................,-21.88,103.12
+08/09,,Withdrawal Debit Card Visa Check...........................................,-2.50,100.62
+08/09,,Deposit Home Banking Transfer REF# 62204653....................,300.00,400.62
+08/09,,Withdrawal Debit Card Visa Check...........................................,-7.73,392.89
+08/09,,Withdrawal Debit Card Visa Check...........................................,-70.02,322.87
+08/09,,Withdrawal Debit Card Visa Check...........................................,-40.50,282.37
+08/09,,Withdrawal Debit Card Visa Check...........................................,-100.00,182.37
+08/09,,Withdrawal Debit Card Visa Check...........................................,-14.05,168.32
+08/10,08/09,Withdrawal Debit Card Visa Check...........................................,-139.70,28.62
+08/10,,Deposit Transfer From Share 00..............................................,3.34,31.96
+08/10,,Deposit Home Banking Transfer From Share 13......................,65.00,56.96
+08/10,,Withdrawal Debit Card Visa Check...........................................,-47.95,9.01
+08/10,,Deposit Home Banking Transfer From Share 00......................,90.00,99.01
+08/10,,Deposit Home Banking Transfer REF# 62246273....................,50.00,149.01
+08/11,,Withdrawal Debit Card Visa Check...........................................,-86.25,62.76
+08/11,,Withdrawal Debit Card Visa Check...........................................,-32.33,30.43
+08/11,,Deposit ACH Colorado Springs................................................,"1,318.98","1,349.41"
+08/11,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,"1,049.41"
+08/11,,Withdrawal Home Banking Transfer To Share 13....................,-160.00,889.41
+08/11,,Withdrawal Home Banking Transfer REF# 62265931..............,-70.00,819.41
+08/11,,Withdrawal Home Banking Transfer REF# 62265952..............,-150.00,669.41
+08/11,,Withdrawal Home Banking Transfer REF# 62266000..............,-100.00,569.41
+08/11,,Withdrawal Debit Card Visa Check...........................................,-16.73,552.68
+08/11,,Recurring Withdrawal #322320700689...................................,-20.60,532.08
+08/11,,Withdrawal Debit Card Visa Check...........................................,-3.10,528.98
+08/12,,Withdrawal Debit Card Visa Check...........................................,-32.46,496.52
+08/12,,Withdrawal Debit Card Visa Check...........................................,-14.31,482.21
+08/13,,Withdrawal POS #322500936784...........................................,-74.05,408.16
+08/14,,Recurring Withdrawal #322610607420...................................,-15.99,392.17
+08/14,,Withdrawal POS #322617831031...........................................,-7.43,384.74
+08/14,,Withdrawal POS #322614660112...........................................,-151.88,232.86
+08/14,,Withdrawal Debit Card Visa Check...........................................,-32.00,200.86
+08/14,,Withdrawal Adjustment Debit Card Credit Voucher.................,94.08,294.94
+08/14,,Withdrawal Adjustment Debit Card Credit Voucher.................,94.08,389.02
+08/14,,Recurring Withdrawal Debit Card Visa Check..........................,-0.99,388.03
+08/15,,Withdrawal Debit Card Visa Check...........................................,-58.05,329.98
+08/15,,Withdrawal Debit Card Visa Check...........................................,-6.23,323.75
+08/15,,Recurring Withdrawal Debit Card Visa Check..........................,-52.13,271.62
+08/15,,Withdrawal Debit Card Visa Check...........................................,-18.94,252.68
+08/15,,Withdrawal Debit Card Visa Check...........................................,-13.55,239.13
+08/16,,Deposit Home Banking Transfer REF# 62410598....................,172.00,411.13
+08/16,,Withdrawal Debit Card Visa Check...........................................,-3.10,408.03
+08/18,,Deposit ACH UNIVERSITY OF CO............................................,932.94,"1,340.97"
+08/18,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,"1,040.97"
+08/18,,Withdrawal Home Banking Transfer REF# 62465057..............,-35.00,"1,005.97"
+08/18,,Withdrawal Home Banking Transfer REF# 62465073..............,-100.00,905.97
+08/18,,Withdrawal Home Banking Transfer REF# 62465075..............,-100.00,805.97
+08/18,,Withdrawal Adjustment Debit Card Credit Voucher.................,94.08,900.05
+08/19,,Withdrawal POS #323115711152...........................................,-31.37,868.68
+08/19,,Withdrawal Debit Card Visa Check...........................................,-370.65,498.03
+08/20,,Withdrawal Debit Card Visa Check...........................................,-130.33,367.70
+08/20,,Withdrawal POS #323200116086...........................................,-64.76,302.94
+08/20,,Withdrawal POS #323213832536...........................................,-109.20,193.74
+08/20,,Withdrawal POS #323220528080...........................................,-45.22,148.52
+08/21,,Withdrawal Debit Card Visa Check...........................................,-15.22,133.30
+08/21,,Recurring Withdrawal Debit Card Visa Check..........................,-83.98,49.32
+08/21,,Deposit Home Banking Transfer From Share 00......................,160.00,209.32
+08/21,,Deposit Home Banking Transfer From Share 00......................,25.00,234.32
+08/21,,Deposit Home Banking Transfer From Share 13......................,85.00,319.32
+08/21,,Withdrawal POS #323300126576...........................................,-77.64,241.68
+08/22,,Withdrawal Debit Card Visa Check...........................................,-3.10,238.58
+08/23,,Withdrawal Debit Card Visa Check...........................................,-199.22,39.36
+08/23,,Withdrawal Debit Card Visa Check...........................................,-15.00,24.36
+08/23,,Deposit Home Banking Transfer From Share 00......................,350.00,374.36
+08/23,,Withdrawal POS #323500415517...........................................,-51.89,322.47
+08/24,,Withdrawal Debit Card Visa Check...........................................,-11.27,311.20
+08/24,,Withdrawal Debit Card Visa Check...........................................,-41.68,269.52
+08/24,,Withdrawal Debit Card Visa Check...........................................,-61.66,207.86
+08/24,,Deposit Home Banking Transfer From Share 00......................,130.00,337.86
+08/24,,Deposit Home Banking Transfer From Share 00......................,215.00,552.86
+08/24,,Withdrawal Debit Card Visa Check...........................................,-10.44,542.42
+08/25,,Withdrawal Debit Card Visa Check...........................................,-64.87,477.55
+08/25,,Withdrawal Debit Card Visa Check...........................................,-216.39,261.16
+08/25,,Withdrawal Debit Card Visa Check...........................................,-140.65,120.51
+08/25,,Deposit ACH Colorado Springs................................................,605.23,725.74
+08/25,,Withdrawal Debit Card Visa Check...........................................,-29.74,696.00
+08/25,,Withdrawal Debit Card Visa Check...........................................,-3.26,692.74
+08/25,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,392.74
+08/25,,Withdrawal POS #323800833669...........................................,-8.78,383.96
+08/25,,Withdrawal Debit Card Visa Check...........................................,-18.00,365.96
+08/26,,Withdrawal Debit Card Visa Check...........................................,-10.01,355.95
+08/26,,Deposit Home Banking Transfer From Share 00......................,600.00,955.95
+08/26,,Withdrawal Debit Card Visa Check...........................................,-12.66,943.29
+08/27,,Withdrawal Debit Card Visa Check...........................................,-516.05,427.24
+08/27,,Withdrawal Debit Card Visa Check...........................................,-10.00,417.24
+08/27,,Withdrawal Debit Card Visa Check...........................................,-10.87,406.37
+08/27,,Deposit Home Banking Transfer From Share 00......................,200.00,606.37
+08/27,,Withdrawal POS #323918639992...........................................,-127.08,479.29
+08/27,,Withdrawal Debit Card Visa Check...........................................,-10.00,469.29
+08/27,,Withdrawal Debit Card Visa Check...........................................,-35.56,433.73
+08/28,,Withdrawal Adjustment Debit Card Credit Voucher.................,213.62,647.35
+08/28,,Withdrawal Debit Card Visa Check...........................................,-210.34,437.01
+08/28,,Withdrawal POS #324000117257...........................................,-70.58,366.43
+08/28,,Withdrawal Debit Card Visa Check...........................................,-16.44,349.99
+08/28,,Withdrawal POS #324013343815...........................................,-2.89,347.10
+08/28,,Withdrawal Debit Card Visa Check...........................................,-68.40,278.70
+08/28,,Recurring Withdrawal Debit Card Visa Check..........................,-65.31,213.39
+08/28,,Withdrawal Debit Card Visa Check...........................................,-7.57,205.82
+08/30,,Withdrawal Debit Card Visa Check...........................................,-94.81,111.01
+08/30,,Withdrawal Debit Card Visa Check...........................................,-10.00,101.01
+08/31,,Withdrawal Debit Card Visa Check...........................................,-3.10,97.91
+08/31,,Deposit Dividend Tiered Rate..................................................,0.01,97.92
+08/02,,Deposit Home Banking Transfer From Share 10......................,200.00,300.14
+08/04,,Deposit Home Banking Transfer From Share 10......................,300.00,600.14
+08/11,,Deposit Home Banking Transfer From Share 10......................,300.00,900.14
+08/18,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,200.14"
+08/25,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,500.14"
+08/30,,Withdrawal Home Banking......................................................,"-1,200.00",300.14
+08/31,,Deposit Dividend Tiered Rate..................................................,0.04,300.18
+08/04,,Deposit Home Banking Transfer From Share 10......................,140.00,140.00
+08/08,,Withdrawal Home Banking Transfer To Share 10....................,-75.00,65.00
+08/10,,Withdrawal Home Banking Transfer To Share 10....................,-65.00,0.00
+08/11,,Deposit Home Banking Transfer From Share 10......................,160.00,160.00
+08/21,,Withdrawal Home Banking Transfer To Share 10....................,-85.00,75.00
+07/01,,Withdrawal Home Banking Transfer REF# 61038140..............,-170.00,"1,586.15"
+07/03,,Withdrawal Home Banking Transfer REF# 61097741..............,-25.00,"1,561.15"
+07/07,,Deposit ACH UNIVERSITY OF CO............................................,221.12,"1,782.27"
+07/08,,Withdrawal Home Banking Transfer To Share 10....................,-175.00,"1,607.27"
+07/14,,Deposit Home Banking Transfer From Share 10......................,75.00,"1,682.27"
+07/21,,Deposit ACH UNIVERSITY OF CO............................................,178.92,"1,861.19"
+07/22,,Withdrawal Home Banking Transfer REF# 61661367..............,"-1,800.00",61.19
+07/23,,Withdrawal Home Banking Transfer To Share 10....................,-30.00,31.19
+07/24,,Withdrawal Home Banking Transfer To Share 10....................,-25.00,6.19
+07/31,,Deposit Dividend 0.050%........................................................,0.05,6.24
+07/01,,Withdrawal POS #318218821934...........................................,-171.87,422.47
+07/02,,Withdrawal Debit Card Visa Check...........................................,-11.29,411.18
+07/02,,Recurring Withdrawal #318325103508...................................,-16.18,395.00
+07/02,,Withdrawal POS #318401362524...........................................,-60.86,334.14
+07/03,,Withdrawal Debit Card Visa Check...........................................,-142.01,192.13
+07/03,,Withdrawal Home Banking Transfer........................................,-60.00,132.13
+07/03,,Deposit Debit Card...................................................................,63.87,196.00
+07/04,,Recurring Withdrawal Debit Card Visa Check..........................,-0.99,195.01
+07/04,,Withdrawal Debit Card Visa Check...........................................,-15.00,180.01
+07/05,,Withdrawal POS #318609812490...........................................,-7.46,172.55
+07/05,,Withdrawal Debit Card Visa Check...........................................,-9.26,163.29
+07/06,,Withdrawal Home Banking Transfer REF# 61198600..............,-60.00,103.29
+07/07,,Recurring Withdrawal Debit Card Visa Check..........................,-1.49,101.80
+07/07,,Recurring Withdrawal Card Fee...............................................,-0.01,101.79
+07/23,07/07,Deposit ACH UNIVERSITY OF CO............................................,884.46,986.25
+07/07,,Withdrawal Debit Card Visa Check...........................................,-28.91,957.34
+07/07,,Withdrawal Debit Card Visa Check...........................................,-20.23,937.11
+07/07,,Withdrawal Debit Card Visa Check...........................................,-15.00,922.11
+07/07,,Withdrawal Debit Card Visa Check...........................................,-14.34,907.77
+07/07,,Withdrawal Debit Card Visa Check...........................................,-41.33,866.44
+07/08,,Withdrawal Debit Card Visa Check...........................................,-7.89,858.55
+07/08,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,558.55
+07/08,,Withdrawal Home Banking Transfer REF# 61253232..............,-100.00,458.55
+07/08,,Withdrawal Home Banking Transfer REF# 61253233..............,-35.00,423.55
+07/08,,Withdrawal Home Banking Transfer REF# 61253234..............,-75.00,348.55
+07/08,,Withdrawal POS #318914056307...........................................,-166.96,181.59
+07/08,,Withdrawal Debit Card Visa Check...........................................,-12.00,169.59
+07/08,,Deposit Home Banking Transfer From Share 00......................,175.00,344.59
+07/08,,Withdrawal Debit Card Visa Check...........................................,-16.00,328.59
+07/09,,Withdrawal Debit Card Visa Check...........................................,-139.82,188.77
+07/09,,Withdrawal POS #319018951826...........................................,-44.33,144.44
+07/09,,Withdrawal Debit Card Visa Check...........................................,-47.59,96.85
+07/09,,Withdrawal Debit Card Visa Check...........................................,-21.24,75.61
+07/10,,Recurring Withdrawal #319120743317...................................,-20.60,55.01
+07/11,,Withdrawal POS #319300810938...........................................,-5.92,49.09
+07/11,,Deposit Home Banking Transfer From Share 13......................,70.00,119.09
+07/12,07/11,Deposit Home Banking Transfer..............................................,640.00,759.09
+07/12,,Withdrawal Debit Card Visa Check...........................................,-71.17,687.92
+07/12,,Withdrawal POS #319322134725...........................................,-4.77,683.15
+07/13,,Withdrawal POS #319408583001...........................................,-7.46,675.69
+07/13,,Withdrawal Debit Card Visa Check...........................................,-40.01,635.68
+07/13,,Withdrawal Debit Card Visa Check...........................................,-32.73,602.95
+07/13,,Deposit Home Banking Transfer From Share 13......................,40.00,642.95
+07/14,,Deposit ACH Colorado Springs................................................,"1,273.20","1,916.15"
+07/14,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,"1,616.15"
+07/14,,Withdrawal Home Banking Transfer To Share 13....................,-140.00,"1,476.15"
+07/14,,Withdrawal Home Banking Transfer REF# 61413828..............,-35.00,"1,441.15"
+07/14,,Withdrawal Home Banking Transfer REF# 61413845..............,-125.00,"1,316.15"
+07/14,,Withdrawal Home Banking Transfer REF# 61413857..............,-150.00,"1,166.15"
+07/14,,Withdrawal Home Banking Transfer To Share 00....................,-75.00,"1,091.15"
+07/14,,Withdrawal Debit Card Visa Check...........................................,-8.00,"1,083.15"
+07/14,,Deposit Home Banking Transfer REF# 61445217....................,500.00,"1,583.15"
+07/14,,Recurring Withdrawal Debit Card Visa Check..........................,-15.99,"1,567.16"
+07/14,,Recurring Withdrawal Debit Card Visa Check..........................,-0.99,"1,566.17"
+07/14,,Withdrawal POS #319523421450...........................................,-81.12,"1,485.05"
+07/15,,Withdrawal Debit Card Visa Check...........................................,-461.22,"1,023.83"
+07/15,,Withdrawal POS #319612401966...........................................,-21.15,"1,002.68"
+07/15,,Withdrawal Debit Card Visa Check...........................................,-17.43,985.25
+07/15,,Withdrawal POS #319700737370...........................................,-8.17,977.08
+07/15,,Withdrawal Debit Card Visa Check...........................................,-7.57,969.51
+07/15,,Withdrawal Debit Card Visa Check...........................................,-10.00,959.51
+07/16,,Withdrawal Debit Card Visa Check...........................................,-28.39,931.12
+07/16,,Withdrawal Debit Card Visa Check...........................................,-18.65,912.47
+07/17,,Withdrawal POS #319817883562...........................................,-58.64,853.83
+07/17,,Deposit Home Banking Transfer From Share 13......................,70.00,923.83
+07/17,,Withdrawal POS #319818782546...........................................,-9.58,914.25
+07/17,,Withdrawal POS #319900308695...........................................,-64.80,849.45
+07/17,,Withdrawal Debit Card Visa Check...........................................,-60.00,789.45
+07/18,,Withdrawal POS #319920854403...........................................,-15.18,774.27
+07/18,,Withdrawal Debit Card Visa Check...........................................,-605.91,168.36
+07/18,,Withdrawal Debit Card Visa Check...........................................,-4.43,163.93
+07/20,,Deposit Home Banking Transfer REF# 61596534....................,150.00,313.93
+07/21,,Withdrawal Adjustment Debit Card Credit Voucher.................,43.27,357.20
+07/21,,Deposit ACH UNIVERSITY OF CO............................................,715.67,"1,072.87"
+07/21,,Withdrawal POS #320200117131...........................................,-45.00,"1,027.87"
+07/22,,Withdrawal Debit Card Visa Check...........................................,-20.20,"1,007.67"
+07/22,,Withdrawal POS #320309559835...........................................,-12.99,994.68
+07/22,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,694.68
+07/22,,Withdrawal Home Banking Transfer To Share 13....................,-40.00,654.68
+07/22,,Withdrawal Home Banking Transfer REF# 61659233..............,-35.00,619.68
+07/22,,Withdrawal Home Banking Transfer REF# 61659278..............,-100.00,519.68
+07/22,,Withdrawal Home Banking Transfer REF# 61659289..............,-100.00,419.68
+07/22,,Deposit Home Banking Transfer From Share 13......................,70.00,489.68
+07/22,,Withdrawal POS #320317649475...........................................,-2.15,487.53
+07/22,,Withdrawal POS #320317649940...........................................,-86.78,400.75
+07/22,,Withdrawal POS #320300015795...........................................,-28.90,371.85
+07/23,,Deposit Home Banking Transfer From Share 13......................,70.00,441.85
+07/23,,Withdrawal Debit Card Visa Check...........................................,-309.66,132.19
+07/23,,Deposit Home Banking Transfer From Share 00......................,30.00,162.19
+07/24,,Withdrawal Debit Card Visa Check...........................................,-62.99,99.20
+07/24,,Withdrawal Debit Card Visa Check...........................................,-11.63,87.57
+07/24,,Withdrawal Debit Card Visa Check...........................................,-64.65,22.92
+07/24,,Withdrawal Debit Card Visa Check...........................................,-11.67,11.25
+07/24,,Deposit Home Banking Transfer From Share 00......................,25.00,36.25
+07/24,,Deposit Debit Card...................................................................,10.25,46.50
+07/24,,Withdrawal Debit Card Visa Check...........................................,-15.45,31.05
+07/24,,Withdrawal Debit Card Visa Check...........................................,-15.45,15.60
+07/25,,Deposit Home Banking Transfer From Share 11......................,25.00,40.60
+07/25,,Withdrawal POS #320619764023...........................................,-27.37,13.23
+07/26,,Withdrawal Debit Card Visa Check...........................................,-3.33,9.90
+07/28,,Deposit ACH Colorado Springs................................................,"1,253.49","1,263.39"
+07/28,,Withdrawal POS #320915852938...........................................,-18.38,"1,245.01"
+07/28,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,945.01
+07/28,,Withdrawal POS #320900016991...........................................,-44.22,900.79
+07/28,,Withdrawal Debit Card Visa Check...........................................,-4.44,896.35
+07/29,,Withdrawal Debit Card Visa Check...........................................,-0.97,895.38
+07/29,,Withdrawal at ATM #000000008426.......................................,-50.00,845.38
+07/29,,Withdrawal POS #321009774744...........................................,-9.27,836.11
+07/29,,Withdrawal Debit Card Visa Check...........................................,-0.28,835.83
+07/29,,Withdrawal Debit Card Visa Check...........................................,-281.31,554.52
+07/29,,Withdrawal POS #321016054584...........................................,-72.19,482.33
+07/29,,Withdrawal POS #321022359840...........................................,-44.95,437.38
+07/30,,Withdrawal POS #321113857428...........................................,-40.08,397.30
+07/30,,Deposit Home Banking Transfer From Share 11......................,200.00,597.30
+07/30,,Withdrawal POS #321116616214...........................................,-186.52,410.78
+07/30,,Withdrawal POS #321120358893...........................................,-6.98,403.80
+07/30,,Withdrawal Debit Card Visa Check...........................................,-10.00,393.80
+07/31,,Withdrawal Debit Card Visa Check...........................................,-8.40,385.40
+07/31,,Withdrawal Home Banking Transfer REF# 61926184..............,-100.00,285.40
+07/31,,Withdrawal Home Banking Transfer REF# 61926199..............,-100.00,185.40
+07/31,,Withdrawal Home Banking Transfer REF# 61926212..............,-35.00,150.40
+07/31,,Deposit Dividend Tiered Rate..................................................,0.02,150.42
+07/08,,Deposit Home Banking Transfer From Share 10......................,300.00,600.11
+07/14,,Deposit Home Banking Transfer From Share 10......................,300.00,900.11
+07/22,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,200.11"
+07/25,,Withdrawal Home Banking Transfer To Share 10....................,-25.00,"1,175.11"
+07/25,,Deposit Home Banking Transfer REF# 61745338....................,25.00,"1,200.11"
+07/28,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,500.11"
+07/30,,Withdrawal Home Banking Transfer To Share 10....................,-200.00,"1,300.11"
+07/31,,Withdrawal Home Banking......................................................,"-1,200.00",100.11
+07/31,,Deposit Dividend Tiered Rate..................................................,0.03,100.14
+07/11,,Withdrawal Home Banking Transfer To Share 10....................,-70.00,70.00
+07/13,,Withdrawal Home Banking Transfer To Share 10....................,-40.00,30.00
+07/14,,Deposit Home Banking Transfer From Share 10......................,140.00,170.00
+07/17,,Withdrawal Home Banking Transfer To Share 10....................,-70.00,100.00
+07/22,,Deposit Home Banking Transfer From Share 10......................,40.00,140.00
+07/22,,Withdrawal Home Banking Transfer To Share 10....................,-70.00,70.00
+07/23,,Withdrawal Home Banking Transfer To Share 10....................,-70.00,0.00
+06/02,,Deposit ACH Colorado Springs................................................,138.06,"1,455.31"
+06/09,,Deposit ACH UNIVERSITY OF CO............................................,156.89,"1,612.20"
+06/13,,Withdrawal Home Banking Transfer To Share 10....................,-130.00,"1,482.20"
+06/13,,Deposit Home Banking Transfer From Share 10......................,130.00,"1,612.20"
+06/16,,Deposit ACH Colorado Springs................................................,127.32,"1,739.52"
+06/16,,Withdrawal at ATM #000000007995.......................................,-120.00,"1,619.52"
+06/19,,Withdrawal Home Banking Transfer To Share 10....................,-190.00,"1,429.52"
+06/23,,Deposit ACH UNIVERSITY OF CO............................................,225.15,"1,654.67"
+06/29,,Withdrawal Home Banking Transfer REF# 60946832..............,-35.00,"1,619.67"
+06/30,,Deposit ACH Colorado Springs................................................,136.42,"1,756.09"
+06/30,,Deposit Dividend 0.050%........................................................,0.06,"1,756.15"
+06/02,,Deposit ACH Colorado Springs................................................,"1,242.61","1,255.63"
+06/02,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,955.63
+06/02,,Withdrawal Home Banking Transfer To Share 12....................,-200.00,755.63
+06/02,,Withdrawal Home Banking Transfer To Share 13....................,-100.00,655.63
+06/02,,Withdrawal Home Banking Transfer........................................,-50.00,605.63
+06/02,,Withdrawal Home Banking Transfer........................................,-70.00,535.63
+06/02,,Withdrawal Home Banking Transfer REF# 60167223..............,-50.00,485.63
+06/02,,Withdrawal Home Banking Transfer........................................,-150.00,335.63
+06/02,,Withdrawal Home Banking Transfer........................................,-50.00,285.63
+06/02,,Deposit Home Banking Transfer From Share 13......................,70.00,355.63
+06/02,,Withdrawal #315314872552...................................................,-5.99,349.64
+06/02,,Recurring Withdrawal #315314872681...................................,-0.99,348.65
+06/03,,Withdrawal Debit Card Visa Check...........................................,-2.25,346.40
+06/03,,Withdrawal Home Banking Transfer REF# 60226981..............,-65.00,281.40
+06/03,,Withdrawal POS #315416655923...........................................,-44.32,237.08
+06/03,,Withdrawal Debit Card Visa Check...........................................,-30.76,206.32
+06/04,,Withdrawal Debit Card Visa Check...........................................,-11.34,194.98
+06/04,,Deposit Home Banking Transfer From Share 12......................,200.00,394.98
+06/04,,Withdrawal POS #315512616204...........................................,-13.51,381.47
+06/04,,Withdrawal POS #315513690790...........................................,-211.48,169.99
+06/04,,Withdrawal POS #315515759077...........................................,-4.39,165.60
+06/04,,Withdrawal POS #315519916573...........................................,-58.60,107.00
+06/05,,Withdrawal Debit Card Visa Check...........................................,-31.10,75.90
+06/06,,Deposit Home Banking Transfer From Share 13......................,59.00,134.90
+06/07,,Recurring Withdrawal Debit Card Visa Check..........................,-1.49,133.41
+06/07,,Recurring Withdrawal Card Fee...............................................,-0.01,133.40
+07/23,06/07,Withdrawal Debit Card Visa Check...........................................,-59.00,74.40
+06/09,,Withdrawal Debit Card Visa Check...........................................,-17.19,57.21
+06/09,,Deposit ACH UNIVERSITY OF CO............................................,627.55,684.76
+06/09,,Withdrawal POS #316100558179...........................................,-79.00,605.76
+06/10,,Recurring Withdrawal #316120713786...................................,-20.60,585.16
+06/10,,Withdrawal POS #316200739568...........................................,-31.61,553.55
+06/11,,Withdrawal Debit Card Visa Check...........................................,-69.99,483.56
+06/11,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,183.56
+06/11,,Withdrawal Debit Card Visa Check...........................................,-21.35,162.21
+06/11,,Withdrawal Debit Card Visa Check...........................................,-20.77,141.44
+06/12,,Withdrawal POS #316308958038...........................................,-8.31,133.13
+06/13,,Withdrawal Debit Card Visa Check...........................................,-25.50,107.63
+06/13,,Deposit Home Banking Transfer From Share 00......................,130.00,237.63
+06/13,,Withdrawal Home Banking Transfer To Share 00....................,-130.00,107.63
+06/14,,Recurring Withdrawal #316503925247...................................,-0.99,106.64
+06/14,,Withdrawal Debit Card Visa Check...........................................,-32.50,74.14
+06/15,,Withdrawal POS #316608746799...........................................,-7.92,66.22
+06/15,,Withdrawal #316620692007...................................................,-21.98,44.24
+06/15,,Withdrawal Debit Card Visa Check...........................................,-14.08,30.16
+06/16,,Deposit ACH Colorado Springs................................................,"1,145.88","1,176.04"
+06/16,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,876.04
+06/16,,Withdrawal POS #316710071598...........................................,-61.99,814.05
+06/16,,Withdrawal Home Banking Transfer To Share 13....................,-90.00,724.05
+06/16,,Withdrawal Home Banking Transfer REF# 60593541..............,-35.00,689.05
+06/16,,Withdrawal Home Banking Transfer REF# 60593557..............,-100.00,589.05
+06/16,,Withdrawal Home Banking Transfer REF# 60593565..............,-100.00,489.05
+06/16,,Withdrawal Home Banking Transfer REF# 60593585..............,-50.00,439.05
+06/16,,Withdrawal POS #316712240060...........................................,-2.90,436.15
+06/16,,Withdrawal Debit Card Visa Check...........................................,-3.50,432.65
+06/16,,Withdrawal POS #316700117594...........................................,-60.84,371.81
+06/16,,Withdrawal POS #316800641323...........................................,-46.23,325.58
+06/17,,Withdrawal POS #316818058734...........................................,-140.05,185.53
+06/18,,Withdrawal POS #316915040942...........................................,-4.10,181.43
+06/18,,Withdrawal POS #316911153172...........................................,-10.27,171.16
+06/18,,Withdrawal Debit Card Visa Check...........................................,-27.56,143.60
+06/19,,Deposit Home Banking Transfer From Share 13......................,96.01,239.61
+06/19,,Deposit Home Banking Transfer..............................................,100.00,339.61
+06/19,,Deposit Home Banking Transfer From Share 00......................,190.00,529.61
+06/19,,Recurring Withdrawal #317025745220...................................,-28.64,500.97
+06/20,,Withdrawal Debit Card Visa Check...........................................,-12.55,488.42
+06/20,,Recurring Withdrawal #317124745248...................................,-211.05,277.37
+06/20,,Withdrawal Home Banking Transfer REF# 60691845..............,-100.00,177.37
+06/21,,Withdrawal Debit Card Visa Check...........................................,-92.22,85.15
+06/21,,Withdrawal POS #317300420487...........................................,-3.29,81.86
+06/22,,Withdrawal Debit Card Visa Check...........................................,-2.25,79.61
+06/23,,Deposit ACH UNIVERSITY OF CO............................................,900.61,980.22
+06/23,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,680.22
+06/23,,Withdrawal Home Banking Transfer REF# 60802015..............,-35.00,645.22
+06/23,,Withdrawal Home Banking Transfer To Share 13....................,-70.00,575.22
+06/23,,Withdrawal Home Banking Transfer REF# 60802168..............,-50.00,525.22
+06/23,,Withdrawal Home Banking Transfer REF# 60802187..............,-50.00,475.22
+06/23,,Withdrawal Home Banking Transfer REF# 60802206..............,-75.00,400.22
+06/23,,Withdrawal POS #317500661638...........................................,-2.49,397.73
+06/24,,Withdrawal Debit Card Visa Check...........................................,-11.11,386.62
+06/24,,Withdrawal Debit Card Visa Check...........................................,-24.56,362.06
+06/25,,Withdrawal Debit Card Visa Check...........................................,-11.64,350.42
+06/25,,Withdrawal Debit Card Visa Check...........................................,-59.59,290.83
+06/25,,Withdrawal Debit Card Visa Check...........................................,-10.34,280.49
+06/25,,Withdrawal Debit Card Visa Check...........................................,-11.67,268.82
+06/25,,Withdrawal POS #317614750282...........................................,-22.67,246.15
+06/26,,Withdrawal Debit Card Visa Check...........................................,-16.05,230.10
+06/26,,Withdrawal Debit Card Visa Check...........................................,-25.00,205.10
+06/26,,Withdrawal Debit Card Visa Check...........................................,-37.50,167.60
+06/27,,Withdrawal POS #317808575680...........................................,-6.23,161.37
+06/27,,Deposit Home Banking Transfer From Share 13......................,30.00,191.37
+06/27,,Withdrawal POS #317814487879...........................................,-117.29,74.08
+06/27,,Withdrawal POS #317818929022...........................................,-34.89,39.19
+06/28,,Withdrawal Debit Card Visa Check...........................................,-4.43,34.76
+06/28,,Withdrawal Debit Card Visa Check...........................................,-7.45,27.31
+06/28,,Deposit Home Banking Transfer From Share 13......................,65.00,92.31
+06/29,,Withdrawal Debit Card Visa Check...........................................,-62.17,30.14
+06/29,,Withdrawal POS #318017276368...........................................,-3.25,26.89
+06/30,,Withdrawal Debit Card Visa Check...........................................,-20.36,6.53
+06/30,,Deposit ACH Colorado Springs................................................,"1,227.80","1,234.33"
+06/30,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,934.33
+06/30,,Withdrawal Home Banking Transfer To Share 13....................,-105.00,829.33
+06/30,,Withdrawal Home Banking Transfer REF# 60990395..............,-100.00,729.33
+06/30,,Withdrawal Home Banking Transfer REF# 60990444..............,-100.00,629.33
+06/30,,Withdrawal Home Banking Transfer REF# 60990468..............,-35.00,594.33
+06/30,,Deposit Dividend Tiered Rate..................................................,0.01,594.34
+06/02,,Deposit Home Banking Transfer From Share 10......................,300.00,300.08
+06/11,,Deposit Home Banking Transfer From Share 10......................,300.00,600.08
+06/16,,Deposit Home Banking Transfer From Share 10......................,300.00,900.08
+06/23,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,200.08"
+06/30,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,500.08"
+06/30,,Withdrawal Home Banking......................................................,"-1,200.00",300.08
+06/30,,Deposit Dividend Tiered Rate..................................................,0.03,300.11
+06/02,,Deposit Home Banking Transfer From Share 10......................,200.00,200.00
+06/04,,Withdrawal Home Banking Transfer To Share 10....................,-200.00,0.00
+06/02,,Deposit Home Banking Transfer From Share 10......................,100.00,195.01
+06/02,,Withdrawal Home Banking Transfer To Share 10....................,-70.00,125.01
+06/06,,Withdrawal Home Banking Transfer To Share 10....................,-59.00,66.01
+06/16,,Deposit Home Banking Transfer From Share 10......................,90.00,156.01
+06/19,,Withdrawal Home Banking Transfer To Share 10....................,-96.01,60.00
+06/23,,Deposit Home Banking Transfer From Share 10......................,70.00,130.00
+06/27,,Withdrawal Home Banking Transfer To Share 10....................,-30.00,100.00
+06/28,,Withdrawal Home Banking Transfer To Share 10....................,-65.00,35.00
+06/30,,Deposit Home Banking Transfer From Share 10......................,105.00,140.00
+03/27,,Deposit Transfer......................................................................,488.79,488.79
+03/27,,Deposit Transfer......................................................................,"1,146.46","1,635.25"
+03/31,,Deposit Dividend 0.050%........................................................,0.01,"1,635.26"
+03/27,,Deposit Home Banking Transfer REF# 58190038....................,400.00,400.00
+03/28,,Withdrawal POS #308700004103...........................................,-17.82,382.18
+03/29,,Withdrawal POS #308809777019...........................................,-11.37,370.81
+03/31,,Deposit Home Banking Transfer REF# 58315573....................,750.00,"1,120.81"
+03/31,,Withdrawal POS #309020857760...........................................,-6.42,"1,114.39"
+03/27,,Deposit Home Banking Transfer REF# 58189689....................,"1,000.00","1,000.00"
+03/27,,Deposit Home Banking Transfer REF# 58190049....................,40.00,"1,040.00"
+03/31,,Withdrawal Home Banking Transfer REF# 58312662..............,"-1,040.00",0.00
+03/31,,Deposit Dividend Tiered Rate..................................................,0.01,0.01
+03/27,,Deposit Home Banking Transfer REF# 58189594....................,150.00,150.00
+03/27,,Deposit Home Banking Transfer REF# 58189742....................,120.00,120.00
+05/03,,Deposit Home Banking Transfer From Share 10......................,75.00,"1,989.87"
+05/08,,Withdrawal Home Banking Transfer To Share 10....................,-60.00,"1,929.87"
+05/08,,Withdrawal Transfer To Share 10............................................,-19.33,"1,910.54"
+05/08,,Withdrawal Home Banking Transfer To Share 10....................,-50.00,"1,860.54"
+05/09,,Withdrawal Home Banking Transfer To Share 10....................,-150.00,"1,710.54"
+05/09,,Deposit at ATM #000000005154.............................................,150.00,"1,860.54"
+05/12,,Deposit ACH UNIVERSITY OF CO............................................,156.89,"2,017.43"
+05/14,,Withdrawal Transfer To Share 10............................................,-12.90,"2,004.53"
+05/14,,Withdrawal Home Banking Transfer To Share 10....................,-60.00,"1,944.53"
+05/14,,Withdrawal Home Banking Transfer To Share 10....................,-50.00,"1,894.53"
+05/15,,Withdrawal Home Banking Transfer To Share 10....................,-200.00,"1,694.53"
+05/16,,Withdrawal Home Banking Transfer To Share 10....................,-450.00,"1,244.53"
+05/19,,Withdrawal Transfer To Share 10............................................,-6.60,"1,237.93"
+05/26,,Deposit ACH UNIVERSITY OF CO............................................,156.89,"1,394.82"
+05/27,,Withdrawal Home Banking Transfer To Share 10....................,-80.00,"1,314.82"
+05/28,,Withdrawal Transfer To Share 10............................................,-45.21,"1,269.61"
+05/28,,Withdrawal Transfer To Share 10............................................,-32.43,"1,237.18"
+05/28,,Deposit Home Banking Transfer From Share 10......................,80.00,"1,317.18"
+05/31,,Deposit Dividend 0.050%........................................................,0.07,"1,317.25"
+05/01,04/30,Withdrawal Debit Card Visa Check...........................................,-10.74,241.41
+05/01,,Withdrawal Debit Card Visa Check...........................................,-5.91,235.50
+05/02,,Withdrawal POS #312212933782...........................................,-6.31,229.19
+05/02,,Withdrawal POS #312213315401...........................................,-3.60,225.59
+05/02,,Recurring Withdrawal #312214627770...................................,-0.99,224.60
+05/03,,Withdrawal Debit Card Visa Check...........................................,-19.45,205.15
+05/03,,Withdrawal Debit Card Visa Check...........................................,-34.94,170.21
+05/03,,Deposit ACH SUCCESS FOODS MA.........................................,931.43,"1,101.64"
+05/03,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,801.64
+05/03,,Withdrawal Home Banking Transfer REF# 59297850..............,-150.00,651.64
+05/03,,Withdrawal Home Banking Transfer To Share 13....................,-150.00,501.64
+05/03,,Withdrawal Home Banking Transfer To Share 00....................,-75.00,426.64
+05/03,,Withdrawal Home Banking Transfer REF# 59297881..............,-70.00,356.64
+05/03,,Withdrawal Debit Card Visa Check...........................................,-9.45,347.19
+05/03,,Withdrawal POS #312314555822...........................................,-5.90,341.29
+05/03,,Withdrawal Debit Card Visa Check...........................................,-18.65,322.64
+05/03,,Withdrawal Debit Card Visa Check...........................................,-43.27,279.37
+05/04,,Withdrawal Debit Card Visa Check...........................................,-22.76,256.61
+05/04,,Withdrawal Debit Card Visa Check...........................................,-2.25,254.36
+05/05,,Withdrawal POS #312511862912...........................................,-15.52,238.84
+05/05,,Withdrawal at ATM #000000002119.......................................,-150.00,88.84
+05/05,,Withdrawal POS #312516310431...........................................,-58.32,30.52
+05/05,,Deposit Home Banking Transfer From Share 13......................,200.00,230.52
+05/05,,Withdrawal Debit Card Visa Check...........................................,-11.23,219.29
+05/05,,Withdrawal Debit Card Visa Check...........................................,-36.76,182.53
+05/06,,Withdrawal Debit Card Visa Check...........................................,-6.59,175.94
+05/06,,Withdrawal Debit Card Visa Check...........................................,-2.25,173.69
+05/06,,Withdrawal POS #312611677104...........................................,-11.80,161.89
+05/06,,Withdrawal POS #312600511771...........................................,-28.60,133.29
+05/06,,Withdrawal POS #312613838091...........................................,-57.60,75.69
+05/06,,Deposit Home Banking Transfer From Share 12......................,30.00,105.69
+05/07,,Withdrawal Debit Card Visa Check...........................................,-6.05,99.64
+05/07,,Recurring Withdrawal Debit Card Visa Check..........................,-1.49,98.15
+05/07,,Recurring Withdrawal Card Fee...............................................,-0.01,98.14
+07/23,05/07,Withdrawal POS #312713895803...........................................,-5.18,92.96
+05/07,,Deposit Home Banking Transfer From Share 12......................,120.00,212.96
+05/07,,Withdrawal Debit Card Visa Check...........................................,-6.42,206.54
+05/07,,Withdrawal POS #312720042817...........................................,-28.11,178.43
+05/08,,Withdrawal Debit Card Visa Check...........................................,-12.13,166.30
+05/08,,Withdrawal Debit Card Visa Check...........................................,-5.94,160.36
+05/08,,Deposit Home Banking Transfer From Share 00......................,60.00,220.36
+05/08,,Deposit Transfer From Share 00..............................................,19.33,239.69
+05/08,,Withdrawal POS #312820836490...........................................,-239.69,0.00
+05/08,,Deposit Home Banking Transfer From Share 00......................,50.00,50.00
+05/08,,Withdrawal POS #312901626718...........................................,-49.98,0.02
+05/09,,Deposit Home Banking Transfer From Share 00......................,150.00,150.02
+05/09,,Withdrawal POS #312900123838...........................................,-60.38,89.64
+05/09,,Withdrawal Debit Card Visa Check...........................................,-64.09,25.55
+05/10,,Recurring Withdrawal #313021717980...................................,-20.60,4.95
+05/11,,Deposit Home Banking Transfer REF# 59532771....................,100.00,104.95
+05/11,,Withdrawal Debit Card Visa Check...........................................,-3.88,101.07
+05/11,,Withdrawal Debit Card Visa Check...........................................,-59.95,41.12
+05/12,,Deposit ACH UNIVERSITY OF CO............................................,627.55,668.67
+05/12,,Withdrawal Debit Card Visa Check...........................................,-39.18,629.49
+05/12,,Withdrawal POS #313214755150...........................................,-13.09,616.40
+05/12,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,316.40
+05/12,,Withdrawal Home Banking Transfer To Share 12....................,-150.00,166.40
+05/12,,Withdrawal Home Banking Transfer REF# 59582648..............,-35.00,131.40
+05/12,,Withdrawal Home Banking Transfer To Share 13....................,-56.00,75.40
+05/13,,Withdrawal POS #313300012501...........................................,-13.26,62.14
+05/13,,Deposit Home Banking Transfer From Share 12......................,62.00,124.14
+05/14,,Recurring Withdrawal #313403573000...................................,-0.99,123.15
+05/14,,Deposit Transfer From Share 00..............................................,12.90,136.05
+05/14,,Recurring Withdrawal #313410578982...................................,-15.99,120.06
+05/14,,Deposit Home Banking Transfer From Share 12......................,88.01,208.07
+05/14,,Deposit Home Banking Transfer From Share 00......................,60.00,268.07
+05/14,,Deposit Home Banking Transfer From Share 00......................,50.00,318.07
+05/14,,Withdrawal POS #313412473477...........................................,-168.91,149.16
+05/14,,Withdrawal Debit Card Visa Check...........................................,-28.19,120.97
+05/14,,Withdrawal Debit Card Visa Check...........................................,-20.00,100.97
+05/15,,Withdrawal Debit Card Visa Check...........................................,-29.00,71.97
+05/15,,Recurring Withdrawal Debit Card Visa Check..........................,-49.60,22.37
+05/15,,Deposit Home Banking Transfer From Share 00......................,200.00,222.37
+05/15,,Withdrawal POS #313521598565...........................................,-159.42,62.95
+05/16,,Withdrawal POS #313615507897...........................................,-5.58,57.37
+05/16,,Deposit Home Banking Transfer From Share 00......................,450.00,507.37
+05/16,,Deposit Home Banking Transfer From Share 13......................,40.00,547.37
+05/16,,Withdrawal Debit Card Visa Check...........................................,-12.99,534.38
+05/17,,Withdrawal Debit Card Visa Check...........................................,-6.59,527.79
+05/17,,Deposit ACH SUCCESS FOODS MA.........................................,735.49,"1,263.28"
+05/17,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,963.28
+05/17,,Withdrawal Home Banking Transfer To Share 12....................,-150.00,813.28
+05/17,,Withdrawal Home Banking Transfer To Share 13....................,-100.00,713.28
+05/17,,Withdrawal Debit Card Visa Check...........................................,-56.52,656.76
+05/17,,Withdrawal Debit Card Visa Check...........................................,-463.50,193.26
+05/18,,Deposit Home Banking Transfer REF# 59744236....................,100.00,293.26
+05/18,,Withdrawal Home Banking Transfer REF# 59744305..............,-50.00,243.26
+05/18,,Withdrawal Debit Card Visa Check...........................................,-10.00,233.26
+05/19,,Withdrawal Debit Card Visa Check...........................................,-88.83,144.43
+05/19,,Withdrawal Debit Card Visa Check...........................................,-29.18,115.25
+05/19,,Withdrawal Debit Card Visa Check...........................................,-56.19,59.06
+05/19,,Deposit Transfer From Share 00..............................................,6.60,65.66
+05/19,,Withdrawal POS #313921811715...........................................,-65.66,0.00
+05/19,,Deposit Home Banking Transfer From Share 13......................,60.00,60.00
+05/21,,Deposit Home Banking Transfer From Share 12......................,150.00,210.00
+05/21,,Withdrawal POS #314118550960...........................................,-94.86,115.14
+05/21,,Withdrawal POS #314114869033...........................................,-15.88,99.26
+05/22,,Withdrawal Debit Card Visa Check...........................................,-17.57,81.69
+05/22,,Withdrawal POS #314208565940...........................................,-6.23,75.46
+05/22,,Withdrawal Debit Card Visa Check...........................................,-19.44,56.02
+05/23,,Deposit Home Banking Transfer From Share 13......................,50.00,106.02
+05/23,,Withdrawal POS #314300126987...........................................,-50.05,55.97
+05/25,,Deposit at ATM #000000008094.............................................,55.00,110.97
+05/26,,Deposit ACH UNIVERSITY OF CO............................................,627.55,738.52
+05/26,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,438.52
+05/26,,Withdrawal Home Banking Transfer To Share 12....................,-175.00,263.52
+05/26,,Withdrawal Home Banking Transfer To Share 13....................,-120.00,143.52
+05/26,,Withdrawal Home Banking Transfer REF# 59946173..............,-25.00,118.52
+05/26,,Withdrawal POS #314619485119...........................................,-26.49,92.03
+05/27,,Withdrawal Debit Card Visa Check...........................................,-21.62,70.41
+05/27,,Deposit Home Banking Transfer From Share 00......................,80.00,150.41
+05/27,,Deposit Home Banking Transfer From Share 13......................,50.00,200.41
+05/27,,Withdrawal POS #314700118324...........................................,-54.04,146.37
+05/27,,Withdrawal POS #314714964259...........................................,-63.55,82.82
+05/28,05/27,Withdrawal Debit Card Visa Check...........................................,-28.39,54.43
+05/28,,Deposit Transfer From Share 00..............................................,45.21,99.64
+05/28,,Withdrawal POS #314815030772...........................................,-99.64,0.00
+05/28,,Deposit Transfer From Share 00..............................................,32.43,32.43
+05/28,,Withdrawal POS #314816919142...........................................,-32.43,0.00
+05/28,,Deposit Home Banking Transfer From Share 12......................,175.00,175.00
+05/28,,Withdrawal Home Banking Transfer To Share 00....................,-80.00,95.00
+05/28,,Withdrawal POS #314820311480...........................................,-44.43,50.57
+05/28,,Withdrawal POS #314822824843...........................................,-27.65,22.92
+05/28,,Deposit Home Banking Transfer From Share 13......................,20.00,42.92
+05/29,,Withdrawal Debit Card Visa Check...........................................,-15.45,27.47
+05/30,,Deposit Home Banking Transfer From Share 13......................,5.00,32.47
+05/30,,Withdrawal POS #315023748096...........................................,-10.98,21.49
+05/31,,Withdrawal POS #315117948752...........................................,-3.21,18.28
+05/31,,Withdrawal POS #315118883149...........................................,-5.26,13.02
+05/01,,Withdrawal Home Banking......................................................,"-1,200.00",0.05
+05/03,,Deposit Home Banking Transfer From Share 10......................,300.00,300.05
+05/12,,Deposit Home Banking Transfer From Share 10......................,300.00,600.05
+05/17,,Deposit Home Banking Transfer From Share 10......................,300.00,900.05
+05/26,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,200.05"
+05/30,,Withdrawal Home Banking......................................................,"-1,200.00",0.05
+05/31,,Deposit Dividend Tiered Rate..................................................,0.03,0.08
+05/03,,Deposit Home Banking Transfer REF# 59297925....................,150.00,150.01
+05/06,,Withdrawal Home Banking Transfer To Share 10....................,-30.00,120.01
+05/07,,Withdrawal Home Banking Transfer To Share 10....................,-120.00,0.01
+05/12,,Deposit Home Banking Transfer From Share 10......................,150.00,150.01
+05/13,,Withdrawal Home Banking Transfer To Share 10....................,-62.00,88.01
+05/14,,Withdrawal Home Banking Transfer To Share 10....................,-88.01,0.00
+05/17,,Deposit Home Banking Transfer From Share 10......................,150.00,150.00
+05/21,,Withdrawal Home Banking Transfer To Share 10....................,-150.00,0.00
+05/26,,Deposit Home Banking Transfer From Share 10......................,175.00,175.00
+05/28,,Withdrawal Home Banking Transfer To Share 10....................,-175.00,0.00
+05/03,,Deposit Home Banking Transfer From Share 10......................,150.00,244.01
+05/05,,Withdrawal Home Banking Transfer To Share 10....................,-200.00,44.01
+05/12,,Deposit Home Banking Transfer From Share 10......................,56.00,100.01
+05/16,,Withdrawal Home Banking Transfer To Share 10....................,-40.00,60.01
+05/17,,Deposit Home Banking Transfer From Share 10......................,100.00,160.01
+05/19,,Withdrawal Home Banking Transfer To Share 10....................,-60.00,100.01
+05/23,,Withdrawal Home Banking Transfer To Share 10....................,-50.00,50.01
+05/26,,Deposit Home Banking Transfer From Share 10......................,120.00,170.01
+05/27,,Withdrawal Home Banking Transfer To Share 10....................,-50.00,120.01
+05/28,,Withdrawal Home Banking Transfer To Share 10....................,-20.00,100.01
+05/30,,Withdrawal Home Banking Transfer To Share 10....................,-5.00,95.01
+09/01,,Deposit ACH UNIVERSITY OF CO............................................,252.47,"1,289.21"
+09/06,,Withdrawal Home Banking Transfer To Share 10....................,-50.00,"1,239.21"
+09/07,,Withdrawal Transfer To Share 10............................................,-12.01,"1,227.20"
+09/07,,Withdrawal Transfer To Share 10............................................,-94.08,"1,133.12"
+09/08,,Deposit ACH Colorado Springs................................................,133.75,"1,266.87"
+09/10,,Withdrawal Home Banking Transfer To Share 10....................,-235.00,"1,031.87"
+09/15,,Deposit ACH UNIVERSITY OF CO............................................,165.44,"1,197.31"
+09/17,,Withdrawal Transfer To Share 10............................................,-48.34,"1,148.97"
+09/18,,Withdrawal Transfer To Share 10............................................,-8.98,"1,139.99"
+09/18,,Withdrawal Transfer To Share 10............................................,-7.98,"1,132.01"
+09/18,,Withdrawal Home Banking Transfer REF# 63402488..............,-175.00,957.01
+09/18,,Withdrawal Home Banking Transfer To Share 10....................,-175.00,782.01
+09/22,,Deposit ACH Colorado Springs................................................,131.94,913.95
+09/22,,Withdrawal Home Banking Transfer To Share 10....................,-92.00,821.95
+09/28,,Withdrawal Home Banking Transfer To Share 10....................,-300.00,521.95
+09/28,,Withdrawal Home Banking Transfer REF# 63699907..............,-100.00,421.95
+09/29,,Deposit ACH UNIVERSITY OF CO............................................,165.44,587.39
+09/30,,Deposit Dividend 0.050%........................................................,0.04,587.43
+09/01,08/31,Withdrawal Debit Card Visa Check...........................................,-7.33,90.59
+09/01,,Deposit ACH UNIVERSITY OF CO............................................,"1,009.87","1,100.46"
+09/01,,Withdrawal Debit Card Visa Check...........................................,-12.45,"1,088.01"
+09/01,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,788.01
+09/01,,Withdrawal Home Banking Transfer To Share 13....................,-90.00,698.01
+09/01,,Withdrawal Home Banking Transfer REF# 62924959..............,-150.00,548.01
+09/01,,Withdrawal Home Banking Transfer REF# 62924979..............,-70.00,478.01
+09/01,,Withdrawal Home Banking Transfer REF# 62924988..............,-100.00,378.01
+09/02,,Recurring Withdrawal #324525101173...................................,-16.18,361.83
+09/02,,Withdrawal POS #324516440325...........................................,-130.12,231.71
+09/03,,Recurring Withdrawal Debit Card Visa Check..........................,-0.99,230.72
+09/03,,Withdrawal POS #324614750334...........................................,-48.88,181.84
+09/03,,Withdrawal Debit Card Visa Check...........................................,-5.41,176.43
+09/03,,Recurring Withdrawal Debit Card Visa Check..........................,-73.19,103.24
+09/03,,Withdrawal Debit Card Visa Check...........................................,-42.34,60.90
+09/03,,Withdrawal Debit Card Visa Check...........................................,-16.80,44.10
+09/04,,Withdrawal #324723100299...................................................,-16.22,27.88
+09/06,,Deposit Home Banking Transfer From Share 13......................,70.00,97.88
+09/06,,Withdrawal POS #324900117914...........................................,-65.88,32.00
+09/06,,Deposit Home Banking Transfer From Share 00......................,50.00,82.00
+09/06,,Withdrawal Debit Card Visa Check...........................................,-10.00,72.00
+09/06,,Withdrawal Debit Card Visa Check...........................................,-20.56,51.44
+09/06,,Withdrawal Debit Card Visa Check...........................................,-10.00,41.44
+09/07,,Recurring Withdrawal Debit Card Visa Check..........................,-1.49,39.95
+09/07,,Recurring Withdrawal Card Fee...............................................,-0.01,39.94
+07/23,09/07,Withdrawal Debit Card Visa Check...........................................,-11.61,28.33
+09/07,,Deposit Transfer From Share 00..............................................,12.01,40.34
+09/07,,Withdrawal POS #325000126831...........................................,-40.34,0.00
+09/07,,Deposit Transfer From Share 00..............................................,94.08,94.08
+09/07,,Withdrawal Debit Card Visa Check...........................................,-94.08,0.00
+09/08,,Deposit ACH Colorado Springs................................................,713.40,713.40
+09/08,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,413.40
+09/08,,Withdrawal Home Banking Transfer To Share 13....................,-75.00,338.40
+09/08,,Withdrawal Home Banking Transfer REF# 63124088..............,-35.00,303.40
+09/08,,Withdrawal Home Banking Transfer REF# 63124146..............,-40.00,263.40
+09/08,,Withdrawal Debit Card Visa Check...........................................,-4.60,258.80
+09/09,,Withdrawal POS #325218216480...........................................,-103.46,155.34
+09/10,,Deposit Home Banking Transfer From Share 00......................,235.00,390.34
+09/10,,Recurring Withdrawal #325323745162...................................,-20.60,369.74
+09/10,,Withdrawal Debit Card Visa Check...........................................,-10.34,359.40
+09/10,,Withdrawal Debit Card Visa Check...........................................,-80.03,279.37
+09/10,,Withdrawal Debit Card Visa Check...........................................,-15.00,264.37
+09/11,,Withdrawal Debit Card Visa Check...........................................,-146.40,117.97
+09/11,,Withdrawal Debit Card Visa Check...........................................,-15.18,102.79
+09/11,,Recurring Withdrawal Debit Card Visa Check..........................,-51.31,51.48
+09/11,,Withdrawal Adjustment POS #2SMHZWBGG2KZ....................,47.04,98.52
+09/11,,Withdrawal Adjustment Debit Card Credit Voucher.................,47.03,145.55
+09/12,,Withdrawal Debit Card Visa Check...........................................,-20.00,125.55
+09/12,,Withdrawal POS #325518543748...........................................,-14.56,110.99
+09/13,,Withdrawal Debit Card Visa Check...........................................,-4.88,106.11
+09/14,,Withdrawal POS #325700117348...........................................,-67.39,38.72
+09/14,,Withdrawal Debit Card Visa Check...........................................,-8.31,30.41
+09/14,,Recurring Withdrawal Debit Card Visa Check..........................,-0.99,29.42
+09/14,,Recurring Withdrawal Debit Card Visa Check..........................,-18.99,10.43
+09/15,,Deposit ACH UNIVERSITY OF CO............................................,661.78,672.21
+09/15,,Recurring Withdrawal Debit Card Visa Check..........................,-19.99,652.22
+09/15,,Withdrawal Debit Card Visa Check...........................................,-14.47,637.75
+09/15,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,337.75
+09/15,,Withdrawal Home Banking Transfer REF# 63343306..............,-35.00,302.75
+09/16,,Withdrawal Debit Card Visa Check...........................................,-16.04,286.71
+09/16,,Withdrawal Debit Card Visa Check...........................................,-49.22,237.49
+09/16,,Withdrawal POS #325916867579...........................................,-174.82,62.67
+09/16,,Withdrawal POS #326000217001...........................................,-9.98,52.69
+09/17,09/16,Withdrawal Debit Card Visa Check...........................................,-25.00,27.69
+09/17,,Deposit Transfer From Share 00..............................................,48.34,76.03
+09/17,,Recurring Withdrawal Debit Card Visa Check..........................,-76.03,0.00
+09/18,,Deposit Transfer From Share 00..............................................,8.98,8.98
+09/18,,Withdrawal Debit Card Visa Check...........................................,-8.98,0.00
+09/18,,Deposit Transfer From Share 00..............................................,7.98,7.98
+09/18,,Withdrawal Debit Card Visa Check...........................................,-7.98,0.00
+09/18,,Deposit Home Banking Transfer From Share 00......................,175.00,175.00
+09/19,,Withdrawal Debit Card Visa Check...........................................,-91.45,83.55
+09/20,,Withdrawal Debit Card Visa Check...........................................,-15.00,68.55
+09/20,,Withdrawal Debit Card Visa Check...........................................,-3.10,65.45
+09/21,,Withdrawal Debit Card Visa Check...........................................,-8.31,57.14
+09/22,,Deposit ACH Colorado Springs................................................,703.71,760.85
+09/22,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,460.85
+09/22,,Withdrawal Home Banking Transfer REF# 63517020..............,-35.00,425.85
+09/22,,Withdrawal Home Banking Transfer REF# 63517040..............,-100.00,325.85
+09/22,,Withdrawal Home Banking Transfer REF# 63517074..............,-25.00,300.85
+09/22,,Withdrawal Debit Card Visa Check...........................................,-16.83,284.02
+09/22,,Deposit Home Banking Transfer REF# 63528933....................,108.00,392.02
+09/22,,Deposit Home Banking Transfer From Share 00......................,92.00,484.02
+09/23,,Withdrawal Debit Card Visa Check...........................................,-10.00,474.02
+09/23,,Withdrawal POS #326600125494...........................................,-65.03,408.99
+09/23,,Withdrawal Debit Card Visa Check...........................................,-30.27,378.72
+09/24,,Withdrawal POS #326715864584...........................................,-57.65,321.07
+09/24,,Withdrawal POS #326712444545...........................................,-106.28,214.79
+09/24,,Withdrawal Debit Card Visa Check...........................................,-140.48,74.31
+09/24,,Withdrawal Debit Card Visa Check...........................................,-10.00,64.31
+09/25,,Recurring Withdrawal Debit Card Visa Check..........................,-5.84,58.47
+09/25,,Deposit ACH www.zola.com....................................................,100.00,158.47
+09/25,,Withdrawal Debit Card Visa Check...........................................,-40.80,117.67
+09/25,,Withdrawal Debit Card Visa Check...........................................,-14.07,103.60
+09/25,,Withdrawal Debit Card Visa Check...........................................,-41.22,62.38
+09/28,,Withdrawal Debit Card Visa Check...........................................,-3.13,59.25
+09/28,,Deposit Home Banking Transfer From Share 00......................,300.00,359.25
+09/28,,Withdrawal Debit Card Visa Check...........................................,-11.50,347.75
+09/29,,Deposit ACH UNIVERSITY OF CO............................................,661.78,"1,009.53"
+09/29,,Withdrawal Home Banking Transfer To Share 11....................,-300.00,709.53
+09/29,,Withdrawal Home Banking Transfer REF# 63724715..............,-35.00,674.53
+09/29,,Withdrawal Home Banking Transfer REF# 63724730..............,-50.00,624.53
+09/29,,Deposit Home Banking Transfer..............................................,60.00,684.53
+09/29,,Withdrawal Debit Card Visa Check...........................................,-4.99,679.54
+09/30,,Withdrawal Debit Card Visa Check...........................................,-16.21,663.33
+09/30,,Withdrawal Debit Card Visa Check...........................................,-10.51,652.82
+09/30,,Withdrawal POS #327400211977...........................................,-20.70,632.12
+09/30,,Withdrawal Debit Card Visa Check...........................................,-16.61,615.51
+09/30,,Deposit Dividend Tiered Rate..................................................,0.01,615.52
+09/01,,Deposit Home Banking Transfer From Share 10......................,300.00,600.18
+09/08,,Deposit Home Banking Transfer From Share 10......................,300.00,900.18
+09/15,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,200.18"
+09/22,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,500.18"
+09/29,,Deposit Home Banking Transfer From Share 10......................,300.00,"1,800.18"
+09/30,,Deposit Dividend Tiered Rate..................................................,0.05,"1,800.23"
+09/01,,Deposit Home Banking Transfer From Share 10......................,90.00,165.00
+09/06,,Withdrawal Home Banking Transfer To Share 10....................,-70.00,95.00
+09/08,,Deposit Home Banking Transfer From Share 10......................,75.00,170.00
+09/30,,Deposit Dividend Tiered Rate..................................................,0.01,170.01
