@@ -4,13 +4,19 @@ import parse
 import pdfplumber
 import pandas as pd
 from collections import namedtuple
+
+# Sets the Tuple that will be used for the data frame headers
 Line = namedtuple('Line', 'Trans_Date, Eff_Date, Transaction_Description, Amount, Balance')
+
+
 
 company_re = re.compile(r'(V\d+) (.*) Phone:')
 line_re = re.compile(r'\d{2}/\d{2}/\d{4} \d{2}/\d{2}/\d{4}')
-file = 'Sample Report Pythonic.pdf'
+file = 'C:/Users/xsnot/TysGitCode-VSCode/Code/bankStatements/Apr2023Statement-2023-04.pdf'
 lines = []
 total_check = 0
+
+
 
 with pdfplumber.open(file) as pdf:
     pages = pdf.pages
