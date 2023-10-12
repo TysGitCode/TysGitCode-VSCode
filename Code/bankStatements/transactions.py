@@ -55,15 +55,12 @@ pdf_paths = {
     "Sep2023": 'Code/bankStatements/Statements/Sep2023Statement-2023-09.pdf'
 }
 
-# Extract data from PDF paths and store in DataFrames
 dfs = {}
 for month, path in pdf_paths.items():
     df = extract_transactions_from_pdf(path)
     dfs[month] = df
     print(f"{month} DataFrame:\n", df)
 
-# Combine DataFrames
 combined_df = pd.concat(dfs.values(), ignore_index=True)
 
-# Save combined DataFrame into a CSV file
 combined_df.to_csv('combined_statements_2023.csv', index=False)
