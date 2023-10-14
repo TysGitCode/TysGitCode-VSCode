@@ -15,6 +15,7 @@ matches = re.findall(pattern, text)
 
 if matches:
     data = {
+        
         'AccountType': [match[0] for match in matches],
         'Balance': [match[1] for match in matches]
     }
