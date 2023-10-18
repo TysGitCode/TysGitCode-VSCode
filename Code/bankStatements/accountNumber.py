@@ -3,7 +3,7 @@ import re
 import pdfplumber
 
 # Path to the PDF file
-pdf_path = 'Code/bankStatements/Apr2023Statement-2023-04.pdf'
+pdf_path = 'Code/bankStatements/Statements/Apr2023Statement-2023-04.pdf'
 
 # RE pattern to find the headers for the account number, statement period, and page number
 # Everything surrounded in () is part of a group which can be called on later

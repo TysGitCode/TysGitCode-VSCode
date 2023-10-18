@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import pdfplumber
 
-pdf_path = 'Code/bankStatements/Apr2023Statement-2023-04.pdf'
+pdf_path = 'Code/bankStatements/Statements/Apr2023Statement-2023-04.pdf'
 
 pattern = r"(\w+)\s+\(\d+\)\.+\s+(\d+,\d+\.\d{2})"
 
