@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/xsnot/.vscode"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TysGitCode-VSCode",
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.python"
+		},
+		"python.formatting.provider": "none"
+	}
+}
