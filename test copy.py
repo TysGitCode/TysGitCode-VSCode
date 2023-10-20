@@ -28,7 +28,7 @@ while True:
     
     # If it's the 5th iteration, sleep for 4 seconds
     if counter % 50 == 0:
-        time.sleep(4)
+        time.sleep(6)
     
     # Pause for a bit before looping again
     time.sleep(.0025)
