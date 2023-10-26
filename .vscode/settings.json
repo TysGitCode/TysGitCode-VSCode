@@ -33,5 +33,10 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#000000",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "none"
 }
