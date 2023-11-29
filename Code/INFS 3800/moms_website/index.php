@@ -1,3 +1,28 @@
+<?php
+include 'connect.php';
+
+// Fetch content from the database
+$sql = "SELECT aboutMeMainText FROM aboutmemain";
+$result = mysqli_query($conn, $sql);
+
+// Check for errors
+if (!$result) {
+    die("Error fetching data: " . mysqli_error($conn));
+}
+
+// Fetch the row as an associative array if there are results
+if ($row = mysqli_fetch_assoc($result)) {
+    // Output the content
+    $aboutMeMainText = $row['aboutMeMainText'];
+} else {
+    // Provide a default value if no data is found
+    $aboutMeMainText = "Default aboutMeMainText";
+}
+
+// Close the database connection
+mysqli_close($conn);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,28 +90,15 @@
     </section>
 
     <div id="about">
-      <section class="aboutMePageGrid">
-        <div class="shadowBoxAboutMeIMG">
-        </div>
-        <div class="aboutMePageGridText2 shadowBoxAboutMe">
-          <h2 class="text-center aboutMeTitle">
-            About Me
-          </h2>
-          <p class="aboutMeMainTxt">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
-            laboriosam magni! Distinctio modi ipsa corporis et totam dolore
-            assumenda iste eveniet. Odit, officiis id iste obcaecati repellat,
-            distinctio tenetur voluptatum dolorem facere delectus sequi eligendi?
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae doloremque debitis hic nam dolor magni
-            odio at ut deserunt culpa exercitationem sed fuga et cupiditate suscipit, minima nisi accusamus, ullam animi
-            sit praesentium. Laudantium placeat suscipit harum, odio tempora pariatur rem ipsa officiis. Harum nostrum
-            fugit neque aliquid, necessitatibus quam. Deserunt, quam numquam! At quidem, esse a numquam accusamus
-            dignissimos repellat modi provident distinctio nemo. Quos aut similique ea, nam deleniti placeat aspernatur
-            ab, quaerat amet architecto eos id. Illum aliquid commodi voluptatum, delectus eum iste laudantium ipsa!
-            Soluta eligendi eum veritatis! Rerum odit enim voluptate, similique quia fuga sed.
-          </p>
-        </div>
-      </section>
+        <section class="aboutMePageGrid">
+            <div class="shadowBoxAboutMeIMG"></div>
+            <div class="aboutMePageGridText2 shadowBoxAboutMe">
+                <h2 class="text-center aboutMeTitle">About Me</h2>
+                <p class="aboutMeMainTxt">
+                    <?php echo $row['aboutMeMainText']; ?>
+                </p>
+            </div>
+        </section>
     </div>
   </div>
 <!--About Me Page Content-->
