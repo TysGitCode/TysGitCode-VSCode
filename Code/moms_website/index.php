@@ -1,26 +1,30 @@
 <?php
+// Include the database connection
 include 'connect.php';
 
-// Fetch content from the database
-$sql = "SELECT aboutMeMainText FROM aboutmemain";
-$result = mysqli_query($conn, $sql);
+// Initialize $aboutMeMainText
+$aboutMeMainText = '';
 
-// Check for errors
-if (!$result) {
-    die("Error fetching data: " . mysqli_error($conn));
-}
+// Fetch data from the database
+$sql = "SELECT * FROM aboutmemain";
+$result = $conn->query($sql);
 
-// Fetch the row as an associative array if there are results
-if ($row = mysqli_fetch_assoc($result)) {
-    // Output the content
-    $aboutMeMainText = $row['aboutMeMainText'];
+// Check if the query was successful
+if ($result) {
+    // Check if data is fetched successfully
+    if ($result->num_rows > 0) {
+        // Output data of each row
+        $row = $result->fetch_assoc();
+        $aboutMeMainText = isset($row['content']) ? $row['content'] : '';
+    } else {
+        echo "Error: No data found.";
+    }
 } else {
-    // Provide a default value if no data is found
-    $aboutMeMainText = "Default aboutMeMainText";
+    echo "Error executing query: " . $conn->error;
 }
 
 // Close the database connection
-mysqli_close($conn);
+$conn->close();
 ?>
 
 <!DOCTYPE html>
@@ -78,8 +82,7 @@ mysqli_close($conn);
 <!-- Landing Page Content-->
 
 <!--About me Page Content-->
-  <div class="aboutMeBackground">
-
+<div class="aboutMeBackground">
     <section class="header">
       <div class="profileSummary">
         <img src="Images/profileSummary.png" alt="" />
@@ -95,7 +98,7 @@ mysqli_close($conn);
             <div class="aboutMePageGridText2 shadowBoxAboutMe">
                 <h2 class="text-center aboutMeTitle">About Me</h2>
                 <p class="aboutMeMainTxt">
-                    <?php echo $row['aboutMeMainText']; ?>
+                    <?php echo $aboutMeMainText; ?>
                 </p>
             </div>
         </section>

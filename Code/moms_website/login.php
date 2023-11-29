@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Validate the username and password (replace with your own validation)
-    if ($username === 'your_mother_username' && $password === 'your_mother_username') {
+    if ($username === 'your_mother_username' && $password === 'your_mother_password') {
         // Set a session variable to indicate the user is logged in
         $_SESSION['user'] = $username;
         header('Location: dashboard.php'); // Redirect to the dashboard after login
