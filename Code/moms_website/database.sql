@@ -1,30 +1,99 @@
--- Create table
-CREATE TABLE boxcontents (
-    aboutmemain VARCHAR(500),
-    communication VARCHAR(500),
-    curriculum1 VARCHAR(500),
-    curriculum2 VARCHAR(500),
-    curriculum3 VARCHAR(500),
-    curriculum4 VARCHAR(500),
-    curriculum5 VARCHAR(500),
-    education VARCHAR(500),
-    experience VARCHAR(500),
-    family VARCHAR(500),
-    hobbies VARCHAR(500),
-    homework1 VARCHAR(500),
-    homework2 VARCHAR(500),
-    management1 VARCHAR(500),
-    management2 VARCHAR(500),
-    management3 VARCHAR(500),
-    managementcont1 VARCHAR(500),
-    managementcont2 VARCHAR(500),
-    managementcont3 VARCHAR(500),
-    note1 VARCHAR(500),
-    note2 VARCHAR(500),
-    note3 VARCHAR(500),
-    recognition VARCHAR(500)
+CREATE TABLE aboutmemain (
+    content VARCHAR(500)
 );
+INSERT INTO aboutmemain VALUES ('test');
 
--- Insert data
-INSERT INTO boxcontents (aboutmemain, communication, curriculum1, curriculum2, curriculum3, curriculum4, curriculum5, education, experience, family, hobbies, homework1, homework2, management1, management2, management3, managementcont1, managementcont2, managementcont3, note1, note2, note3, recognition) 
-VALUES ('test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test', 'test');
+CREATE TABLE curriculum3 (
+    content VARCHAR(500)
+);
+INSERT INTO curriculum3 VALUES ('test');
+
+CREATE TABLE curriculum4 (
+    content VARCHAR(500)
+);
+INSERT INTO curriculum4 VALUES ('test');
+
+CREATE TABLE curriculum5 (
+    content VARCHAR(500)
+);
+INSERT INTO curriculum5 VALUES ('test');
+
+CREATE TABLE education (
+    content VARCHAR(500)
+);
+INSERT INTO education VALUES ('test');
+
+CREATE TABLE experience (
+    content VARCHAR(500)
+);
+INSERT INTO experience VALUES ('test');
+
+CREATE TABLE family (
+    content VARCHAR(500)
+);
+INSERT INTO family VALUES ('test');
+
+CREATE TABLE hobbies (
+    content VARCHAR(500)
+);
+INSERT INTO hobbies VALUES ('test');
+
+CREATE TABLE homework1 (
+    content VARCHAR(500)
+);
+INSERT INTO homework1 VALUES ('test');
+
+CREATE TABLE homework2 (
+    content VARCHAR(500)
+);
+INSERT INTO homework2 VALUES ('test');
+
+CREATE TABLE management1 (
+    content VARCHAR(500)
+);
+INSERT INTO management1 VALUES ('test');
+
+CREATE TABLE management2 (
+    content VARCHAR(500)
+);
+INSERT INTO management2 VALUES ('test');
+
+CREATE TABLE management3 (
+    content VARCHAR(500)
+);
+INSERT INTO management3 VALUES ('test');
+
+CREATE TABLE managementcont1 (
+    content VARCHAR(500)
+);
+INSERT INTO managementcont1 VALUES ('test');
+
+CREATE TABLE managementcont2 (
+    content VARCHAR(500)
+);
+INSERT INTO managementcont2 VALUES ('test');
+
+CREATE TABLE managementcont3 (
+    content VARCHAR(500)
+);
+INSERT INTO managementcont3 VALUES ('test');
+
+CREATE TABLE note1 (
+    content VARCHAR(500)
+);
+INSERT INTO note1 VALUES ('test');
+
+CREATE TABLE note2 (
+    content VARCHAR(500)
+);
+INSERT INTO note2 VALUES ('test');
+
+CREATE TABLE note3 (
+    content VARCHAR(500)
+);
+INSERT INTO note3 VALUES ('test');
+
+CREATE TABLE recognition (
+    content VARCHAR(500)
+);
+INSERT INTO recognition VALUES ('test');

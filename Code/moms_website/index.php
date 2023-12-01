@@ -231,7 +231,7 @@ $conn->close();
       distinctio tenetur voluptatum dolorem facere delectus sequi eligendi?
     </p>
   </div>
-  <div class="shadowBoxAboutMeIMGRight">
+  <div class="shadowBoxAboutMeIMGLeft">
   </div>
 </section>
 <!--About Other-->

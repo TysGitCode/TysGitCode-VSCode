@@ -353,7 +353,7 @@ nav {
 
   margin-inline: auto;
   padding-block: 4rem;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 10% 45%;
 }
 
 .aboutMeTitle {
@@ -389,6 +389,8 @@ nav {
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.5);
   padding: 2rem;
   margin: 2rem;
+  grid-row: 1/2;
+  grid-column: 3/4;
 }
 
 
@@ -420,7 +422,7 @@ nav {
   justify-content: center;
   margin-inline: auto;
   padding-block: 4rem;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 10% 45%;
 }
 
 .shadowBoxAboutMeFamily {
@@ -430,6 +432,8 @@ nav {
   outline: .40rem solid var(--clr-accent-200);
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
+  grid-row: 1/1;
+  grid-column: 1/1;
 }
 
 .shadowBoxAboutMeHobbies {
@@ -444,6 +448,8 @@ nav {
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
   margin: 2rem;
+  grid-row: 1/2;
+  grid-column: 3/4;
 }
 
 .shadowBoxAboutMeEducation {
@@ -458,6 +464,8 @@ nav {
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
   margin: 2rem;
+  grid-row: 1/2;
+  grid-column: 1/2;
 }
 
 .shadowBoxAboutMeExperience {
@@ -486,6 +494,8 @@ nav {
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
   margin: 2rem;
+  grid-row: 1/2;
+  grid-column: 3/4;
 }
 
 .shadowBoxAboutMeIMGLeft {
@@ -497,7 +507,8 @@ nav {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin-left: 12rem;
+  grid-row: 1/1;
+  grid-column: 1/1;
 }
 
 .shadowBoxAboutMeIMGRight {
@@ -509,11 +520,11 @@ nav {
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin-right: 12rem;
+  grid-row: 1/2;
+  grid-column: 3/4;
 }
 
 .aboutMePageGridText2Left {
-  margin-left: 15rem;
   padding: 5vh;
   max-width: 100%;
   justify-self: center;
@@ -521,7 +532,6 @@ nav {
 }
 
 .aboutMePageGridText2Right {
-  margin-right: 15rem;
   padding: 5vh;
   max-width: 100%;
   justify-self: center;
@@ -593,50 +603,44 @@ nav {
 /*-----------------------------------------------------------------------------*/
 .docPageHomeworkGrid {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 10rem 10rem auto;
+  grid-template-columns: 45% 10% 45%
 }
 
 .homeworkTitle {
+  justify-self: center;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: underline;
-  grid-row: 2/3;
+  grid-row: 1/2;
   grid-column: 2/3;
 }
 
 .shadowBoxDocHomeworkLeft {
-  grid-row: 3/4;
+  grid-row: 1/2;
   grid-column: 1/2;
   align-self: center;
-  justify-self: right;
-  max-width: 30rem;
-  width: 30rem;
+  justify-self: center;
+  width: 25rem;
   height: auto;
   background-color: #FBF4EE;
   outline: .40rem solid var(--clr-accent-600);
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin-left: 12rem;
-  margin-bottom: 12rem;
 }
 
 .shadowBoxDocHomeworkRight {
-  grid-row: 3/4;
+  grid-row: 1/2;
   grid-column: 3/4;
   align-self: center;
-  justify-self: left;
-  max-width: 30rem;
-  width: 30rem;
+  justify-self: center;
+  width: 25rem;
   height: auto;
   background-color: #FBF4EE;
   outline: .40rem solid var(--clr-accent-700);
   border-radius: 2rem;
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  margin-right: 12rem;
-  margin-bottom: 12rem;
 }
 
 
@@ -644,13 +648,13 @@ nav {
 
 .docPageCurriculumGrid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 40% 5% 10% 5% 40%;
   grid-template-rows: auto auto auto;
 }
 
 .curriculumTitle {
   grid-row: 2/3;
-  grid-column: 2/3;
+  grid-column: 3/4;
   justify-self: center;
   align-self: center;
   font-size: 1.5rem;
@@ -692,7 +696,7 @@ nav {
 
 .shadowBoxDocCurriculumRight1 {
   grid-row: 1/2;
-  grid-column: 3/4;
+  grid-column: 5/6;
   align-self: center;
   justify-self: left;
   max-width: 30rem;
@@ -708,7 +712,7 @@ nav {
 
 .shadowBoxDocCurriculumRight2 {
   grid-row: 2/3;
-  grid-column: 3/4;
+  grid-column: 5/6;
   align-self: center;
   justify-self: left;
   max-width: 30rem;
@@ -724,7 +728,7 @@ nav {
 
 .shadowBoxDocCurriculumRight3 {
   grid-row: 3/4;
-  grid-column: 3/4;
+  grid-column: 5/6;
   align-self: center;
   justify-self: left;
   max-width: 30rem;
@@ -742,7 +746,7 @@ nav {
 /*-----------------------------------------------------------------------------*/
 .docPageClassroomManagementGrid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 47.5% 5% 47.5%;
   grid-template-rows: auto auto;
 }
 
@@ -754,7 +758,7 @@ nav {
 
 .shadowBoxDocClassroomManagement1 {
   grid-row: 1/2;
-  grid-column: span 2;
+  grid-column: 2/3;
   align-self: center;
   justify-self: center;
   max-width: 65rem;
@@ -782,12 +786,11 @@ nav {
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
   margin-bottom: 15rem;
-  margin-right: 2rem;
 }
 
 .shadowBoxDocClassroomManagement3 {
   grid-row: 2/3;
-  grid-column: 2/3;
+  grid-column: 3/4;
   align-self: center;
   justify-self: left;
   max-width: 30rem;
@@ -799,7 +802,6 @@ nav {
   box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem;
   margin-bottom: 15rem;
-  margin-left: 2rem;
 }
 
 
