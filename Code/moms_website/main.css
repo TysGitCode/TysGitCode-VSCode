@@ -157,151 +157,90 @@ select {
 
 
 /*-----------------------------------------------------------------------------*/
-
-.menuBox {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  position: absolute;
-  display: grid;
-  justify-self: left;
-  align-self: start;
-  width: 10rem;
-  height: 1rem;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-/*Represents the unordered list of items in the nav*/
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/*Represents a list item and sets the spacing between them*/
-nav li {
-  margin-bottom: 1em;
-}
-
-/*The element nav-toggle for the popout menu after pressing the 3 dots*/
-#nav-toggle {
-  display: none;
-}
-
-/*Represents the hyperlinks in the nav*/
-nav a {
-  color: black;
-  text-decoration: none;
-  font-size: 1rem;
-  text-transform: uppercase;
-  opacity: 0;
-  transition: opacity 150ms ease-in-out;
-}
-
-/*Says when the nav-toggle "box" is checked (when the 3 menu dots are pressed) to set the display to block which overrides the previous display of none. */
-.nav-toggle:checked~nav {
-  transform: scale(1, 1);
-}
-
-.nav-toggle:checked~nav a {
-  opacity: 1;
-  transition: opacity 250ms ease-in-out 250ms
-}
-
-/*The entire nav and background*/
-nav {
-  margin-top: 5rem;
-  transform: scale(1, 0);
-  transform-origin: top;
-  transition: transform 400ms ease-in-out;
-  text-align: center;
-  width: 17rem;
-  height: 17rem;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: .5rem;
-  box-shadow: 0 .75rem 1rem rgba(0, 0, 0, 0.5);
-}
-
-/*the picture in place of the checkbox that is used to toggle the menu on and off*/
-.nav-toggle-label {
-  position: absolute;
+nav.navbar {
+  background: linear-gradient(45deg, rgb(221, 247, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
   top: 0;
   left: 0;
-  margin-left: 3rem;
-  margin-top: 1rem;
+  width: 100%;
+  z-index: 1000;
+}
+s
+nav.navbar a.nav-link,
+nav.navbar .dropdown-menu a.dropdown-item {
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/*creates the 3 dots as the toggle element for the popout menu*/
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  width: 2rem;
-  display: block;
-  background: black;
-  height: .75rem;
-  width: .75rem;
-  border-radius: 20rem;
+
+/* Style the navigation links */
+nav.navbar a.nav-link {
+  color: black; /* Set the default text color */
+  transition: color 0.3s ease; /* Add a smooth transition effect for color changes */
+  text-decoration: none; /* Remove the default underline */
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 8px;
   position: relative;
 }
 
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  content: '';
-  position: absolute;
+/* Change text color and add underline on hover */
+nav.navbar a.nav-link:hover {
+  color: white;
 }
 
-.nav-toggle-label span::before {
-  right: 1rem;
+/* Style the dropdown links */
+nav.navbar .dropdown-menu a.dropdown-item {
+  color: #000; /* Set the default text color */
+  transition: color 0.3s ease; /* Add a smooth transition effect for color changes */
+  text-decoration: none; /* Remove the default underline */
+  padding: 10px 15px;
+  border-radius: 8px;
+  position: relative;
+}
+nav.navbar .dropdown-menu {
+  border-radius: 8px;
+  padding: 10px; /* Optional: Add padding for better visual appeal */
 }
 
-.nav-toggle-label span::after {
-  right: 2rem;
+/* Change text color and add underline on hover for dropdown links */
+nav.navbar .dropdown-menu a.dropdown-item:hover {
+  color: white;
 }
 
-.homeLink:hover {
-  background-color: var(--clr-accent-800);
-  border-radius: .25rem;
-  text-decoration: underline;
+/* Individual background colors for each menu item */
+.menu-item-1:hover {
+  background-color: var(--clr-accent-1200); /* Set the background color for the hovered dropdown item */
 }
 
-.aboutLink:hover {
-  background-color: var(--clr-accent-800);
-  border-radius: .25rem;
-  text-decoration: underline;
+/* Individual background colors for each menu item */
+.menu-item-2:hover {
+  background-color: var(--clr-accent-1000); /* Set the background color for the hovered dropdown item */
 }
-
-.scheduleLink:hover {
-  background-color: var(--clr-accent-800);
-  border-radius: .25rem;
-  text-decoration: underline;
+/* Individual background colors for each menu item */
+.menu-item-3:hover {
+  background-color: var(--clr-accent-400); /* Set the background color for the hovered dropdown item */
 }
-
-.homeworkLink:hover {
-  background-color: var(--clr-accent-800);
-  border-radius: .25rem;
-  text-decoration: underline;
+/* Individual background colors for each menu item */
+.menu-item-4:hover {
+  background-color: var(--clr-accent-200); /* Set the background color for the hovered dropdown item */
 }
-
-.curriculumLink:hover {
-  background-color: var(--clr-accent-800);
-  border-radius: .25rem;
-  text-decoration: underline;
+/* Individual background colors for each menu item */
+.menu-item-5:hover {
+  background-color: var(--clr-accent-600); /* Set the background color for the hovered dropdown item */
 }
-
-.classroomManagementLink:hover {
-  background-color: var(--clr-accent-800);
-  border-radius: .25rem;
-  text-decoration: underline;
+/* Individual background colors for each menu item */
+.menu-item-6:hover {
+  background-color: var(--clr-accent-700); /* Set the background color for the hovered dropdown item */
 }
-
-.communicationLink:hover {
-  background-color: var(--clr-accent-800);
-  border-radius: .25rem;
-
+/* Individual background colors for each menu item */
+.menu-item-7:hover {
+  background-color: var(--clr-accent-1200); /* Set the background color for the hovered dropdown item */
+}
+/* Individual background colors for each menu item */
+.menu-item-8:hover {
+  background-color: var(--clr-accent-500); /* Set the background color for the hovered dropdown item */
 }
 
 /*-----------------------------------------------------------------------------*/

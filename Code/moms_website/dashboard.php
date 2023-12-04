@@ -58,10 +58,10 @@ foreach ($tables as $table) {
 
     // Display a form for each table
     echo "<h3>$table</h3>";
-    echo "<form method='post' action='update_content.php'>";
-    echo "<textarea name='updated_content'>$existingContent</textarea>";
+    echo "<form method='post' action='update_content.php' id='form_$table'>";
     echo "<input type='hidden' name='table_name' value='$table'>";
     echo "<input type='hidden' name='redirect_url' value='$_SERVER[REQUEST_URI]'>";
+    echo "<textarea name='updated_content'>$existingContent</textarea>";
     echo "<button type='submit'>Update Content</button>";
     echo "</form><br>";
 }
