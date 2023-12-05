@@ -92,7 +92,6 @@ select {
   }
 }
 
-
 /*-----------------------------------------------------------------------------*/
 
 
@@ -113,7 +112,6 @@ select {
 /*establishes the grid for the landing page*/
 .landingPageGrid {
   background-image: url("Images/landingBackground.jpg");
-
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,6 +120,7 @@ select {
   justify-content: center;
   margin-inline: auto;
   padding-block: 4rem;
+  border-bottom: black solid .125rem;
 }
 
 /*The shadow box holding the text on the landing page*/
@@ -157,6 +156,7 @@ select {
 
 
 /*-----------------------------------------------------------------------------*/
+
 nav.navbar {
   background: linear-gradient(45deg, rgb(221, 247, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
   padding: 15px;
@@ -273,15 +273,17 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
 
 
 /*-----------------------------------------------------------------------------*/
-
-.aboutMeBackground {
-  background-image: url("Images/cloudBackground.png");
-}
-
-/*Sets up the background and grid for the first about me page*/
 .aboutMePageGrid {
-
-
+  position: relative;
+  background-image: url("Images/cloudBackground.png");
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  padding-block: 4rem;
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -293,6 +295,16 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   margin-inline: auto;
   padding-block: 4rem;
   grid-template-columns: 45% 10% 45%;
+}
+
+.aboutMePageGrid::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem; /* Border thickness */
+  background: linear-gradient(to bottom, #cee3f6, #f3f3f1);
 }
 
 .aboutMeTitle {
@@ -342,7 +354,6 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
 
 /*-----------------------------------------------------------------------------*/
 
-
 /*sets all of the following "about me" pages to be grids and formats them all the same*/
 .aboutMePageGridFamily,
 .aboutmePageGridHobbies,
@@ -362,6 +373,21 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   margin-inline: auto;
   padding-block: 4rem;
   grid-template-columns: 45% 10% 45%;
+}
+/* Specific styles for the "Other" page with gradient after */
+.aboutmePageGridOther {
+  background-image: url("Images/aboutMeBackground1.png");
+  position: relative;
+}
+
+.aboutmePageGridOther::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem; /* Border thickness */
+  background: linear-gradient(to bottom, #f3f3f1, #fbf4ee);
 }
 
 .shadowBoxAboutMeFamily {
@@ -840,11 +866,3 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   padding: 2rem;
   margin: 2rem;
 }
-
-/*Questions*/
-/*
-1) Why does my nav only display on the top page instead of all of the pages? (Line 161)
-2) How to make the nav box go over the original menu box?
-3) How to change all of the boxes that have text input so that my mom can input text too?
-   Maybe also make it so she could change the pictures?
-*/

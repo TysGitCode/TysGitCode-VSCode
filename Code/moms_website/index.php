@@ -104,8 +104,8 @@ $conn->close();
       </nav>
   </header>
 
-  <div id="home">
-
+  <!-- Landing Page Content -->
+  <div id="home" class="page">
     <section class="landingPageGrid">
       <div class="landingTitleBox">
         <h1 class="landingTitle">
@@ -117,23 +117,21 @@ $conn->close();
       </div>
     </section>
   </div>
-<!-- Landing Page Content-->
 
-<!--About me Page Content-->
-<div class="aboutMeBackground">
+  <!-- About Me Page Content -->
+  <div id="about" class="page">
     <section class="header">
     </section>
-
-    <div id="about">
-        <section class="aboutMePageGrid">
-            <div class="shadowBoxAboutMeIMG"></div>
-            <div class="aboutMePageGridText2 shadowBoxAboutMe">
-                <h2 class="text-center aboutMeTitle">About Me</h2>
-                <p class="aboutMeMainTxt">
-                    <?php echo $aboutMeMainText; ?>
-                </p>
-            </div>
-        </section>
+    <div class="aboutMeBackground">
+      <section class="aboutMePageGrid">
+        <div class="shadowBoxAboutMeIMG"></div>
+        <div class="aboutMePageGridText2 shadowBoxAboutMe">
+          <h2 class="text-center aboutMeTitle">About Me</h2>
+          <p class="aboutMeMainTxt">
+            <?php echo $aboutMeMainText; ?>
+          </p>
+        </div>
+      </section>
     </div>
   </div>
 <!--About Me Page Content-->
@@ -339,35 +337,32 @@ $conn->close();
 
 
   <!-- Script to load next section's content on scroll -->
-  <script>
-    $(document).ready(function() {
-      $(window).scroll(function() {
-        // Check if the user has scrolled to the bottom
-        if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-          // Load and append the content of the next section
-          // Determine the next section based on the current scroll position
-          var nextSectionId = getNextSectionId();
-          $.get(nextSectionId + '.html', function(data) {
-            $('body').append(data);
+<!-- JavaScript for Transition Activation -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get all elements with the "page-transition" class
+    const transitionElements = document.querySelectorAll(".page-transition");
+
+    // Add event listener to update the class when a link is clicked
+    document.addEventListener("click", function (event) {
+      if (event.target.tagName === "A" && event.target.getAttribute("href").charAt(0) === "#") {
+        event.preventDefault(); // Prevent the default link behavior
+        const targetId = event.target.getAttribute("href").substring(1);
+        // Add "active" class to the target element
+        document.getElementById(targetId).classList.add("active");
+        // Remove "active" class from all other elements after a short delay
+        setTimeout(function () {
+          transitionElements.forEach(function (element) {
+            if (element.id !== targetId) {
+              element.classList.remove("active");
+            }
           });
-        }
-      });
-    });
-
-    // Function to determine the next section based on the scroll position
-    function getNextSectionId() {
-      var sectionIds = ["home", "about", "schedule", "homework", "curriculum", "classroomManagement", "communication"];
-      var currentScroll = $(window).scrollTop() + $(window).height();
-      for (var i = 0; i < sectionIds.length; i++) {
-        var sectionOffset = $('#' + sectionIds[i]).offset().top;
-        if (currentScroll < sectionOffset) {
-          return sectionIds[i];
-        }
+        }, 100); // Adjust the delay as needed
       }
-      // Return the last section if at the bottom
-      return sectionIds[sectionIds.length - 1];
-    }
-  </script>
+    });
+  });
+</script>
 
+  
 </body>
 </html>
