@@ -48,13 +48,20 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
+@font-face {
+  font-family: 'SFCartoonistHand-Bold';
+  src: url('Fonts/SFCartoonistHand-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  font-family: Arial;
+  font-family: 'SFCartoonistHand-Bold', sans-serif;
+  font-size: 1.5rem;
 }
+
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -145,6 +152,7 @@ select {
   text-align: left;
   font-size: 2.5rem;
   margin: 5rem;
+  font-size: 3rem;
 }
 
 .paperPlaneIMG {
@@ -156,7 +164,9 @@ select {
 
 
 /*-----------------------------------------------------------------------------*/
-
+.navbar-brand {
+  font-size: 1.75rem; /* Adjust the size as needed */
+}
 nav.navbar {
   background: linear-gradient(45deg, rgb(221, 247, 255), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
   padding: 15px;
@@ -166,7 +176,10 @@ nav.navbar {
   left: 0;
   width: 100%;
   z-index: 1000;
+  transition: background 0.3s ease, transform 0.3s ease; /* Add a smooth transition effect for background and transform */
+  transform-origin: left; 
 }
+
 s
 nav.navbar a.nav-link,
 nav.navbar .dropdown-menu a.dropdown-item {
@@ -183,6 +196,7 @@ nav.navbar a.nav-link {
   margin: 0 10px;
   border-radius: 8px;
   position: relative;
+  font-size: 1.5rem
 }
 
 /* Change text color and add underline on hover */
@@ -202,6 +216,7 @@ nav.navbar .dropdown-menu a.dropdown-item {
 nav.navbar .dropdown-menu {
   border-radius: 8px;
   padding: 10px; /* Optional: Add padding for better visual appeal */
+  font-size: 1.25rem;
 }
 
 /* Change text color and add underline on hover for dropdown links */
@@ -565,6 +580,21 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   justify-self: left;
 }
 
+.note1Content
+{
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.note2Content
+{
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.note3Content
+{
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
 /*-----------------------------------------------------------------------------*/
 .docPageHomeworkGrid {
   display: grid;

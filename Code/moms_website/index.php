@@ -138,7 +138,8 @@ $conn->close();
 
 <!--About Family-->
 
-<section class="aboutMePageGridFamily">
+<section class="aboutMePageGridFamily" data-bg-color="linear-gradient(45deg, #cbe38f, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)">
+
   <div class="aboutMePageGridText2Left shadowBoxAboutMeFamily">
     <h2 class="text-center">Family</h2>
     <p class="text-center text-bold">
@@ -152,7 +153,7 @@ $conn->close();
 
 <!--About Hobbies-->
 
-<section class="aboutmePageGridHobbies">
+<section class="aboutmePageGridHobbies" data-bg-color="linear-gradient(45deg, #fd95ce, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)">
   <div class="shadowBoxAboutMeIMGLeft">
   </div>
   <div class="aboutMePageGridText2Right shadowBoxAboutMeHobbies">
@@ -166,7 +167,7 @@ $conn->close();
 
 <!--About Education-->
 
-<section class="aboutmePageGridEducation">
+<section class="aboutmePageGridEducation" data-bg-color="linear-gradient(45deg, #266cb4, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)">
   <div class="aboutMePageGridText2Left shadowBoxAboutMeEducation">
     <h2 class="text-center">Education</h2>
     <p class="text-center">
@@ -179,7 +180,7 @@ $conn->close();
 <!--About Education-->
 
 <!--About Other-->
-<section class="aboutmePageGridOther">
+<section class="aboutmePageGridOther" data-bg-color="linear-gradient(45deg, #f96a49, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)">
   <div class="aboutMePageGridText2Left shadowBoxAboutMeOther">
     <h2 class="text-center">Other Involvement and Recognition</h2>
     <p class="text-center">
@@ -194,15 +195,24 @@ $conn->close();
 <!--Schedule Content-->
   
 <div id="schedule">
-<section class="docPageBackgroundScheduleGrid">
+<section class="docPageBackgroundScheduleGrid" data-bg-color="linear-gradient(45deg, #d3c365, rgba(255, 255, 255, 0.8), white">
   <div class="scheduleNoteLeft">
     <img src="Images/NoteLeft.png" alt="">
+    <p class="note1Content">
+    <?php echo $note1Content; ?>
+    </p>
   </div>
   <div class="scheduleNoteMiddle">
     <img src="Images/NoteMiddle.png" alt="">
+    <p class="note2Content">
+    <?php echo $note2Content; ?>
+    </p>
   </div>
   <div class="scheduleNoteRight">
     <img src="Images/NoteRight.png" alt="">
+    <p class="note3Content">
+    <?php echo $note3Content; ?>
+    </p>
   </div>
   <div class="scheduleGridTitle">
     <h2 class="text-center">Schedule</h2>
@@ -214,7 +224,7 @@ $conn->close();
 <!--Homework Content-->
 
 <div id="homework">
-  <section class="docPageBackground docPageHomeworkGrid">
+  <section class="docPageBackground docPageHomeworkGrid" data-bg-color="linear-gradient(45deg, #f96a49, rgba(255, 255, 255, 0.8), #98c2b4">
     <div class="shadowBoxDocHomeworkLeft">
       <p>
       <?php echo $homework1Content; ?>
@@ -237,7 +247,7 @@ $conn->close();
 <!--Curriculum Content-->
 
 <div id="curriculum">
-  <section class="docPageBackground docPageCurriculumGrid">
+  <section class="docPageBackground docPageCurriculumGrid" data-bg-color="linear-gradient(45deg, #98c2b4, white, #fd95ce">
     <div class="shadowBoxDocCurriculumLeft1">
       <p>
       <?php echo $curriculum1Content; ?>
@@ -275,7 +285,7 @@ $conn->close();
 <!--Classroommgmt Content-->
 
 <div id="classroomManagement">
-  <section class="docPageBackground docPageClassroomManagementGrid">
+  <section class="docPageBackground docPageClassroomManagementGrid" data-bg-color="linear-gradient(45deg, #48bdc6, white, #f4cf74">
     <div class="shadowBoxDocClassroomManagement1">
       <h2 class="text-center classroomTitle">
         Classroom Management
@@ -297,7 +307,7 @@ $conn->close();
   </section>
 </div>
 
-<section class="docPageBackground docPageClassroomManagementContinued">
+<section class="docPageBackground docPageClassroomManagementContinued" data-bg-color="linear-gradient(45deg, #98c2b4, white, #266cb4">
   <div class="shadowBoxDocClassroomManagementContinued1">
     <h2 class="text-center managementContinuedTitle">Classroom Management Continued
     </h2>
@@ -321,7 +331,7 @@ $conn->close();
 <!--Communication Content-->
 
 <div id="communication">
-  <section class="docPageBackground docPageCommunicationGrid">
+  <section class="docPageBackground docPageCommunicationGrid" data-bg-color="linear-gradient(45deg, #cbe38f, white, white">
     <div class="shadowBoxDocCommunication">
       <p>
       <?php echo $communicationContent; ?>
@@ -363,6 +373,25 @@ $conn->close();
   });
 </script>
 
+<!-- Add this script at the end of your HTML, just before </body> -->
+<script>
+  window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('nav.navbar');
+    var sections = document.querySelectorAll('section'); // Adjust this selector based on your HTML structure
+    var offset = 50; // Adjust the offset as needed (in pixels)
+
+    sections.forEach(function(section) {
+      var sectionTop = section.offsetTop - offset;
+      var sectionBottom = sectionTop + section.offsetHeight;
+
+      if (window.scrollY >= sectionTop && window.scrollY <= sectionBottom) {
+        // Apply the new background color based on the section's data-bg-color attribute
+        var bgColor = section.getAttribute('data-bg-color');
+        navbar.style.background = bgColor;
+      }
+    });
+  });
+</script>
   
 </body>
 </html>
