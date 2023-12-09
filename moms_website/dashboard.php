@@ -13,27 +13,27 @@ include 'connect.php';
 // Define an array of tables
 $tables = array(
     'aboutmemain',
+    'family',
+    'hobbies',
+    'education',
+    'experience',
+    'recognition',
+    'note1',
+    'note2',
+    'note3',
+    'homework1',
+    'homework2',
     'curriculum1',
     'curriculum2',
     'curriculum3',
     'curriculum4',
     'curriculum5',
-    'education',
-    'experience',
-    'family',
-    'hobbies',
-    'homework1',
-    'homework2',
     'management1',
     'management2',
     'management3',
     'managementcont1',
     'managementcont2',
     'managementcont3',
-    'note1',
-    'note2',
-    'note3',
-    'recognition',
     'communication'
 );
 
@@ -56,7 +56,7 @@ foreach ($tables as $table) {
         }
     } else {
         echo "Error executing query: " . $conn->error;
-        $existingContent = ''; // Set a default value in case of an error
+        $existingContent = '';
     }
 
     // Display a form for each table
@@ -64,7 +64,7 @@ foreach ($tables as $table) {
     echo "<form method='post' action='update_content.php' id='form_$table'>";
     echo "<input type='hidden' name='table_name' value='$table'>";
     echo "<input type='hidden' name='redirect_url' value='$_SERVER[REQUEST_URI]'>";
-    echo "<textarea name='updated_content'>$existingContent</textarea>";
+    echo "<textarea name='updated_content' maxlength='2000' rows='25'>$existingContent</textarea>";
     echo "<button type='submit'>Update Content</button>";
     echo "</form><br>";
 }

@@ -118,22 +118,23 @@ $conn->close();
     </section>
   </div>
 
-  <!-- About Me Page Content -->
   <div id="about" class="page">
-    <section class="header">
+  <section class="header">
+  </section>
+  <div class="aboutMeBackground">
+    <section class="aboutMePageGrid">
+      <div class="shadowBoxAboutMeIMG">
+        <img src="Images/ProfilePicture.jpg" alt="About Me Image">
+      </div>
+      <div class="aboutMePageGridText2 shadowBoxAboutMe">
+        <h2 class="text-center aboutMeTitle">About Me</h2>
+        <p class="aboutMeMainTxt">
+          <?php echo $aboutMeMainText; ?>
+        </p>
+      </div>
     </section>
-    <div class="aboutMeBackground">
-      <section class="aboutMePageGrid">
-        <div class="shadowBoxAboutMeIMG"></div>
-        <div class="aboutMePageGridText2 shadowBoxAboutMe">
-          <h2 class="text-center aboutMeTitle">About Me</h2>
-          <p class="aboutMeMainTxt">
-            <?php echo $aboutMeMainText; ?>
-          </p>
-        </div>
-      </section>
-    </div>
   </div>
+</div>
 <!--About Me Page Content-->
 
 <!--About Family-->
@@ -147,6 +148,7 @@ $conn->close();
     </p>
   </div>
   <div class="shadowBoxAboutMeIMGRight">
+  <img src="Images/Family.jpg" alt=>
   </div>
 </section>
 <!--About Family-->
@@ -155,6 +157,7 @@ $conn->close();
 
 <section class="aboutmePageGridHobbies" data-bg-color="linear-gradient(45deg, #fd95ce, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)">
   <div class="shadowBoxAboutMeIMGLeft">
+  <img src="Images/Hobbies.jpg" alt=>
   </div>
   <div class="aboutMePageGridText2Right shadowBoxAboutMeHobbies">
     <h2 class="text-center">Hobbies</h2>
@@ -175,6 +178,7 @@ $conn->close();
     </p>
   </div>
   <div class="shadowBoxAboutMeIMGRight">
+  <img src="Images/Education.jpg" alt=>
   </div>
 </section>
 <!--About Education-->
@@ -188,6 +192,7 @@ $conn->close();
     </p>
   </div>
   <div class="shadowBoxAboutMeIMGLeft">
+  <img src="Images/Other.jpg" alt=>
   </div>
 </section>
 <!--About Other-->

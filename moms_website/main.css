@@ -306,6 +306,7 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  gap: 5rem;
 
   display: grid;
   align-content: center;
@@ -335,18 +336,24 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   text-align: left;
 }
 
-/*The shadow box holding the images on the about me page*/
+/* Style the image within the shadow box */
+.shadowBoxAboutMeIMG img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20rem;
+  object-fit: cover;
+  margin-top: 15rem;
+  margin-left: 15rem;
+  max-width: 100%;
+  align-self: center;
+  justify-self: center;
+  
+}
+
 .shadowBoxAboutMeIMG {
   align-self: center;
   justify-self: center;
-  width: 15rem;
-  height: 15rem;
-  background-color: white;
-  border-radius: 20rem;
-  box-shadow: 0rem .75rem 1rem rgba(0, 0, 0, 0.5);
-  padding: 2rem;
-  margin-top: 10rem;
-  margin-left: 10rem;
+  margin: 5rem;
 }
 
 .shadowBoxAboutMe {
@@ -494,7 +501,15 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   grid-row: 1/1;
   grid-column: 1/1;
 }
-
+.shadowBoxAboutMeIMGLeft img {
+  border-radius: 2rem;
+  height: 25rem;
+  width: 40rem;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  margin-top: .5rem;
+}
 .shadowBoxAboutMeIMGRight {
   align-self: center;
   justify-self: center;
@@ -507,7 +522,15 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
   grid-row: 1/2;
   grid-column: 3/4;
 }
-
+.shadowBoxAboutMeIMGRight img {
+  border-radius: 2rem;
+  height: 25rem;
+  width: 40rem;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  margin-top: .5rem;
+}
 .aboutMePageGridText2Left {
   padding: 5vh;
   max-width: 100%;
@@ -562,7 +585,7 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
 .scheduleNoteMiddle,
 .scheduleNoteRight {
   margin: 1rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
   padding: 1rem;
   text-align: left;
   display: flex;
@@ -752,8 +775,9 @@ nav.navbar .dropdown-menu a.dropdown-item:hover {
 /*-----------------------------------------------------------------------------*/
 .docPageClassroomManagementGrid {
   display: grid;
-  grid-template-columns: 47.5% 5% 47.5%;
+  grid-template-columns: 48.5% 1% 48.5%;
   grid-template-rows: auto auto;
+  gap: 2.5rem;
 }
 
 .classroomTitle {
