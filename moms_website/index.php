@@ -193,31 +193,27 @@ $conn->close();
 <!--About Other-->
 
 <!--Schedule Content-->
-  
 <div id="schedule">
-<section class="docPageBackgroundScheduleGrid" data-bg-color="linear-gradient(45deg, #d3c365, rgba(255, 255, 255, 0.8), white">
-  <div class="scheduleNoteLeft">
-    <img src="Images/NoteLeft.png" alt="">
-    <p class="note1Content">
-    <?php echo $note1Content; ?>
-    </p>
-  </div>
-  <div class="scheduleNoteMiddle">
-    <img src="Images/NoteMiddle.png" alt="">
-    <p class="note2Content">
-    <?php echo $note2Content; ?>
-    </p>
-  </div>
-  <div class="scheduleNoteRight">
-    <img src="Images/NoteRight.png" alt="">
-    <p class="note3Content">
-    <?php echo $note3Content; ?>
-    </p>
-  </div>
-  <div class="scheduleGridTitle">
-    <h2 class="text-center">Schedule</h2>
-  </div>
-</section>
+  <section class="docPageBackgroundScheduleGrid" data-bg-color="linear-gradient(45deg, #d3c365, rgba(255, 255, 255, 0.8), white)">
+    <div class="scheduleNoteLeft">
+      <p class="noteContent">
+        <?php echo $note1Content; ?>
+      </p>
+    </div>
+    <div class="scheduleNoteMiddle">
+      <p class="noteContent">
+        <?php echo $note2Content; ?>
+      </p>
+    </div>
+    <div class="scheduleNoteRight">
+      <p class="noteContent">
+        <?php echo $note3Content; ?>
+      </p>
+    </div>
+    <div class="scheduleGridTitle">
+      <h2 class="text-center">Schedule</h2>
+    </div>
+  </section>
 </div>
 <!--Schedule Content-->
 
@@ -375,23 +371,35 @@ $conn->close();
 
 <!-- Add this script at the end of your HTML, just before </body> -->
 <script>
-  window.addEventListener('scroll', function() {
+  var sections = document.querySelectorAll('section'); // Adjust this selector based on your HTML structure
+  var offset = 100; // Adjust the offset as needed (in pixels)
+
+  function updateNavbarBackground() {
     var navbar = document.querySelector('nav.navbar');
-    var sections = document.querySelectorAll('section'); // Adjust this selector based on your HTML structure
-    var offset = 50; // Adjust the offset as needed (in pixels)
+    var currentSection = null;
 
     sections.forEach(function(section) {
       var sectionTop = section.offsetTop - offset;
       var sectionBottom = sectionTop + section.offsetHeight;
 
       if (window.scrollY >= sectionTop && window.scrollY <= sectionBottom) {
-        // Apply the new background color based on the section's data-bg-color attribute
-        var bgColor = section.getAttribute('data-bg-color');
-        navbar.style.background = bgColor;
+        currentSection = section;
       }
     });
-  });
+
+    if (currentSection) {
+      var bgColor = currentSection.getAttribute('data-bg-color');
+      navbar.style.background = bgColor;
+    }
+  }
+
+  window.addEventListener('scroll', updateNavbarBackground);
+
+  // Initial update when the page loads
+  window.addEventListener('load', updateNavbarBackground);
 </script>
+
+
   
 </body>
 </html>

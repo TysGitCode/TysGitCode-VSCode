@@ -13,6 +13,8 @@ include 'connect.php';
 // Define an array of tables
 $tables = array(
     'aboutmemain',
+    'curriculum1',
+    'curriculum2',
     'curriculum3',
     'curriculum4',
     'curriculum5',
@@ -31,7 +33,8 @@ $tables = array(
     'note1',
     'note2',
     'note3',
-    'recognition'
+    'recognition',
+    'communication'
 );
 
 // Loop through the tables
