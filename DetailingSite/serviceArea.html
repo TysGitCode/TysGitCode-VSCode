@@ -4,26 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Service Area - Colorado Springs</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa; /* Background color similar to existing theme */
-            color: #333; /* Text color similar to existing theme */
+            background-color: #f8f9fa;
+            color: #333;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #343a40; /* Dark background color for the header */
+            background-color: #343a40;
             color: white;
             padding: 10px;
             text-align: center;
         }
 
-        .contact-container {
+        .navbar-nav {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-nav .nav-item {
+            text-align: left;
+        }
+
+        .service-container {
             width: 80%;
             max-width: 600px;
             margin: 50px auto;
@@ -35,72 +44,15 @@
             color: #333;
         }
 
-        .contact-container h2 {
+        .service-container h2 {
             font-size: 24px;
-            color: #007bff; /* Highlight color similar to existing theme */
+            color: #007bff;
             margin-bottom: 20px;
         }
 
-        .contact-info {
-            margin-bottom: 20px;
+        .service-container p {
+            margin-bottom: 15px;
         }
-
-        .contact-info p {
-            margin-bottom: 8px;
-        }
-
-        .contact-info i {
-            margin-right: 10px;
-            font-size: 18px;
-        }
-
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .contact-form label {
-            margin-bottom: 8px;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-
-        .contact-form button {
-            background-color: #007bff;
-            color: #fff;
-            padding: 12px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease-out;
-        }
-
-        .contact-form button:hover {
-            background-color: #0056b3;
-        }
-
-        .offcanvas-body {
-    text-align: left;
-}
-
-/* Add this style to align text to the left */
-.navbar-nav {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-nav .nav-item {
-    text-align: left;
-}
-
     </style>
 </head>
 
@@ -128,10 +80,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">CONTACT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="serviceArea.html">SERVICE AREA</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="serviceArea.html">SERVICE AREA</a>
+                                </li>
                             </li>
                         </ul>
                         <form class="d-flex flex-column mt-3" id="nav-booking-form">
@@ -167,86 +118,51 @@
         </nav>
     </header>
 
-    <div class="contact-container">
-        <h2>Get in Touch</h2>
+    <div class="service-container">
+        <h2>Service Area - Colorado Springs</h2>
 
-        <div class="contact-info">
-            <p><i class="fas fa-map-marker-alt"></i>Colorado Springs (80903-80924) </p>
-            <p><i class="fas fa-phone"></i>(719)-235-2255</p>
-            <p><i class="fas fa-envelope"></i>pikespeakrevivers@gmail.com</p>
-        </div>
+        <p>We proudly serve the Colorado Springs area, including ZIP codes 80903-80924. Our professional services are tailored to meet the needs of residents and businesses in this region.</p>
 
-        <div class="contact-form">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+        <p>If you reside within our service area, feel free to explore our website and learn more about the range of services we offer. We are dedicated to providing top-notch detailing services to enhance the appearance of your vehicle.</p>
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+        <p>If you have any questions about whether your specific location falls within our service area or if you have inquiries about the services we provide, please don't hesitate to send us a message. We are here to assist you!</p>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="button" onclick="submitContactForm()">Send Message</button>
-        </div>
+        <!-- Link to the contact page with an anchor to the contact section -->
+        <p>For questions or inquiries, <a href="contact.html#contact-section">send us a message</a>.</p>
     </div>
 
-<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
     <!-- Replace "your-fontawesome-kit.js" with the link provided by Font Awesome for your kit -->
 
     <!-- Include jQuery first -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- Then include Popper.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <!-- Then include Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
 
-<!-- Bootstrap JS -->
-<script src="js/bootstrap.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
 
-<!-- Flatpickr CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
-<!-- Flatpickr JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- Flatpickr JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var disabledDates = ['2024-01-10', '2024-01-15', '2024-01-20'];
-    
-        flatpickr('#date-nav', {
-            dateFormat: 'Y-m-d',
-            minDate: '2024-01-21',
-            maxDate: '2024-12-31',
-            disable: disabledDates,
-            onClose: function (selectedDates, dateStr, instance) {
-                // Handle the datepicker closing event if needed
-            }
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var disabledDates = ['2024-01-10', '2024-01-15', '2024-01-20'];
+
+            flatpickr('#date-nav', {
+                dateFormat: 'Y-m-d',
+                minDate: '2024-01-21',
+                maxDate: '2024-12-31',
+                disable: disabledDates,
+                onClose: function (selectedDates, dateStr, instance) {
+                    // Handle the datepicker closing event if needed
+                }
+            });
         });
-    
-        flatpickr('#date-container', {
-            dateFormat: 'Y-m-d',
-            minDate: '2024-01-21',
-            maxDate: '2024-12-31',
-            disable: disabledDates,
-            onClose: function (selectedDates, dateStr, instance) {
-                // Handle the datepicker closing event if needed
-            }
-        });
-    });
-    
-    function scrollToBookingContainer() {
-        var container = document.getElementById('booking-container');
-        container.scrollIntoView({ behavior: 'smooth' });
-    }
-    
-    function submitBookingNav() {
-        alert('Booking submitted for navigation form!');
-        // Implement your booking logic here
-    }
-    
-    function submitBookingContainer() {
-        alert('Booking submitted for container form!');
-        // Implement your booking logic here
-    }
     </script>
 
 </body>

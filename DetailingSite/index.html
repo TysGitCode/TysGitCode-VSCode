@@ -103,14 +103,14 @@
         }
 
         .mainTitle {
-            font-size: 7rem;
-            margin-bottom: 20px;
+            font-size: 5rem;
+            margin-bottom: 2rem;
             color: white;
         }
 
         .subHeader {
-            font-size: 4rem;
-            margin-bottom: 20px;
+            font-size: 2rem;
+            margin-bottom: 2rem;
             color: white;
         }
 
@@ -346,7 +346,7 @@
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Rocky Mountain Revivers</a>
+                <a class="navbar-brand" href="#">Pikes Peak Revivers</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
                     aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -354,37 +354,25 @@
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">DETAILING</h5>
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Pikes Peak Revivers</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+            aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                                <a class="nav-link" aria-current="page" href="#">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">QUOTE</a>
                                 <a class="nav-link" href="contact.html">CONTACT</a>
-                                <a class="nav-link" href="#">SERVICE AREA</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    DROPDOWN
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="serviceArea.html">SERVICE AREA</a>
+                                </li>
                             </li>
                         </ul>
                         <form class="d-flex flex-column mt-3" id="nav-booking-form">
                             <select id="service" name="service" class="form-control mb-3">
+                                <option value="" selected disabled>Select a Service</option>
                                 <option value="interior">Perfect Interior Package</option>
                                 <option value="exterior">Premium Interior Package</option>
                                 <option value="full">Interior and Exterior Revival</option>
@@ -407,7 +395,7 @@
                             <label for="message">Leave a Message: (optional)</label>
                             <textarea id="message" name="message" class="form-control mb-3" rows="5" maxlength="250"></textarea>
     
-                            <button type="button" onclick="submitBookingNav()" class="btn btn-success">Book Now</button>
+                            <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
                         </form>
                     </div>
                 </div>
@@ -417,7 +405,7 @@
 
     <div class="landingBackground">
         <div class="landingContent">
-            <h1 class="mainTitle">Mobile Detailing</h1>
+            <h1 class="mainTitle">Pikes Peak Revivers</h1>
             <h2 class="subHeader">Mobile Detailing</h2>
             <a href="#booking-container" class="btn bookOnlineButton">Book Online!</a>
         </div>
@@ -563,7 +551,7 @@
                         <div class="card-body">
                             <h3 class="card-title-package">Premium Interior and Exterior Revival</h3>
                             <h4 class="card-subtitle">$400</h4>
-                            <p class="card-text">A deep clean with a full interior and exterior detail including sealant and protection for your entire car</p>
+                            <p class="card-text">A deep clean with a full interior and exterior detailr</p>
                             <ul>
                                 <li>Remove Trash</li>
                                 <li>Vacuum Entire Interior (Cabin, Trunk, Under Seats, Compartments)</li>
@@ -606,6 +594,7 @@
         <form id="booking-form-container">
             <label for="service">Select Service:</label>
             <select id="service" name="service">
+                <option value="" selected disabled>Select a Service</option>
                 <option value="interior">Perfect Interior Package</option>
                 <option value="exterior">Premium Interior Package</option>
                 <option value="full">Interior and Exterior Revival</option>
@@ -629,7 +618,7 @@
             <textarea id="message" name="message" rows="5" maxlength="250"></textarea>
             
 
-            <button type="button" onclick="submitBookingContainer()" class="btn btn-success">Book Now</button>
+            <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
         </form>
     </div>
 
