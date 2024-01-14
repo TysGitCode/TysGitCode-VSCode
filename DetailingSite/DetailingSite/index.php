@@ -79,34 +79,33 @@
                             <a class="nav-link" href="serviceArea.html">SERVICE AREA</a>
                         </li>
                     </ul>
-                        <form class="d-flex flex-column mt-3" id="nav-booking-form">
-                        <select id="service-nav" name="service" class="form-control mb-3" title="Select a Service">
-                                <option value="" selected disabled>Select a Service</option>
-                                <option value="interior">Perfect Interior Package</option>
-                                <option value="exterior">Premium Interior Package</option>
-                                <option value="full">Interior and Exterior Revival</option>
-                                <option value="full">Premium Interior and Exterior Revival</option>
-                                <option value="full">Other</option>
-                            </select>
+                    <form class="d-flex flex-column mt-3" id="nav-booking-form">
+    <select id="service-nav-input" name="service" class="form-control mb-3" title="Select a Service">
+        <option value="" selected disabled>Select a Service</option>
+        <option value="interior">Perfect Interior Package</option>
+        <option value="exterior">Premium Interior Package</option>
+        <option value="full">Interior and Exterior Revival</option>
+        <option value="full">Premium Interior and Exterior Revival</option>
+        <option value="full">Other</option>
+    </select>
 
-                            <label for="date-nav">Select Date:</label>
-                            <input type="text" id="date-nav" name="date-nav" class="form-control mb-3" readonly>
+    <label for="date-nav-input">Select Date:</label>
+    <input type="text" id="date-nav-input" name="date-nav" class="form-control mb-3" readonly>
 
-                            <label for="name-nav">Your Name:</label>
-                            <input type="text" id="name-nav" name="name-nav" class="form-control mb-3" required>
+    <label for="name-nav-input">Your Name:</label>
+    <input type="text" id="name-nav-input" name="name-nav" class="form-control mb-3" required>
 
-                            <label for="email-nav">Your Email:</label>
-                            <input type="email" id="email-nav" name="email-nav" class="form-control mb-3" required>
+    <label for="email-nav-input">Your Email:</label>
+    <input type="email" id="email-nav-input" name="email-nav" class="form-control mb-3" required>
 
-                            <label for="phone-nav">Your Phone:</label>
-                            <input type="tel" id="phone-nav" name="phone-nav" class="form-control mb-3" required>
+    <label for="phone-nav-input">Your Phone:</label>
+    <input type="tel" id="phone-nav-input" name="phone-nav" class="form-control mb-3" required>
 
-                            <label for="message-nav">Leave a Message: (optional)</label>
-                            <textarea id="message-nav" name="message-nav" class="form-control mb-3" rows="5" maxlength="250"></textarea>
+    <label for="message-nav-input">Leave a Message: (optional)</label>
+    <textarea id="message-nav-input" name="message-nav" class="form-control mb-3" rows="5" maxlength="250"></textarea>
 
-                            <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
-
-                        </form>
+    <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
+</form>
                     </div>
                 </div>
             </div>
@@ -299,19 +298,19 @@
             </select>
 
             <label for="date-container">Select Date:</label>
-            <input type="date" id="date-container" name="date-container" required>
+    <input type="date" id="date-container-input" name="date-container" required>
 
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name-input" name="name" required>
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+    <label for="email">Your Email:</label>
+    <input type="email" id="email-input" name="email" required>
 
-            <label for="phone">Your Phone:</label>
-            <input type="tel" id="phone" name="phone" required>
+    <label for="phone">Your Phone:</label>
+    <input type="tel" id="phone-input" name="phone" required>
 
-            <label for="message">Leave a Message: (optional)</label>
-            <textarea id="message" name="message" rows="5" maxlength="250"></textarea>
+    <label for="message">Leave a Message: (optional)</label>
+    <textarea id="message-input" name="message" rows="5" maxlength="250"></textarea>
             
 
             <button type="button" onclick="submitBookingContainer()" class="btn btn-primary">Book Now</button>
@@ -536,19 +535,19 @@ function submitBookingNav() {
                             </select>
 
                             <label for="date-nav">Select Date:</label>
-                            <input type="text" id="date-nav" name="date-nav" class="form-control mb-3" readonly>
+                            <input type="text" id="date-nav-input" name="date-nav" class="form-control mb-3" readonly>
 
                             <label for="name-nav">Your Name:</label>
-                            <input type="text" id="name-nav" name="name-nav" class="form-control mb-3" required>
+                            <input type="text" id="name-nav-input" name="name-nav" class="form-control mb-3" required>
 
                             <label for="email-nav">Your Email:</label>
-                            <input type="email" id="email-nav" name="email-nav" class="form-control mb-3" required>
+                            <input type="email" id="email-nav-input" name="email-nav" class="form-control mb-3" required>
 
                             <label for="phone-nav">Your Phone:</label>
-                            <input type="tel" id="phone-nav" name="phone-nav" class="form-control mb-3" required>
+                            <input type="tel" id="phone-nav-input" name="phone-nav" class="form-control mb-3" required>
 
                             <label for="message-nav">Leave a Message: (optional)</label>
-                            <textarea id="message-nav" name="message-nav" class="form-control mb-3" rows="5" maxlength="250"></textarea>
+                            <textarea id="message-nav-input" name="message-nav" class="form-control mb-3" rows="5" maxlength="250"></textarea>
 
                             <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
 
@@ -763,6 +762,7 @@ function submitBookingNav() {
             <button type="button" onclick="submitBookingContainer()" class="btn btn-primary">Book Now</button>
         </form>
     </div>
+
 <!-- Include jQuery first -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
