@@ -260,7 +260,6 @@
                                 <li>Fine detailing of buttons, dials, switches with boars hair brushes</li>
                                 <li>Shampoo carpets, floor, mats, seats</li>
                                 <li>High powered air compressor to blow grime out of edges, nooks, crannies, crevices</li>
-                                <br>
                                 <li>Hand Wash/Dry</li>
                                 <li>Foam Cannon Soap</li>
                                 <li>Tires Scrubbed and Cleaned</li>
