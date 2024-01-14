@@ -80,7 +80,7 @@
                         </li>
                     </ul>
                         <form class="d-flex flex-column mt-3" id="nav-booking-form">
-                            <select id="service-nav" name="service" class="form-control mb-3">
+                        <select id="service-nav" name="service" class="form-control mb-3" title="Select a Service">
                                 <option value="" selected disabled>Select a Service</option>
                                 <option value="interior">Perfect Interior Package</option>
                                 <option value="exterior">Premium Interior Package</option>
