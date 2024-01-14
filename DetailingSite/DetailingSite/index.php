@@ -1,12 +1,16 @@
+<?php include_once 'process_booking.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pikes Peak Revivers</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <!-- Correct Flatpickr JavaScript Import -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <style>
 
             .booking-container {
@@ -366,6 +370,42 @@
 
 <body>
 
+<script>
+        // Format phone number as xxx-xxx-xxxx
+        function formatPhoneNumber(input) {
+            // Remove non-numeric characters
+            var numericValue = input.value.replace(/\D/g, '');
+
+            // Limit input to only numeric characters
+            input.value = numericValue;
+
+            // Check if the input is empty or not a valid number
+            if (!numericValue || isNaN(numericValue)) {
+                return;
+            }
+
+            // Format the phone number
+            var formattedPhoneNumber = numericValue.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+
+            // Update the input value with the formatted number
+            input.value = formattedPhoneNumber;
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Attach the formatPhoneNumber function to phone input elements
+            var phoneInputs = document.querySelectorAll('input[type="tel"]');
+            phoneInputs.forEach(function (input) {
+                input.addEventListener('input', function () {
+                    formatPhoneNumber(input);
+                });
+            });
+
+            // ... (your existing script content) ...
+        });
+
+        // ... (your existing functions and scripts) ...
+    </script>
+
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
@@ -379,22 +419,22 @@
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Pikes Peak Revivers</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
+                    aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">CONTACT</a>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="serviceArea.html">SERVICE AREA</a>
-                                </li>
-                            </li>
-                        </ul>
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">CONTACT</a>
+                        </li>
+                        <li class="nav-item"> <!-- This li was not closed -->
+                            <a class="nav-link" href="serviceArea.html">SERVICE AREA</a>
+                        </li>
+                    </ul>
                         <form class="d-flex flex-column mt-3" id="nav-booking-form">
-                            <select id="service" name="service" class="form-control mb-3">
+                            <select id="service-nav" name="service" class="form-control mb-3">
                                 <option value="" selected disabled>Select a Service</option>
                                 <option value="interior">Perfect Interior Package</option>
                                 <option value="exterior">Premium Interior Package</option>
@@ -402,23 +442,24 @@
                                 <option value="full">Premium Interior and Exterior Revival</option>
                                 <option value="full">Other</option>
                             </select>
-    
+
                             <label for="date-nav">Select Date:</label>
                             <input type="text" id="date-nav" name="date-nav" class="form-control mb-3" readonly>
-    
-                            <label for="name">Your Name:</label>
-                            <input type="text" id="name" name="name" class="form-control mb-3" required>
-    
-                            <label for="email">Your Email:</label>
-                            <input type="email" id="email" name="email" class="form-control mb-3" required>
-    
-                            <label for="phone">Your Phone:</label>
-                            <input type="tel" id="phone" name="phone" class="form-control mb-3" required>
-    
-                            <label for="message">Leave a Message: (optional)</label>
-                            <textarea id="message" name="message" class="form-control mb-3" rows="5" maxlength="250"></textarea>
-    
+
+                            <label for="name-nav">Your Name:</label>
+                            <input type="text" id="name-nav" name="name-nav" class="form-control mb-3" required>
+
+                            <label for="email-nav">Your Email:</label>
+                            <input type="email" id="email-nav" name="email-nav" class="form-control mb-3" required>
+
+                            <label for="phone-nav">Your Phone:</label>
+                            <input type="tel" id="phone-nav" name="phone-nav" class="form-control mb-3" required>
+
+                            <label for="message-nav">Leave a Message: (optional)</label>
+                            <textarea id="message-nav" name="message-nav" class="form-control mb-3" rows="5" maxlength="250"></textarea>
+
                             <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
+
                         </form>
                     </div>
                 </div>
@@ -599,9 +640,9 @@
 
 
     <div class="booking-container" id="booking-container">
-        <h2>Book Your Detailing Service</h2>
-        <h5>OR contact me at 719-235-2255</h5>
-        <form id="booking-form-container">
+    <h2>Book Your Detailing Service</h2>
+    <h5>OR contact me at 719-235-2255</h5>
+    <form id="booking-form-container">
             <label for="service">Select Service:</label>
             <select id="service" name="service">
                 <option value="" selected disabled>Select a Service</option>
@@ -628,7 +669,7 @@
             <textarea id="message" name="message" rows="5" maxlength="250"></textarea>
             
 
-            <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
+            <button type="button" onclick="submitBookingContainer()" class="btn btn-primary">Book Now</button>
         </form>
     </div>
 
@@ -650,43 +691,113 @@
 
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var disabledDates = ['2024-01-10', '2024-01-15', '2024-01-20'];
-    
-        flatpickr('#date-nav', {
-            dateFormat: 'Y-m-d',
-            minDate: '2024-01-21',
-            maxDate: '2024-12-31',
-            disable: disabledDates,
-            onClose: function (selectedDates, dateStr, instance) {
-                // Handle the datepicker closing event if needed
-            }
-        });
-    
-        flatpickr('#date-container', {
-            dateFormat: 'Y-m-d',
-            minDate: '2024-01-21',
-            maxDate: '2024-12-31',
-            disable: disabledDates,
-            onClose: function (selectedDates, dateStr, instance) {
-                // Handle the datepicker closing event if needed
-            }
-        });
+document.addEventListener('DOMContentLoaded', function () {
+    var disabledDates = ['01-10-2024', '01-15-2024', '01-20-2024'];
+
+    flatpickr('#date-nav', {
+        dateFormat: 'm-d-Y',
+        minDate: '01-21-2024',
+        maxDate: '12-31-2024',
+        disable: disabledDates,
+        onClose: function (selectedDates, dateStr, instance) {
+            // Handle the datepicker closing event if needed
+        }
     });
-    
-    function scrollToBookingContainer() {
-        var container = document.getElementById('booking-container');
-        container.scrollIntoView({ behavior: 'smooth' });
-    }
-    
-    function submitBookingNav() {
-        alert('Booking submitted for navigation form!');
-        // Implement your booking logic here
-    }
-    
-    function submitBookingContainer() {
-        alert('Booking submitted for container form!');
-        // Implement your booking logic here
-    }
-    </script>
+
+    flatpickr('#date-container', {
+        dateFormat: 'm-d-Y',
+        minDate: '01-21-2024',
+        maxDate: '12-31-2024',
+        disable: disabledDates,
+        onClose: function (selectedDates, dateStr, instance) {
+            // Handle the datepicker closing event if needed
+        }
+    });
+});
+
+function scrollToBookingContainer() {
+    var container = document.getElementById('booking-container');
+    container.scrollIntoView({ behavior: 'smooth' });
+}
+
+function submitBookingNav() {
+    // Retrieve form data for navigation form
+    var form = document.getElementById('nav-booking-form');
+    submitBookingForm(form);
+}
+
+function submitBookingContainer() {
+    // Retrieve form data for booking container form
+    var form = document.getElementById('booking-form-container');
+    submitBookingForm(form);
+}
+
+function submitBookingForm(form) {
+    // Retrieve form data
+    var service = form.querySelector('#service').value;
+    var date = form.querySelector('#date-container').value;
+    var name = form.querySelector('#name').value;
+    var email = form.querySelector('#email').value;
+    var phone = form.querySelector('#phone').value;
+    var message = form.querySelector('#message').value;
+
+    // Create a FormData object to send data
+    var formData = new FormData();
+    formData.append('service', service);
+    formData.append('date-container', date);
+    formData.append('name', name);
+    formData.append('email', email);
+    formData.append('phone', phone);
+    formData.append('message', message);
+
+    // Make an AJAX request
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'process_booking.php', true);
+    xhr.onload = function () {
+        if (xhr.status == 200) {
+            // Display the response from the server
+            alert(xhr.responseText);
+        } else {
+            alert('Error: ' + xhr.status);
+        }
+    };
+    xhr.send(formData);
+}
+</script>
+
+
+<script>
+function submitBookingNav() {
+    // Collect form data
+    var service = $('#service-nav').val();
+    var date = $('#date-nav').val();
+    var name = $('#name-nav').val();
+    var email = $('#email-nav').val();
+    var phone = $('#phone-nav').val();
+    var message = $('#message-nav').val();
+
+    // Validate form data (add your validation logic here)
+
+    // Send data to the server
+    $.ajax({
+        type: 'POST',
+        url: 'process_booking.php', // Use the original PHP file
+        data: {
+            service: service,
+            date_container: date, // Match the original PHP variable name
+            name: name,
+            email: email,
+            phone: phone,
+            message: message
+        },
+        success: function (response) {
+            alert(response); // Display the server response
+            // You can also redirect or perform other actions based on the response
+        },
+        error: function () {
+            alert('Error submitting booking'); // Handle errors
+        }
+    });
+}
+</script>
 </html>

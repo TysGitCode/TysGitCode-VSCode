@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Area - Colorado Springs</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar-nav {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-nav .nav-item {
+            text-align: left;
+        }
+
+        .service-container {
+            width: 80%;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            color: #333;
+        }
+
+        .service-container h2 {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .service-container p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Rocky Mountain Revivers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                    aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">DETAILING</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="serviceArea.html">SERVICE AREA</a>
+                                </li>
+                            </li>
+                        </ul>
+                        <form class="d-flex flex-column mt-3" id="nav-booking-form">
+                            <select id="service" name="service" class="form-control mb-3">
+                                <option value="" selected disabled>Select a Service</option>
+                                <option value="interior">Perfect Interior Package</option>
+                                <option value="exterior">Premium Interior Package</option>
+                                <option value="full">Interior and Exterior Revival</option>
+                                <option value="full">Premium Interior and Exterior Revival</option>
+                                <option value="full">Other</option>
+                            </select>
+    
+                            <label for="date-nav">Select Date:</label>
+                            <input type="text" id="date-nav" name="date-nav" class="form-control mb-3" readonly>
+    
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" class="form-control mb-3" required>
+    
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" class="form-control mb-3" required>
+    
+                            <label for="phone">Your Phone:</label>
+                            <input type="tel" id="phone" name="phone" class="form-control mb-3" required>
+    
+                            <label for="message">Leave a Message: (optional)</label>
+                            <textarea id="message" name="message" class="form-control mb-3" rows="5" maxlength="250"></textarea>
+    
+                            <button type="button" onclick="submitBookingNav()" class="btn btn-primary">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="service-container">
+        <h2>Service Area - Colorado Springs</h2>
+
+        <p>We proudly serve the Colorado Springs area, including ZIP codes 80903-80924. Our professional services are tailored to meet the needs of residents and businesses in this region.</p>
+
+        <p>If you reside within our service area, feel free to explore our website and learn more about the range of services we offer. We are dedicated to providing top-notch detailing services to enhance the appearance of your vehicle.</p>
+
+        <p>If you have any questions about whether your specific location falls within our service area or if you have inquiries about the services we provide, please don't hesitate to send us a message. We are here to assist you!</p>
+
+        <!-- Link to the contact page with an anchor to the contact section -->
+        <p>For questions or inquiries, <a href="contact.html#contact-section">send us a message</a>.</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <!-- Replace "your-fontawesome-kit.js" with the link provided by Font Awesome for your kit -->
+
+    <!-- Include jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Then include Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Flatpickr JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var disabledDates = ['2024-01-10', '2024-01-15', '2024-01-20'];
+
+            flatpickr('#date-nav', {
+                dateFormat: 'Y-m-d',
+                minDate: '2024-01-21',
+                maxDate: '2024-12-31',
+                disable: disabledDates,
+                onClose: function (selectedDates, dateStr, instance) {
+                    // Handle the datepicker closing event if needed
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
